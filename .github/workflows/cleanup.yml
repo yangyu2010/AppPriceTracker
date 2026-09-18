@@ -1,0 +1,66 @@
+name: Cleanup Old Pricing Data
+
+# 第一期仅手动触发；第二期取消注释 schedule 加入自动清理
+on:
+  # schedule:
+  #   - cron: "10 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main (code)
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Restore data from data branch
+        run: |
+          mkdir -p data
+          if git fetch origin data 2>/dev/null; then
+            git archive origin/data 2>/dev/null | tar x -C data/ 2>/dev/null || true
+          fi
+
+      - name: Run cleanup (pricing scope, 90 days)
+        run: node src/cleanup.js --older-than 90 --scope pricing
+
+      - name: Push cleaned data to data branch
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          TMPDIR=$(mktemp -d)
+          REMOTE_URL="https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+
+          if git ls-remote --heads origin data | grep -q data; then
+            git clone --branch data --single-branch "$REMOTE_URL" "$TMPDIR" 2>/dev/null || true
+          fi
+          cd "$TMPDIR"
+          if [ ! -d .git ]; then
+            git init -b data
+            git remote add origin "$REMOTE_URL"
+          fi
+
+          # 复制 cleaning 后的 data 目录到临时目录
+          rm -rf ./*
+          cp -r "$GITHUB_WORKSPACE"/data/* ./
+
+          git config user.name "pricing-bot"
+          git config user.email "bot@pricing.local"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No data changes"
+          else
+            TIMESTAMP=$(date -u +'%Y-%m-%dT%H:%M:%SZ')
+            git commit -m "cleanup: remove pricing data older than 90 days ($TIMESTAMP)" --allow-empty
+            git push origin data
+          fi
+
+          cd /
+          rm -rf "$TMPDIR"

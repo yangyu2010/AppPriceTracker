@@ -1,0 +1,107 @@
+name: Price Crawl
+
+on:
+  # schedule 由 cron-job.org 每 4 小时触发（例如 23 */4 * * *）
+  # schedule:
+  #   - cron: "23 */4 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: pricing-crawl
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  pages: write
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main (code)
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Restore data from data branch
+        run: |
+          mkdir -p data
+          if git fetch origin data 2>/dev/null; then
+            # data 分支上的定价数据在 pricing/ 下
+            git archive origin/data 2>/dev/null | tar x -C data/ 2>/dev/null || true
+          fi
+
+      - name: Crawl
+        run: node src/price-crawl.js --once
+
+      - name: Rollup
+        run: node src/price-rollup.js
+
+      - name: Dashboard
+        run: node src/price-dashboard.js
+
+      - name: Push data to data branch
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          TIMESTAMP=$(date -u +'%Y-%m-%dT%H:00:00Z')
+          REMOTE_URL="https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+
+          TMPDIR=$(mktemp -d)
+
+          if git ls-remote --heads origin data | grep -q data; then
+            git clone --branch data --single-branch "$REMOTE_URL" "$TMPDIR" 2>/dev/null || true
+          fi
+          cd "$TMPDIR"
+
+          # 如果 data 分支不存在，初始化空仓库并关联远程
+          if [ ! -d .git ]; then
+            git init -b data
+            git remote add origin "$REMOTE_URL"
+          fi
+
+          # 复制新的 data 文件到临时目录（覆盖已有）
+          cp -r "$GITHUB_WORKSPACE"/data/* ./
+
+          git config user.name "pricing-bot"
+          git config user.email "bot@pricing.local"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No data changes"
+          else
+            git commit -m "data: $TIMESTAMP"
+            git push origin data
+          fi
+
+          cd /
+          rm -rf "$TMPDIR"
+
+      - name: Preserve existing index.html from gh-pages
+        run: |
+          # keep_files:false 会清空 gh-pages 上除本次产物外的文件。
+          # 若已有其它静态页需要保留，先拷进 public/ 再发布。
+          if git ls-remote --heads origin gh-pages | grep -q gh-pages; then
+            T=$(mktemp -d)
+            REMOTE_URL="https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+            git clone --branch gh-pages --single-branch --depth 1 "$REMOTE_URL" "$T" 2>/dev/null || true
+            if [ -f "$T/index.html" ]; then
+              cp "$T/index.html" public/index.html
+              echo "Preserved existing index.html from gh-pages"
+            fi
+            rm -rf "$T"
+          else
+            echo "No existing gh-pages branch, skipping preserve"
+          fi
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
+          publish_branch: gh-pages
+          keep_files: false
+          user_name: github-actions[bot]
+          user_email: 41898282+github-actions[bot]@users.noreply.github.com
