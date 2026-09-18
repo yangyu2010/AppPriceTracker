@@ -1,0 +1,59 @@
+{
+  "apps": {
+    "932747118|us": {
+      "name": "Shadowrocket",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/64/24/2d/64242de2-a763-914f-c686-8777445b83a3/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+      "currency": "USD",
+      "kind": "software"
+    },
+    "1438243180|us": {
+      "name": "Dark Reader for Safari",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/91/11/e8911158-a4b1-3a6f-c8b9-1193164ee5ef/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "currency": "USD",
+      "kind": "software"
+    },
+    "1443988620|us": {
+      "name": "Quantumult X",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/12/42/f2/1242f2b1-d7a6-8b20-8947-7e081f78d7ae/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+      "currency": "USD",
+      "kind": "software"
+    },
+    "1438243180|cn": {
+      "name": "Dark Reader for Safari",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/91/11/e8911158-a4b1-3a6f-c8b9-1193164ee5ef/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "currency": "CNY",
+      "kind": "software"
+    },
+    "1091189122|cn": {
+      "name": "Bear: Markdown Notes",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/97/f1/7c/97f17c52-ee2a-c6cb-6f7d-1d51a86bda58/AppIcon-26-0-0-85-220-0-0-6-0-2x-0-0-0.png/512x512bb.png",
+      "currency": "CNY",
+      "kind": "mac-software"
+    },
+    "590338362|cn": {
+      "name": "网易云音乐-数亿音乐畅听",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a5/f6/e7/a5f6e7c0-9cc2-3248-ded9-7ac7748e9f94/appIconNew-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+      "currency": "CNY",
+      "kind": "software"
+    },
+    "1605585211|cn": {
+      "name": "汽水音乐 - 随时听好歌",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/29/42/a7/2942a702-c857-513d-4f67-77fb273254d5/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+      "currency": "CNY",
+      "kind": "software"
+    },
+    "414603431|cn": {
+      "name": "QQ音乐 - 听我想听",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/69/25/be/6925beb0-dc55-b399-27a0-e73c388194a1/AppIcon-0-0-1x_U007ephone-0-0-0-1-0-0-sRGB-85-220.png/512x512bb.jpg",
+      "currency": "CNY",
+      "kind": "software"
+    },
+    "1544884479|cn": {
+      "name": "蛋仔派对",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/46/3e/c8/463ec8dd-a0cb-8d57-6848-b76c5a0f8689/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "currency": "CNY",
+      "kind": "software"
+    }
+  },
+  "fetched_at": "2026-09-18T13:02:28.763Z"
+}
