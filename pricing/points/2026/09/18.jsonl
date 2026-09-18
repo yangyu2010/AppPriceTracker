@@ -136,3 +136,49 @@
 {"ts":"2026-09-18T14:00:00Z","country":"cn","app_id":"1544884479","platform":"ios","item_kind":"iap","item_key":"12元礼包","name":"12元礼包","price":12,"currency":"CNY","formatted_price":"¥12.00"}
 {"ts":"2026-09-18T14:00:00Z","country":"cn","app_id":"1544884479","platform":"ios","item_kind":"iap","item_key":"订购YO！会员","name":"订购YO！会员","price":12,"currency":"CNY","formatted_price":"¥12.00"}
 {"ts":"2026-09-18T14:00:00Z","country":"cn","app_id":"1544884479","platform":"ios","item_kind":"iap","item_key":"1280蛋币","name":"1280蛋币","price":128,"currency":"CNY","formatted_price":"¥128.00"}
+{"ts":"2026-09-18T16:00:00Z","country":"us","app_id":"932747118","platform":"macos","item_kind":"app_price","item_key":"__app__","name":"Shadowrocket","price":2.99,"currency":"USD","formatted_price":"$2.99","_rule":"price>0"}
+{"ts":"2026-09-18T16:00:00Z","country":"us","app_id":"1438243180","platform":"macos","item_kind":"app_price","item_key":"__app__","name":"Dark Reader for Safari","price":4.99,"currency":"USD","formatted_price":"$4.99","_rule":"price>0"}
+{"ts":"2026-09-18T16:00:00Z","country":"us","app_id":"1443988620","platform":"macos","item_kind":"app_price","item_key":"__app__","name":"Quantumult X","price":9.99,"currency":"USD","formatted_price":"$9.99","_rule":"price>0"}
+{"ts":"2026-09-18T16:00:00Z","country":"cn","app_id":"1438243180","platform":"macos","item_kind":"app_price","item_key":"__app__","name":"Dark Reader for Safari","price":38,"currency":"CNY","formatted_price":"¥38.00","_rule":"price>0"}
+{"ts":"2026-09-18T16:00:00Z","country":"cn","app_id":"1091189122","platform":"macos","item_kind":"iap","item_key":"Bear Pro","name":"Bear Pro","price":22,"currency":"CNY","formatted_price":"¥22.00"}
+{"ts":"2026-09-18T16:00:00Z","country":"cn","app_id":"1091189122","platform":"macos","item_kind":"iap","item_key":"Bear Pro#2","name":"Bear Pro","price":198,"currency":"CNY","formatted_price":"¥198.00"}
+{"ts":"2026-09-18T16:00:00Z","country":"cn","app_id":"590338362","platform":"ios","item_kind":"iap","item_key":"连续包月黑胶VIP","name":"连续包月黑胶VIP","price":15,"currency":"CNY","formatted_price":"¥15.00"}
+{"ts":"2026-09-18T16:00:00Z","country":"cn","app_id":"590338362","platform":"ios","item_kind":"iap","item_key":"连续包月黑胶VIP#2","name":"连续包月黑胶VIP","price":15,"currency":"CNY","formatted_price":"¥15.00"}
+{"ts":"2026-09-18T16:00:00Z","country":"cn","app_id":"590338362","platform":"ios","item_kind":"iap","item_key":"黑胶VIP连续包月","name":"黑胶VIP连续包月","price":15,"currency":"CNY","formatted_price":"¥15.00"}
+{"ts":"2026-09-18T16:00:00Z","country":"cn","app_id":"590338362","platform":"ios","item_kind":"iap","item_key":"黑胶VIP连续包月(新客专享)","name":"黑胶VIP连续包月(新客专享)","price":15,"currency":"CNY","formatted_price":"¥15.00"}
+{"ts":"2026-09-18T16:00:00Z","country":"cn","app_id":"590338362","platform":"ios","item_kind":"iap","item_key":"连续包月音乐包","name":"连续包月音乐包","price":8,"currency":"CNY","formatted_price":"¥8.00"}
+{"ts":"2026-09-18T16:00:00Z","country":"cn","app_id":"590338362","platform":"ios","item_kind":"iap","item_key":"连续包月黑胶VIP促销","name":"连续包月黑胶VIP促销","price":15,"currency":"CNY","formatted_price":"¥15.00"}
+{"ts":"2026-09-18T16:00:00Z","country":"cn","app_id":"590338362","platform":"ios","item_kind":"iap","item_key":"黑胶VIP连续包月#2","name":"黑胶VIP连续包月","price":15,"currency":"CNY","formatted_price":"¥15.00"}
+{"ts":"2026-09-18T16:00:00Z","country":"cn","app_id":"590338362","platform":"ios","item_kind":"iap","item_key":"黑胶VIP首月5元","name":"黑胶VIP首月5元","price":12,"currency":"CNY","formatted_price":"¥12.00"}
+{"ts":"2026-09-18T16:00:00Z","country":"cn","app_id":"590338362","platform":"ios","item_kind":"iap","item_key":"黑胶VIP连续包月#3","name":"黑胶VIP连续包月","price":15,"currency":"CNY","formatted_price":"¥15.00"}
+{"ts":"2026-09-18T16:00:00Z","country":"cn","app_id":"590338362","platform":"ios","item_kind":"iap","item_key":"黑胶VIP连续包月#4","name":"黑胶VIP连续包月","price":15,"currency":"CNY","formatted_price":"¥15.00"}
+{"ts":"2026-09-18T16:00:00Z","country":"cn","app_id":"1605585211","platform":"ios","item_kind":"iap","item_key":"汽水会员连续包月","name":"汽水会员连续包月","price":8,"currency":"CNY","formatted_price":"¥8.00"}
+{"ts":"2026-09-18T16:00:00Z","country":"cn","app_id":"1605585211","platform":"ios","item_kind":"iap","item_key":"汽水VIP-连续包月优惠","name":"汽水VIP-连续包月优惠","price":8,"currency":"CNY","formatted_price":"¥8.00"}
+{"ts":"2026-09-18T16:00:00Z","country":"cn","app_id":"1605585211","platform":"ios","item_kind":"iap","item_key":"汽水SVIP连续包月","name":"汽水SVIP连续包月","price":15,"currency":"CNY","formatted_price":"¥15.00"}
+{"ts":"2026-09-18T16:00:00Z","country":"cn","app_id":"1605585211","platform":"ios","item_kind":"iap","item_key":"汽水VIP连续包月","name":"汽水VIP连续包月","price":8,"currency":"CNY","formatted_price":"¥8.00"}
+{"ts":"2026-09-18T16:00:00Z","country":"cn","app_id":"1605585211","platform":"ios","item_kind":"iap","item_key":"汽水VIP-连续包月试用","name":"汽水VIP-连续包月试用","price":8,"currency":"CNY","formatted_price":"¥8.00"}
+{"ts":"2026-09-18T16:00:00Z","country":"cn","app_id":"1605585211","platform":"ios","item_kind":"iap","item_key":"汽水SVIP连续包月#2","name":"汽水SVIP连续包月","price":15,"currency":"CNY","formatted_price":"¥15.00"}
+{"ts":"2026-09-18T16:00:00Z","country":"cn","app_id":"1605585211","platform":"ios","item_kind":"iap","item_key":"汽水SVIP连续包月#3","name":"汽水SVIP连续包月","price":15,"currency":"CNY","formatted_price":"¥15.00"}
+{"ts":"2026-09-18T16:00:00Z","country":"cn","app_id":"1605585211","platform":"ios","item_kind":"iap","item_key":"汽水VIP-连续包月优惠#2","name":"汽水VIP-连续包月优惠","price":8,"currency":"CNY","formatted_price":"¥8.00"}
+{"ts":"2026-09-18T16:00:00Z","country":"cn","app_id":"1605585211","platform":"ios","item_kind":"iap","item_key":"汽水SVIP连续包月#4","name":"汽水SVIP连续包月","price":15,"currency":"CNY","formatted_price":"¥15.00"}
+{"ts":"2026-09-18T16:00:00Z","country":"cn","app_id":"1605585211","platform":"ios","item_kind":"iap","item_key":"汽水VIP-连续包月优惠#3","name":"汽水VIP-连续包月优惠","price":8,"currency":"CNY","formatted_price":"¥8.00"}
+{"ts":"2026-09-18T16:00:00Z","country":"cn","app_id":"414603431","platform":"ios","item_kind":"iap","item_key":"绿钻豪华版-自动订阅","name":"绿钻豪华版-自动订阅","price":15,"currency":"CNY","formatted_price":"¥15.00"}
+{"ts":"2026-09-18T16:00:00Z","country":"cn","app_id":"414603431","platform":"ios","item_kind":"iap","item_key":"豪华绿钻连续包月","name":"豪华绿钻连续包月","price":15,"currency":"CNY","formatted_price":"¥15.00"}
+{"ts":"2026-09-18T16:00:00Z","country":"cn","app_id":"414603431","platform":"ios","item_kind":"iap","item_key":"连续包月付费音乐包","name":"连续包月付费音乐包","price":8,"currency":"CNY","formatted_price":"¥8.00"}
+{"ts":"2026-09-18T16:00:00Z","country":"cn","app_id":"414603431","platform":"ios","item_kind":"iap","item_key":"超级会员连续包月","name":"超级会员连续包月","price":19,"currency":"CNY","formatted_price":"¥19.00"}
+{"ts":"2026-09-18T16:00:00Z","country":"cn","app_id":"414603431","platform":"ios","item_kind":"iap","item_key":"30个乐币","name":"30个乐币","price":3,"currency":"CNY","formatted_price":"¥3.00"}
+{"ts":"2026-09-18T16:00:00Z","country":"cn","app_id":"414603431","platform":"ios","item_kind":"iap","item_key":"1个月付费音乐包","name":"1个月付费音乐包","price":8,"currency":"CNY","formatted_price":"¥8.00"}
+{"ts":"2026-09-18T16:00:00Z","country":"cn","app_id":"414603431","platform":"ios","item_kind":"iap","item_key":"豪华绿钻连续包月#2","name":"豪华绿钻连续包月","price":15,"currency":"CNY","formatted_price":"¥15.00"}
+{"ts":"2026-09-18T16:00:00Z","country":"cn","app_id":"414603431","platform":"ios","item_kind":"iap","item_key":"超级会员连续包月#2","name":"超级会员连续包月","price":19,"currency":"CNY","formatted_price":"¥19.00"}
+{"ts":"2026-09-18T16:00:00Z","country":"cn","app_id":"414603431","platform":"ios","item_kind":"iap","item_key":"10个乐币","name":"10个乐币","price":1,"currency":"CNY","formatted_price":"¥1.00"}
+{"ts":"2026-09-18T16:00:00Z","country":"cn","app_id":"414603431","platform":"ios","item_kind":"iap","item_key":"超级会员连续包月#3","name":"超级会员连续包月","price":30,"currency":"CNY","formatted_price":"¥30.00"}
+{"ts":"2026-09-18T16:00:00Z","country":"cn","app_id":"1544884479","platform":"ios","item_kind":"iap","item_key":"60蛋币","name":"60蛋币","price":6,"currency":"CNY","formatted_price":"¥6.00"}
+{"ts":"2026-09-18T16:00:00Z","country":"cn","app_id":"1544884479","platform":"ios","item_kind":"iap","item_key":"10蛋币","name":"10蛋币","price":1,"currency":"CNY","formatted_price":"¥1.00"}
+{"ts":"2026-09-18T16:00:00Z","country":"cn","app_id":"1544884479","platform":"ios","item_kind":"iap","item_key":"6元礼包","name":"6元礼包","price":6,"currency":"CNY","formatted_price":"¥6.00"}
+{"ts":"2026-09-18T16:00:00Z","country":"cn","app_id":"1544884479","platform":"ios","item_kind":"iap","item_key":"300蛋币","name":"300蛋币","price":30,"currency":"CNY","formatted_price":"¥30.00"}
+{"ts":"2026-09-18T16:00:00Z","country":"cn","app_id":"1544884479","platform":"ios","item_kind":"iap","item_key":"一元礼包","name":"一元礼包","price":1,"currency":"CNY","formatted_price":"¥1.00"}
+{"ts":"2026-09-18T16:00:00Z","country":"cn","app_id":"1544884479","platform":"ios","item_kind":"iap","item_key":"每日一元礼包","name":"每日一元礼包","price":1,"currency":"CNY","formatted_price":"¥1.00"}
+{"ts":"2026-09-18T16:00:00Z","country":"cn","app_id":"1544884479","platform":"ios","item_kind":"iap","item_key":"680蛋币","name":"680蛋币","price":68,"currency":"CNY","formatted_price":"¥68.00"}
+{"ts":"2026-09-18T16:00:00Z","country":"cn","app_id":"1544884479","platform":"ios","item_kind":"iap","item_key":"12元礼包","name":"12元礼包","price":12,"currency":"CNY","formatted_price":"¥12.00"}
+{"ts":"2026-09-18T16:00:00Z","country":"cn","app_id":"1544884479","platform":"ios","item_kind":"iap","item_key":"订购YO！会员","name":"订购YO！会员","price":12,"currency":"CNY","formatted_price":"¥12.00"}
+{"ts":"2026-09-18T16:00:00Z","country":"cn","app_id":"1544884479","platform":"ios","item_kind":"iap","item_key":"1280蛋币","name":"1280蛋币","price":128,"currency":"CNY","formatted_price":"¥128.00"}
