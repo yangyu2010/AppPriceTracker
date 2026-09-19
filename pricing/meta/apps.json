@@ -53,7 +53,37 @@
       "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/46/3e/c8/463ec8dd-a0cb-8d57-6848-b76c5a0f8689/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
       "currency": "CNY",
       "kind": "software"
+    },
+    "545519333|us": {
+      "name": "Amazon Prime Video",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1d/68/61/1d6861d6-09b2-03db-4233-f72ed4640a4c/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg",
+      "currency": "USD",
+      "kind": "software"
+    },
+    "6473753684|us": {
+      "name": "Claude by Anthropic",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4e/98/52/4e9852f9-553a-5c52-3097-3417caedb04b/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "currency": "USD",
+      "kind": "software"
+    },
+    "6448311069|us": {
+      "name": "ChatGPT",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/15/ec/71/15ec7161-5fae-4018-f178-8ab4f0b1a02d/AppIcon-0-0-1x_U007epad-0-0-0-1-0-P3-85-220.png/512x512bb.jpg",
+      "currency": "USD",
+      "kind": "software"
+    },
+    "1017492454|us": {
+      "name": "YouTube Music",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5b/70/d8/5b70d81c-f623-dc78-67b2-13463c291396/logo_youtube_music_2024_q4_color-0-0-1x_U007emarketing-0-0-0-7-0-0-0-85-220.png/512x512bb.jpg",
+      "currency": "USD",
+      "kind": "software"
+    },
+    "388624839|cn": {
+      "name": "CamScanner + | PDF Scanner",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6e/02/2e/6e022e93-e381-05cc-e4de-84d2754307f8/AppIconPlus-0-0-1x_U007emarketing-0-6-0-0-sRGB-85-220.png/512x512bb.jpg",
+      "currency": "CNY",
+      "kind": "software"
     }
   },
-  "fetched_at": "2026-09-19T00:23:45.050Z"
+  "fetched_at": "2026-09-19T03:48:07.923Z"
 }

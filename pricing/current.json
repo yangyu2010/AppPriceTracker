@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-19T00:26:16.095Z",
-  "data_ts": "2026-09-19T00:00:00Z",
+  "generated_at": "2026-09-19T03:55:39.469Z",
+  "data_ts": "2026-09-19T03:00:00Z",
   "display_timezone": "Asia/Shanghai",
   "apps": [
     {
@@ -10,6 +10,7 @@
       "platform": "macos",
       "country": "us",
       "status": "ok",
+      "has_iap": false,
       "items": [
         {
           "item_key": "__app__",
@@ -20,7 +21,9 @@
           "formatted_price": "$2.99",
           "delta": 0
         }
-      ]
+      ],
+      "iap_status": "no_iap",
+      "locale_fallback": true
     },
     {
       "app_id": "1438243180",
@@ -29,6 +32,7 @@
       "platform": "macos",
       "country": "us",
       "status": "ok",
+      "has_iap": false,
       "items": [
         {
           "item_key": "__app__",
@@ -39,7 +43,9 @@
           "formatted_price": "$4.99",
           "delta": 0
         }
-      ]
+      ],
+      "iap_status": "no_iap",
+      "locale_fallback": true
     },
     {
       "app_id": "1443988620",
@@ -48,6 +54,7 @@
       "platform": "macos",
       "country": "us",
       "status": "ok",
+      "has_iap": false,
       "items": [
         {
           "item_key": "__app__",
@@ -58,7 +65,31 @@
           "formatted_price": "$9.99",
           "delta": 0
         }
-      ]
+      ],
+      "iap_status": "no_iap",
+      "locale_fallback": true
+    },
+    {
+      "app_id": "545519333",
+      "name": "Amazon Prime Video",
+      "pricing": "free",
+      "platform": "macos",
+      "country": "us",
+      "status": "ok",
+      "has_iap": true,
+      "items": [
+        {
+          "item_key": "Ad free",
+          "item_kind": "iap",
+          "name": "Ad free",
+          "price": 2.99,
+          "currency": "USD",
+          "formatted_price": "$2.99",
+          "delta": null
+        }
+      ],
+      "iap_status": "ok",
+      "locale_fallback": false
     },
     {
       "app_id": "1438243180",
@@ -67,6 +98,7 @@
       "platform": "macos",
       "country": "cn",
       "status": "ok",
+      "has_iap": false,
       "items": [
         {
           "item_key": "__app__",
@@ -77,7 +109,9 @@
           "formatted_price": "¥38.00",
           "delta": 0
         }
-      ]
+      ],
+      "iap_status": "no_iap",
+      "locale_fallback": true
     },
     {
       "app_id": "1091189122",
@@ -86,6 +120,7 @@
       "platform": "macos",
       "country": "cn",
       "status": "ok",
+      "has_iap": true,
       "items": [
         {
           "item_key": "Bear Pro",
@@ -106,6 +141,383 @@
           "delta": 0
         }
       ],
+      "iap_status": "ok",
+      "locale_fallback": false
+    },
+    {
+      "app_id": "6473753684",
+      "name": "Claude by Anthropic",
+      "pricing": "free",
+      "platform": "ios",
+      "country": "us",
+      "status": "ok",
+      "has_iap": true,
+      "items": [
+        {
+          "item_key": "Claude Pro - Monthly",
+          "item_kind": "iap",
+          "name": "Claude Pro - Monthly",
+          "price": 20,
+          "currency": "USD",
+          "formatted_price": "$20.00",
+          "delta": null
+        },
+        {
+          "item_key": "Claude Max 5x - Monthly",
+          "item_kind": "iap",
+          "name": "Claude Max 5x - Monthly",
+          "price": 124.99,
+          "currency": "USD",
+          "formatted_price": "$124.99",
+          "delta": null
+        },
+        {
+          "item_key": "Claude Max 20x - Monthly",
+          "item_kind": "iap",
+          "name": "Claude Max 20x - Monthly",
+          "price": 249.99,
+          "currency": "USD",
+          "formatted_price": "$249.99",
+          "delta": null
+        },
+        {
+          "item_key": "Claude Pro - Annual",
+          "item_kind": "iap",
+          "name": "Claude Pro - Annual",
+          "price": 214.99,
+          "currency": "USD",
+          "formatted_price": "$214.99",
+          "delta": null
+        },
+        {
+          "item_key": "Usage Credits (20)",
+          "item_kind": "iap",
+          "name": "Usage Credits (20)",
+          "price": 28,
+          "currency": "USD",
+          "formatted_price": "$28.00",
+          "delta": null
+        },
+        {
+          "item_key": "Usage Credits (250)",
+          "item_kind": "iap",
+          "name": "Usage Credits (250)",
+          "price": 279,
+          "currency": "USD",
+          "formatted_price": "$279.00",
+          "delta": null
+        },
+        {
+          "item_key": "Usage Credits (50)",
+          "item_kind": "iap",
+          "name": "Usage Credits (50)",
+          "price": 63,
+          "currency": "USD",
+          "formatted_price": "$63.00",
+          "delta": null
+        }
+      ],
+      "iap_status": "ok",
+      "locale_fallback": false
+    },
+    {
+      "app_id": "6448311069",
+      "name": "ChatGPT",
+      "pricing": "free",
+      "platform": "ios",
+      "country": "us",
+      "status": "ok",
+      "has_iap": true,
+      "items": [
+        {
+          "item_key": "ChatGPT Plus",
+          "item_kind": "iap",
+          "name": "ChatGPT Plus",
+          "price": 19.99,
+          "currency": "USD",
+          "formatted_price": "$19.99",
+          "delta": null
+        },
+        {
+          "item_key": "ChatGPT Go",
+          "item_kind": "iap",
+          "name": "ChatGPT Go",
+          "price": 8,
+          "currency": "USD",
+          "formatted_price": "$8.00",
+          "delta": null
+        },
+        {
+          "item_key": "100 Credits",
+          "item_kind": "iap",
+          "name": "100 Credits",
+          "price": 4,
+          "currency": "USD",
+          "formatted_price": "$4.00",
+          "delta": null
+        },
+        {
+          "item_key": "ChatGPT Pro 5x",
+          "item_kind": "iap",
+          "name": "ChatGPT Pro 5x",
+          "price": 100,
+          "currency": "USD",
+          "formatted_price": "$100.00",
+          "delta": null
+        },
+        {
+          "item_key": "ChatGPT Pro 20x",
+          "item_kind": "iap",
+          "name": "ChatGPT Pro 20x",
+          "price": 200,
+          "currency": "USD",
+          "formatted_price": "$200.00",
+          "delta": null
+        },
+        {
+          "item_key": "ChatGPT Plus#2",
+          "item_kind": "iap",
+          "name": "ChatGPT Plus",
+          "price": 200,
+          "currency": "USD",
+          "formatted_price": "$200.00",
+          "delta": null
+        },
+        {
+          "item_key": "500 Credits",
+          "item_kind": "iap",
+          "name": "500 Credits",
+          "price": 20,
+          "currency": "USD",
+          "formatted_price": "$20.00",
+          "delta": null
+        },
+        {
+          "item_key": "1000 Credits",
+          "item_kind": "iap",
+          "name": "1000 Credits",
+          "price": 40,
+          "currency": "USD",
+          "formatted_price": "$40.00",
+          "delta": null
+        }
+      ],
+      "iap_status": "ok",
+      "locale_fallback": false
+    },
+    {
+      "app_id": "1017492454",
+      "name": "YouTube Music",
+      "pricing": "free",
+      "platform": "ios",
+      "country": "us",
+      "status": "ok",
+      "has_iap": true,
+      "items": [
+        {
+          "item_key": "YouTube Music",
+          "item_kind": "iap",
+          "name": "YouTube Music",
+          "price": 15.99,
+          "currency": "USD",
+          "formatted_price": "$15.99",
+          "delta": null
+        },
+        {
+          "item_key": "YouTube Music#2",
+          "item_kind": "iap",
+          "name": "YouTube Music",
+          "price": 15.99,
+          "currency": "USD",
+          "formatted_price": "$15.99",
+          "delta": null
+        },
+        {
+          "item_key": "YouTube Premium",
+          "item_kind": "iap",
+          "name": "YouTube Premium",
+          "price": 20.99,
+          "currency": "USD",
+          "formatted_price": "$20.99",
+          "delta": null
+        },
+        {
+          "item_key": "YouTube Premium#2",
+          "item_kind": "iap",
+          "name": "YouTube Premium",
+          "price": 20.99,
+          "currency": "USD",
+          "formatted_price": "$20.99",
+          "delta": null
+        },
+        {
+          "item_key": "YouTube Music#3",
+          "item_kind": "iap",
+          "name": "YouTube Music",
+          "price": 15.99,
+          "currency": "USD",
+          "formatted_price": "$15.99",
+          "delta": null
+        },
+        {
+          "item_key": "YouTube Music Family",
+          "item_kind": "iap",
+          "name": "YouTube Music Family",
+          "price": 24.99,
+          "currency": "USD",
+          "formatted_price": "$24.99",
+          "delta": null
+        },
+        {
+          "item_key": "YouTube Premium#3",
+          "item_kind": "iap",
+          "name": "YouTube Premium",
+          "price": 20.99,
+          "currency": "USD",
+          "formatted_price": "$20.99",
+          "delta": null
+        },
+        {
+          "item_key": "YouTube Music Family#2",
+          "item_kind": "iap",
+          "name": "YouTube Music Family",
+          "price": 24.99,
+          "currency": "USD",
+          "formatted_price": "$24.99",
+          "delta": null
+        },
+        {
+          "item_key": "YouTube Premium Family",
+          "item_kind": "iap",
+          "name": "YouTube Premium Family",
+          "price": 34.99,
+          "currency": "USD",
+          "formatted_price": "$34.99",
+          "delta": null
+        },
+        {
+          "item_key": "YouTube Red",
+          "item_kind": "iap",
+          "name": "YouTube Red",
+          "price": 20.99,
+          "currency": "USD",
+          "formatted_price": "$20.99",
+          "delta": null
+        }
+      ],
+      "iap_status": "ok",
+      "locale_fallback": false
+    },
+    {
+      "app_id": "388624839",
+      "name": "CamScanner + | PDF Scanner",
+      "pricing": "paid",
+      "platform": "ios",
+      "country": "cn",
+      "status": "ok",
+      "has_iap": true,
+      "items": [
+        {
+          "item_key": "__app__",
+          "item_kind": "app_price",
+          "name": "CamScanner + | PDF Scanner",
+          "price": 1,
+          "currency": "CNY",
+          "formatted_price": "¥1.00",
+          "delta": null
+        },
+        {
+          "item_key": "CamScanner Premium",
+          "item_kind": "iap",
+          "name": "CamScanner Premium",
+          "price": 30,
+          "currency": "CNY",
+          "formatted_price": "¥30.00",
+          "delta": null
+        },
+        {
+          "item_key": "CamScanner Premium#2",
+          "item_kind": "iap",
+          "name": "CamScanner Premium",
+          "price": 328,
+          "currency": "CNY",
+          "formatted_price": "¥328.00",
+          "delta": null
+        },
+        {
+          "item_key": "One-page Fax",
+          "item_kind": "iap",
+          "name": "One-page Fax",
+          "price": 8,
+          "currency": "CNY",
+          "formatted_price": "¥8.00",
+          "delta": null
+        },
+        {
+          "item_key": "3000 C-Points",
+          "item_kind": "iap",
+          "name": "3000 C-Points",
+          "price": 38,
+          "currency": "CNY",
+          "formatted_price": "¥38.00",
+          "delta": null
+        },
+        {
+          "item_key": "扫描全能王高级帐户（一个月）",
+          "item_kind": "iap",
+          "name": "扫描全能王高级帐户（一个月）",
+          "price": 48,
+          "currency": "CNY",
+          "formatted_price": "¥48.00",
+          "delta": null
+        },
+        {
+          "item_key": "Ten-page Fax",
+          "item_kind": "iap",
+          "name": "Ten-page Fax",
+          "price": 58,
+          "currency": "CNY",
+          "formatted_price": "¥58.00",
+          "delta": null
+        },
+        {
+          "item_key": "CamScanner Premium#3",
+          "item_kind": "iap",
+          "name": "CamScanner Premium",
+          "price": 343,
+          "currency": "CNY",
+          "formatted_price": "¥343.00",
+          "delta": null
+        },
+        {
+          "item_key": "3000 cp + Six chance to Draw",
+          "item_kind": "iap",
+          "name": "3000 cp + Six chance to Draw",
+          "price": 38,
+          "currency": "CNY",
+          "formatted_price": "¥38.00",
+          "delta": null
+        },
+        {
+          "item_key": "600 cp + One chance to Draw",
+          "item_kind": "iap",
+          "name": "600 cp + One chance to Draw",
+          "price": 8,
+          "currency": "CNY",
+          "formatted_price": "¥8.00",
+          "delta": null
+        },
+        {
+          "item_key": "CamScanner Premium#4",
+          "item_kind": "iap",
+          "name": "CamScanner Premium",
+          "price": 343,
+          "currency": "CNY",
+          "formatted_price": "¥343.00",
+          "delta": null
+        }
+      ],
+      "iap_status": "ok",
       "locale_fallback": false
     },
     {
@@ -115,6 +527,7 @@
       "platform": "ios",
       "country": "cn",
       "status": "ok",
+      "has_iap": true,
       "items": [
         {
           "item_key": "连续包月黑胶VIP",
@@ -207,6 +620,7 @@
           "delta": 0
         }
       ],
+      "iap_status": "ok",
       "locale_fallback": false
     },
     {
@@ -216,6 +630,7 @@
       "platform": "ios",
       "country": "cn",
       "status": "ok",
+      "has_iap": true,
       "items": [
         {
           "item_key": "汽水会员连续包月",
@@ -308,6 +723,7 @@
           "delta": 0
         }
       ],
+      "iap_status": "ok",
       "locale_fallback": false
     },
     {
@@ -317,6 +733,7 @@
       "platform": "ios",
       "country": "cn",
       "status": "ok",
+      "has_iap": true,
       "items": [
         {
           "item_key": "绿钻豪华版-自动订阅",
@@ -409,6 +826,7 @@
           "delta": 0
         }
       ],
+      "iap_status": "ok",
       "locale_fallback": false
     },
     {
@@ -418,6 +836,7 @@
       "platform": "ios",
       "country": "cn",
       "status": "ok",
+      "has_iap": true,
       "items": [
         {
           "item_key": "60蛋币",
@@ -510,6 +929,7 @@
           "delta": 0
         }
       ],
+      "iap_status": "ok",
       "locale_fallback": false
     }
   ]
