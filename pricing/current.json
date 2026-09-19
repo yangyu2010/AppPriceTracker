@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-19T03:55:39.469Z",
-  "data_ts": "2026-09-19T03:00:00Z",
+  "generated_at": "2026-09-19T04:30:46.998Z",
+  "data_ts": "2026-09-19T04:00:00Z",
   "display_timezone": "Asia/Shanghai",
   "apps": [
     {
@@ -85,7 +85,7 @@
           "price": 2.99,
           "currency": "USD",
           "formatted_price": "$2.99",
-          "delta": null
+          "delta": 0
         }
       ],
       "iap_status": "ok",
@@ -160,7 +160,7 @@
           "price": 20,
           "currency": "USD",
           "formatted_price": "$20.00",
-          "delta": null
+          "delta": 0
         },
         {
           "item_key": "Claude Max 5x - Monthly",
@@ -169,7 +169,7 @@
           "price": 124.99,
           "currency": "USD",
           "formatted_price": "$124.99",
-          "delta": null
+          "delta": 0
         },
         {
           "item_key": "Claude Max 20x - Monthly",
@@ -178,7 +178,7 @@
           "price": 249.99,
           "currency": "USD",
           "formatted_price": "$249.99",
-          "delta": null
+          "delta": 0
         },
         {
           "item_key": "Claude Pro - Annual",
@@ -187,7 +187,7 @@
           "price": 214.99,
           "currency": "USD",
           "formatted_price": "$214.99",
-          "delta": null
+          "delta": 0
         },
         {
           "item_key": "Usage Credits (20)",
@@ -196,7 +196,7 @@
           "price": 28,
           "currency": "USD",
           "formatted_price": "$28.00",
-          "delta": null
+          "delta": 0
         },
         {
           "item_key": "Usage Credits (250)",
@@ -205,7 +205,7 @@
           "price": 279,
           "currency": "USD",
           "formatted_price": "$279.00",
-          "delta": null
+          "delta": 0
         },
         {
           "item_key": "Usage Credits (50)",
@@ -214,7 +214,7 @@
           "price": 63,
           "currency": "USD",
           "formatted_price": "$63.00",
-          "delta": null
+          "delta": 0
         }
       ],
       "iap_status": "ok",
@@ -236,7 +236,7 @@
           "price": 19.99,
           "currency": "USD",
           "formatted_price": "$19.99",
-          "delta": null
+          "delta": 0
         },
         {
           "item_key": "ChatGPT Go",
@@ -245,7 +245,7 @@
           "price": 8,
           "currency": "USD",
           "formatted_price": "$8.00",
-          "delta": null
+          "delta": 0
         },
         {
           "item_key": "100 Credits",
@@ -254,7 +254,7 @@
           "price": 4,
           "currency": "USD",
           "formatted_price": "$4.00",
-          "delta": null
+          "delta": 0
         },
         {
           "item_key": "ChatGPT Pro 5x",
@@ -263,7 +263,7 @@
           "price": 100,
           "currency": "USD",
           "formatted_price": "$100.00",
-          "delta": null
+          "delta": 0
         },
         {
           "item_key": "ChatGPT Pro 20x",
@@ -272,7 +272,7 @@
           "price": 200,
           "currency": "USD",
           "formatted_price": "$200.00",
-          "delta": null
+          "delta": 0
         },
         {
           "item_key": "ChatGPT Plus#2",
@@ -281,7 +281,7 @@
           "price": 200,
           "currency": "USD",
           "formatted_price": "$200.00",
-          "delta": null
+          "delta": 0
         },
         {
           "item_key": "500 Credits",
@@ -290,7 +290,7 @@
           "price": 20,
           "currency": "USD",
           "formatted_price": "$20.00",
-          "delta": null
+          "delta": 0
         },
         {
           "item_key": "1000 Credits",
@@ -299,7 +299,7 @@
           "price": 40,
           "currency": "USD",
           "formatted_price": "$40.00",
-          "delta": null
+          "delta": 0
         }
       ],
       "iap_status": "ok",
@@ -321,7 +321,7 @@
           "price": 15.99,
           "currency": "USD",
           "formatted_price": "$15.99",
-          "delta": null
+          "delta": 0
         },
         {
           "item_key": "YouTube Music#2",
@@ -330,7 +330,7 @@
           "price": 15.99,
           "currency": "USD",
           "formatted_price": "$15.99",
-          "delta": null
+          "delta": 0
         },
         {
           "item_key": "YouTube Premium",
@@ -339,7 +339,7 @@
           "price": 20.99,
           "currency": "USD",
           "formatted_price": "$20.99",
-          "delta": null
+          "delta": 0
         },
         {
           "item_key": "YouTube Premium#2",
@@ -348,7 +348,7 @@
           "price": 20.99,
           "currency": "USD",
           "formatted_price": "$20.99",
-          "delta": null
+          "delta": 0
         },
         {
           "item_key": "YouTube Music#3",
@@ -357,16 +357,7 @@
           "price": 15.99,
           "currency": "USD",
           "formatted_price": "$15.99",
-          "delta": null
-        },
-        {
-          "item_key": "YouTube Music Family",
-          "item_kind": "iap",
-          "name": "YouTube Music Family",
-          "price": 24.99,
-          "currency": "USD",
-          "formatted_price": "$24.99",
-          "delta": null
+          "delta": 0
         },
         {
           "item_key": "YouTube Premium#3",
@@ -375,7 +366,16 @@
           "price": 20.99,
           "currency": "USD",
           "formatted_price": "$20.99",
-          "delta": null
+          "delta": 0
+        },
+        {
+          "item_key": "YouTube Music Family",
+          "item_kind": "iap",
+          "name": "YouTube Music Family",
+          "price": 24.99,
+          "currency": "USD",
+          "formatted_price": "$24.99",
+          "delta": 0
         },
         {
           "item_key": "YouTube Music Family#2",
@@ -384,7 +384,7 @@
           "price": 24.99,
           "currency": "USD",
           "formatted_price": "$24.99",
-          "delta": null
+          "delta": 0
         },
         {
           "item_key": "YouTube Premium Family",
@@ -393,7 +393,7 @@
           "price": 34.99,
           "currency": "USD",
           "formatted_price": "$34.99",
-          "delta": null
+          "delta": 0
         },
         {
           "item_key": "YouTube Red",
@@ -402,7 +402,7 @@
           "price": 20.99,
           "currency": "USD",
           "formatted_price": "$20.99",
-          "delta": null
+          "delta": 0
         }
       ],
       "iap_status": "ok",
@@ -424,7 +424,7 @@
           "price": 1,
           "currency": "CNY",
           "formatted_price": "¥1.00",
-          "delta": null
+          "delta": 0
         },
         {
           "item_key": "CamScanner Premium",
@@ -433,7 +433,7 @@
           "price": 30,
           "currency": "CNY",
           "formatted_price": "¥30.00",
-          "delta": null
+          "delta": 0
         },
         {
           "item_key": "CamScanner Premium#2",
@@ -442,7 +442,7 @@
           "price": 328,
           "currency": "CNY",
           "formatted_price": "¥328.00",
-          "delta": null
+          "delta": 0
         },
         {
           "item_key": "One-page Fax",
@@ -451,7 +451,7 @@
           "price": 8,
           "currency": "CNY",
           "formatted_price": "¥8.00",
-          "delta": null
+          "delta": 0
         },
         {
           "item_key": "3000 C-Points",
@@ -460,7 +460,7 @@
           "price": 38,
           "currency": "CNY",
           "formatted_price": "¥38.00",
-          "delta": null
+          "delta": 0
         },
         {
           "item_key": "扫描全能王高级帐户（一个月）",
@@ -469,7 +469,7 @@
           "price": 48,
           "currency": "CNY",
           "formatted_price": "¥48.00",
-          "delta": null
+          "delta": 0
         },
         {
           "item_key": "Ten-page Fax",
@@ -478,7 +478,7 @@
           "price": 58,
           "currency": "CNY",
           "formatted_price": "¥58.00",
-          "delta": null
+          "delta": 0
         },
         {
           "item_key": "CamScanner Premium#3",
@@ -487,7 +487,7 @@
           "price": 343,
           "currency": "CNY",
           "formatted_price": "¥343.00",
-          "delta": null
+          "delta": 0
         },
         {
           "item_key": "3000 cp + Six chance to Draw",
@@ -496,7 +496,7 @@
           "price": 38,
           "currency": "CNY",
           "formatted_price": "¥38.00",
-          "delta": null
+          "delta": 0
         },
         {
           "item_key": "600 cp + One chance to Draw",
@@ -505,7 +505,7 @@
           "price": 8,
           "currency": "CNY",
           "formatted_price": "¥8.00",
-          "delta": null
+          "delta": 0
         },
         {
           "item_key": "CamScanner Premium#4",
@@ -514,7 +514,7 @@
           "price": 343,
           "currency": "CNY",
           "formatted_price": "¥343.00",
-          "delta": null
+          "delta": 0
         }
       ],
       "iap_status": "ok",
@@ -687,21 +687,21 @@
           "delta": 0
         },
         {
-          "item_key": "汽水VIP-连续包月优惠#2",
-          "item_kind": "iap",
-          "name": "汽水VIP-连续包月优惠",
-          "price": 8,
-          "currency": "CNY",
-          "formatted_price": "¥8.00",
-          "delta": 0
-        },
-        {
           "item_key": "汽水SVIP连续包月#3",
           "item_kind": "iap",
           "name": "汽水SVIP连续包月",
           "price": 15,
           "currency": "CNY",
           "formatted_price": "¥15.00",
+          "delta": 0
+        },
+        {
+          "item_key": "汽水VIP-连续包月优惠#2",
+          "item_kind": "iap",
+          "name": "汽水VIP-连续包月优惠",
+          "price": 8,
+          "currency": "CNY",
+          "formatted_price": "¥8.00",
           "delta": 0
         },
         {
