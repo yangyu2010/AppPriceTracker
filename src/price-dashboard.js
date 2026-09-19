@@ -123,9 +123,12 @@ async function buildHistory(current) {
       status: app.status,
       suspect: !!app.suspect,
       locale_fallback: !!app.locale_fallback,
+      has_iap: !!app.has_iap,
+      iap_status: app.iap_status || "",
       error: app.error || "",
       items: (app.items || []).map((it) => ({
         item_key: it.item_key,
+        item_kind: it.item_kind || (it.item_key === "__app__" ? "app_price" : "iap"),
         name: it.name,
         price: it.price,
         currency: it.currency,
@@ -290,7 +293,7 @@ function generateHtml(current, history) {
   --surface-1:#fcfcfb; --plane:#f9f9f7;
   --ink:#0b0b0b; --ink-2:#52514e; --muted:#898781;
   --grid:#e1e0d9; --axis:#c3c2b7; --border:rgba(11,11,11,.10);
-  --series-1:#2a78d6; --good-ink:#006300; --bad-ink:#b02a2a; --lim-ink:#9c4f22;
+  --series-1:#2a78d6; --series-2:#c45c26; --good-ink:#006300; --bad-ink:#b02a2a; --lim-ink:#9c4f22;
   --critical:#d03b3b; --serious:#ec835a;
   --chip-good-bg:rgba(12,163,12,.10); --chip-bad-bg:rgba(208,59,59,.10);
   --wash:rgba(11,11,11,.04);
@@ -300,7 +303,7 @@ function generateHtml(current, history) {
   --surface-1:#1a1a19; --plane:#0d0d0d;
   --ink:#ffffff; --ink-2:#c3c2b7; --muted:#898781;
   --grid:#2c2c2a; --axis:#383835; --border:rgba(255,255,255,.10);
-  --series-1:#3987e5; --good-ink:#0ca30c; --bad-ink:#e66767; --lim-ink:#ec835a;
+  --series-1:#3987e5; --series-2:#e08a4a; --good-ink:#0ca30c; --bad-ink:#e66767; --lim-ink:#ec835a;
   --critical:#d03b3b; --serious:#ec835a;
   --chip-good-bg:rgba(12,163,12,.16); --chip-bad-bg:rgba(208,59,59,.18);
   --wash:rgba(255,255,255,.05);
@@ -327,6 +330,7 @@ h1{font-size:22px;margin-bottom:4px;letter-spacing:-.01em}
   background:var(--wash);color:var(--ink-2);margin-right:4px;vertical-align:middle}
 .badge.paid{color:var(--lim-ink)}
 .badge.free{color:var(--good-ink);background:var(--chip-good-bg)}
+.badge.mixed{color:var(--lim-ink);background:var(--chip-good-bg)}
 .badge.flag{font-size:11px;padding:1px 5px}
 .badge.warn{color:var(--critical);background:var(--chip-bad-bg)}
 .summary{font-size:13px;margin-top:6px}
@@ -347,7 +351,7 @@ h1{font-size:22px;margin-bottom:4px;letter-spacing:-.01em}
 .fgroup{display:flex;align-items:center;gap:8px}
 .flabel{font-size:12px;color:var(--muted)}
 select{padding:6px 10px;border:1px solid var(--border);border-radius:7px;font-size:13px;
-  background:var(--surface-1);color:var(--ink);max-width:340px}
+  background:var(--surface-1);color:var(--ink);max-width:420px;min-width:200px}
 .seg{display:inline-flex;background:var(--wash);border-radius:8px;padding:2px;gap:2px}
 .seg button{border:0;background:transparent;color:var(--ink-2);font-size:13px;
   padding:5px 11px;border-radius:6px;cursor:pointer;font-family:inherit;white-space:nowrap}
@@ -366,6 +370,7 @@ table.iap th{background:var(--wash);font-weight:600;color:var(--muted);font-size
 table.iap tbody tr{cursor:pointer}
 table.iap tbody tr:hover{background:var(--wash)}
 table.iap tbody tr.sel{background:var(--wash);box-shadow:inset 3px 0 0 var(--series-1)}
+.kind-tag{font-size:10px;color:var(--muted);font-weight:600;margin-right:4px}
 .num{font-variant-numeric:tabular-nums;font-weight:600}
 .muted{color:var(--muted)}
 .leg{display:flex;gap:14px;font-size:12px;color:var(--ink-2);margin-top:8px;flex-wrap:wrap}
@@ -408,7 +413,7 @@ $('theme').addEventListener('click',()=>{
 function tokens(){
   const cs=getComputedStyle(document.documentElement);
   const g=n=>cs.getPropertyValue(n).trim();
-  return {series:g('--series-1'),muted:g('--muted'),grid:g('--grid'),axis:g('--axis'),
+  return {series:g('--series-1'),series2:g('--series-2'),muted:g('--muted'),grid:g('--grid'),axis:g('--axis'),
     ink:g('--ink'),ink2:g('--ink-2'),surface:g('--surface-1'),critical:g('--critical'),serious:g('--serious')};
 }
 
@@ -453,25 +458,65 @@ function deltaChip(delta){
   return '<span class="delta-up">&darr; '+Math.abs(delta).toLocaleString('en-US',{maximumFractionDigits:2})+'</span>';
 }
 
+function isAppPrice(it){ return it && (it.item_kind==='app_price' || it.item_key==='__app__'); }
+function appItem(app){ return (app.items||[]).find(isAppPrice); }
+function iapItems(app){ return (app.items||[]).filter(it=>!isAppPrice(it)); }
+function itemLabel(it){ return isAppPrice(it)?'下载价':(it.item_key||it.name); }
+function pricingLabel(app){
+  const n=iapItems(app).length;
+  const paid=!!appItem(app) || app.pricing==='paid';
+  if(paid) return n?'付费·内购':'付费';
+  if(app.pricing==='free' || n) return n?'免费·内购':'免费';
+  return '未知';
+}
+function pricingBadgeHtml(app){
+  const label=pricingLabel(app);
+  const cls=(label.indexOf('付费')>=0 && label.indexOf('内购')>=0)?'mixed':(label.indexOf('付费')>=0?'paid':'free');
+  return '<span class="badge '+cls+'">'+label+'</span>';
+}
+function weekDelta(app,itemKey){
+  const wk=D.series[app.k+'|'+itemKey+'@1w'];
+  if(!wk) return '—';
+  const vals=wk.values;
+  let first=null, last=null;
+  for(let i=0;i<vals.length;i++){
+    if(vals[i]===null||vals[i]===undefined) continue;
+    if(first===null) first=vals[i];
+    last=vals[i];
+  }
+  if(first===null||last===null) return '—';
+  const chg=last-first;
+  if(chg===0) return '持平';
+  return (chg>0?'+':'')+chg.toLocaleString('en-US',{maximumFractionDigits:2});
+}
+
 // ---- 卡片 ----
 function priceSummary(app){
   if(app.status==='unavailable') return '<div class="status-unav">该店无此 App</div>';
   if(app.status==='error') return '<div class="status-err">采集失败'+(app.error?'：'+esc(app.error):'')+'</div>';
-  if(app.status==='no_iap') return '<div class="summary"><span class="cur">免费</span> <span class="muted">· 无内购</span></div>';
-  if(app.pricing==='paid'){
-    const it=app.items[0];
-    if(!it) return '<div class="status-err">无价格数据</div>';
-    return '<div class="summary"><span class="cur">'+esc(it.formatted_price||fmtPrice(it.price,it.currency))+'</span> '+deltaChip(it.delta)+'</div>';
+  const paid=appItem(app);
+  const iaps=iapItems(app);
+  if(app.status==='no_iap' && !paid) return '<div class="summary"><span class="cur">免费</span> <span class="muted">· 无内购</span></div>';
+  let html='<div class="summary">';
+  if(paid){
+    html+='<span class="cur">'+esc(paid.formatted_price||fmtPrice(paid.price,paid.currency))+'</span> '+deltaChip(paid.delta);
   }
-  // free
-  const prices=app.items.map(i=>Number(i.price)).filter(v=>isFinite(v));
-  const min=prices.length?Math.min(...prices):null;
-  const max=prices.length?Math.max(...prices):null;
-  const cur=app.items[0]?curFor(app,app.items[0].item_key):'';
-  const rangeStr=(min!==null&&max!==null)?(min===max?fmtPrice(min,cur):fmtPrice(min,cur)+' ~ '+fmtPrice(max,cur)):'—';
-  const changed=app.items.some(i=>i.delta!==null&&i.delta!==0);
-  return '<div class="summary"><span class="cur">'+app.items.length+'</span> 项内购 · '+rangeStr
-    +(changed?' <span class="delta-dn">有变动</span>':' <span class="delta-flat">无变动</span>')+'</div>';
+  if(iaps.length){
+    const prices=iaps.map(i=>Number(i.price)).filter(v=>isFinite(v));
+    const min=prices.length?Math.min(...prices):null;
+    const max=prices.length?Math.max(...prices):null;
+    const cur=iaps[0]?curFor(app,iaps[0].item_key):(paid?paid.currency:'');
+    const rangeStr=(min!==null&&max!==null)?(min===max?fmtPrice(min,cur):fmtPrice(min,cur)+' ~ '+fmtPrice(max,cur)):'—';
+    const changed=iaps.some(i=>i.delta!==null&&i.delta!==0);
+    html+=(paid?' <span class="muted">·</span> ':'')+'<span class="cur">'+iaps.length+'</span> 项内购 · '+rangeStr
+      +(changed?' <span class="delta-dn">有变动</span>':' <span class="delta-flat">无变动</span>');
+  } else if(paid && app.iap_status==='error'){
+    html+=' <span class="muted">· 内购采集失败</span>';
+  } else if(paid && app.iap_status==='no_iap'){
+    html+=' <span class="muted">· 无内购</span>';
+  }
+  html+='</div>';
+  return html;
 }
 
 const grid=$('grid');
@@ -480,11 +525,10 @@ D.apps.forEach((app)=>{
   card.className='app-card';
   card.dataset.k=app.k;
   const flag=(ccFlag[app.country]||'')+' '+esc(app.ccName)+' ('+app.country.toUpperCase()+')';
-  const pbadge=app.pricing==='paid'?'<span class="badge paid">付费</span>':'<span class="badge free">免费·内购</span>';
   const warn=app.suspect?'<span class="badge warn">待核对</span>':(app.locale_fallback?'<span class="badge warn">非英文</span>':'');
   card.innerHTML='<div class="row1">'+(app.icon?'<img src="'+esc(app.icon)+'" width="44" height="44" alt="" loading="lazy" onerror="this.remove()">':'<div style="width:44px;height:44px"></div>')
     +'<div><div class="aname">'+esc(app.name)+'</div>'
-    +'<div class="ameta">'+pbadge+'<span class="badge flag">'+flag+'</span><span class="badge">'+esc(app.platform||'')+'</span>'+warn+'</div></div></div>'
+    +'<div class="ameta">'+pricingBadgeHtml(app)+'<span class="badge flag">'+flag+'</span><span class="badge">'+esc(app.platform||'')+'</span>'+warn+'</div></div></div>'
     +priceSummary(app);
   grid.appendChild(card);
 });
@@ -493,54 +537,72 @@ D.apps.forEach((app)=>{
 let selApp=null, selItem=null, curRange='1d', chart=null;
 const detailEl=$('detail');
 
+function syncItemUi(){
+  const sel=detailEl.querySelector('#sku');
+  if(sel) sel.value=selItem||'';
+  detailEl.querySelectorAll('table.iap tbody tr').forEach(tr=>{
+    tr.classList.toggle('sel', tr.dataset.item===selItem);
+  });
+}
+
+function selectItem(key){
+  selItem=key;
+  syncItemUi();
+  renderChart();
+}
+
 function openDetail(app){
   selApp=app;
-  selItem=app.pricing==='free'&&app.items.length?app.items[0].item_key:null;
-  if(app.pricing==='paid') selItem='__app__';
+  const paid=appItem(app);
+  const iaps=iapItems(app);
+  // 付费+内购默认选第一条内购（图上同时画下载价）；否则下载价或第一条内购
+  if(paid && iaps.length) selItem=iaps[0].item_key;
+  else if(paid) selItem='__app__';
+  else selItem=iaps.length?iaps[0].item_key:null;
+
   const flag=(ccFlag[app.country]||'')+' '+esc(app.ccName)+' ('+app.country.toUpperCase()+')';
   const warn=app.suspect?'<span class="badge warn">待核对</span>':(app.locale_fallback?'<span class="badge warn">非英文（该店无英文本地化）</span>':'');
   const statusMap={ok:'正常',error:'采集失败',unavailable:'该店无此 App',no_iap:'免费·无内购'};
-  let h='<h2>'+esc(app.name)+' <span class="badge flag">'+flag+'</span>'+(app.pricing==='paid'?'<span class="badge paid">付费</span>':'<span class="badge free">免费·内购</span>')+warn+'</h2>';
-  h+='<div class="dmeta">状态：'+(statusMap[app.status]||app.status)+(app.error?'（'+esc(app.error)+'）':'')+'</div>';
+  let statusText=statusMap[app.status]||app.status;
+  if(app.status==='ok' && app.iap_status==='error') statusText+=' · 内购采集失败';
+  let h='<h2>'+esc(app.name)+' <span class="badge flag">'+flag+'</span>'+pricingBadgeHtml(app)+warn+'</h2>';
+  h+='<div class="dmeta">状态：'+statusText+(app.error?'（'+esc(app.error)+'）':'')+'</div>';
 
-  // 付费：当前价行
-  if(app.pricing==='paid'){
-    const it=app.items[0];
-    if(it){
-      h+='<div class="summary" style="margin-bottom:12px">当前价 <span class="cur">'+esc(it.formatted_price||fmtPrice(it.price,it.currency))+'</span> '+deltaChip(it.delta)+'</div>';
-    }
-  } else {
-    // 免费：内购表
+  const rows=app.items||[];
+  if(rows.length){
     h+='<table class="iap"><thead><tr><th>项目</th><th>当前价</th><th>Δ 上轮</th><th>相对 7 天</th></tr></thead><tbody>';
-    // 7 天前的价格：取 1w 序列第一个有值点
-    for(const it of app.items){
-      const wk=D.series[app.k+'|'+it.item_key+'@1w'];
-      let prev7='—';
-      if(wk){
-        const vals=wk.values;
-        let first=null;
-        for(let i=vals.length-1;i>=0;i--){ if(vals[i]!==null) first=vals[i]; }
-        const firstIdx=vals.findIndex(v=>v!==null);
-        if(firstIdx>=0){ const last=vals[vals.length-1]; if(last!==null&&first!==null){ const chg=last-first; prev7=(chg===0?'持平':(chg>0?'+'+chg.toLocaleString('en-US',{maximumFractionDigits:2}):chg.toLocaleString('en-US',{maximumFractionDigits:2}))); } }
-      }
+    for(const it of rows){
       const delta=it.delta;
+      const kind=isAppPrice(it)?'<span class="kind-tag">APP</span>':'<span class="kind-tag">IAP</span>';
       h+='<tr data-item="'+esc(it.item_key)+'"'+(selItem===it.item_key?' class="sel"':'')+'>'
-        +'<td>'+esc(it.name)+'</td>'
+        +'<td>'+kind+esc(itemLabel(it))+'</td>'
         +'<td class="num">'+esc(it.formatted_price||fmtPrice(it.price,it.currency))+'</td>'
         +'<td>'+(delta===null?'<span class="muted">新</span>':(delta===0?'<span class="muted">—</span>':deltaChip(delta)))+'</td>'
-        +'<td class="muted">'+prev7+'</td></tr>';
+        +'<td class="muted">'+weekDelta(app,it.item_key)+'</td></tr>';
     }
     h+='</tbody></table>';
   }
 
-  h+='<div class="filters"><div class="fgroup"><span class="flabel">时间范围</span><div class="seg" id="ranges"></div></div></div>';
+  h+='<div class="filters">';
+  h+='<div class="fgroup"><span class="flabel">时间范围</span><div class="seg" id="ranges"></div></div>';
+  if(rows.length){
+    h+='<div class="fgroup"><span class="flabel">查看项目</span><select id="sku">';
+    for(const it of rows){
+      const extra=it.formatted_price?(' · '+it.formatted_price):'';
+      h+='<option value="'+esc(it.item_key)+'"'+(selItem===it.item_key?' selected':'')+'>'+esc(itemLabel(it)+extra)+'</option>';
+    }
+    h+='</select></div>';
+  }
+  h+='</div>';
+  if(paid && iaps.length){
+    h+='<div class="dmeta" style="margin-top:-4px">选择内购时，折线同时显示下载价（蓝）与该内购（橙）</div>';
+  }
   h+='<div class="chart-box"><div id="cb" style="width:100%;height:100%"></div><div class="empty" id="empty"></div></div>';
   h+='<div class="leg" id="leg"></div>';
   detailEl.innerHTML=h;
   detailEl.classList.add('open');
   detailEl.scrollIntoView({behavior:'smooth',block:'start'});
 
-  // 范围按钮
   const seg=$('ranges');
   D.ranges.forEach(r=>{
     const b=document.createElement('button');
@@ -549,26 +611,38 @@ function openDetail(app){
     b.addEventListener('click',()=>{curRange=r.key;[...seg.children].forEach(x=>x.setAttribute('aria-pressed',String(x.dataset.k===curRange)));renderChart();});
     seg.appendChild(b);
   });
-  // 免费：表行点击选 item
+  const sku=$('sku');
+  if(sku) sku.addEventListener('change',()=>selectItem(sku.value));
   detailEl.querySelectorAll('table.iap tbody tr').forEach(tr=>{
-    tr.addEventListener('click',()=>{
-      selItem=tr.dataset.item;
-      detailEl.querySelectorAll('table.iap tbody tr').forEach(x=>x.classList.toggle('sel',x===tr));
-      renderChart();
-    });
+    tr.addEventListener('click',()=>selectItem(tr.dataset.item));
   });
 
-  // ECharts 从 CDN 加载；加载失败时给出提示而不是抛错导致后续脚本中断
   if(typeof echarts==='undefined'){
     const cb=$('cb');
     if(cb) cb.innerHTML='<div class="empty on"><div>图表库（ECharts）加载失败——请检查网络后刷新，或确认可访问 cdn.jsdelivr.net。</div></div>';
     return;
   }
-  // 每次 openDetail 都会通过 innerHTML 重建 #cb 容器，旧 chart 实例绑定的 canvas
-  // 已被销毁：必须 dispose 后重新 init，否则 setOption 画在孤儿 DOM 上 → 折线空白。
   if(chart){ try{ chart.dispose(); }catch(e){} chart=null; }
   chart=echarts.init($('cb'),null,{renderer:'canvas'});
   renderChart();
+}
+
+function plotKeys(){
+  if(!selApp) return [];
+  const paid=appItem(selApp);
+  const iapKey=(selItem && selItem!=='__app__')?selItem:null;
+  const out=[];
+  if(paid && iapKey){
+    out.push({key:'__app__', label:'下载价', role:'app'});
+    const it=(selApp.items||[]).find(i=>i.item_key===iapKey);
+    out.push({key:iapKey, label:it?itemLabel(it):iapKey, role:'iap'});
+  } else if(paid){
+    out.push({key:'__app__', label:'下载价', role:'app'});
+  } else if(iapKey){
+    const it=(selApp.items||[]).find(i=>i.item_key===iapKey);
+    out.push({key:iapKey, label:it?itemLabel(it):iapKey, role:'iap'});
+  }
+  return out;
 }
 
 function renderChart(){
@@ -576,32 +650,42 @@ function renderChart(){
   const T=tokens();
   const emptyEl=$('empty');
   if(!emptyEl) return;
-  const itemKey=selApp.pricing==='paid'?'__app__':selItem;
-  const s=D.series[selApp.k+'|'+itemKey+'@'+curRange];
   const range=D.ranges.find(r=>r.key===curRange);
-  if(!s){
-    chart.clear();
+  const keys=plotKeys();
+  const plotted=keys.map(k=>{
+    const s=D.series[selApp.k+'|'+k.key+'@'+curRange];
+    return Object.assign({}, k, {s:s||null, color:k.role==='app'?T.series:T.series2});
+  }).filter(p=>p.s);
+  if(!plotted.length){
+    if(chart) chart.clear();
     emptyEl.classList.add('on');
-    emptyEl.textContent=range.label+' 在此区间没有该'+(selApp.pricing==='paid'?'App':'内购项')+'的采集记录。';
+    emptyEl.textContent=range.label+' 在此区间没有该项目的采集记录。';
     $('leg').innerHTML='';
     return;
   }
+  if(!chart) return;
   emptyEl.classList.remove('on');
-  const labels=s.labels, vals=s.values, gaps=s.gaps;
-  const cur=curFor(selApp,itemKey);
-  const name=(D.itemMeta[selApp.k+'|'+itemKey]||{}).name||itemKey;
-
-  // 折线数据：null 断开
-  const data=vals.map((v,i)=>v===null?null:v);
-  // gap 标记点：未列出 / 采集失败（放在价格数据范围外，避免遮挡曲线）
-  const priceVals=vals.filter(v=>v!==null&&v!==undefined);
-  const minV=priceVals.length?Math.min(...priceVals):0;
-  const maxV=priceVals.length?Math.max(...priceVals):1;
+  const labels=plotted[0].s.labels;
+  const focus=plotted.find(p=>p.key===selItem)||plotted[0];
+  const gaps=focus.s.gaps||[];
+  const allVals=plotted.flatMap(p=>p.s.values.filter(v=>v!==null&&v!==undefined));
+  const minV=allVals.length?Math.min(...allVals):0;
+  const maxV=allVals.length?Math.max(...allVals):1;
   const span=(maxV-minV)||1;
   const yLo=minV-span*0.35;
   const yHi=maxV+span*0.15;
   const gapPts={2:[],3:[]};
   for(let i=0;i<gaps.length;i++){ if(gaps[i]===2) gapPts[2].push([i,yLo]); else if(gaps[i]===3) gapPts[3].push([i,yLo]); }
+
+  const lineSeries=plotted.map((p,idx)=>({
+    name:p.label, type:'line', z:3+idx,
+    data:p.s.values.map(v=>v===null?null:v),
+    connectNulls:false, showSymbol:p.s.values.length<=90,
+    symbol:'circle', symbolSize:5,
+    lineStyle:{width:2, color:p.color},
+    itemStyle:{color:p.color, borderWidth:2, borderColor:T.surface},
+    emphasis:{scale:1.3}
+  }));
 
   const opt={
     animationDuration:260,
@@ -610,14 +694,27 @@ function renderChart(){
       backgroundColor:T.surface,borderColor:T.grid,borderWidth:1,padding:[8,10],
       textStyle:{color:T.ink,fontSize:12},extraCssText:'border-radius:8px;box-shadow:0 4px 16px rgba(0,0,0,.13)',
       formatter:(ps)=>{
+        if(!ps||!ps.length) return '';
         const i=ps[0].dataIndex;
-        const v=vals[i];
         const label=range.source==='daily'?fmtDay(labels[i]):fmtFull(labels[i]);
         let h='<div style="font-weight:600;margin-bottom:4px">'+label+' 北京时间</div>';
-        if(v!==null&&v!==undefined) h+='<div style="font-size:15px;font-weight:700">'+fmtPrice(v,cur)+'</div>';
-        else if(gaps[i]===2) h+='<div style="font-size:13px;color:'+T.muted+'">未列出</div>';
-        else if(gaps[i]===3) h+='<div style="font-size:13px;color:'+T.critical+'">采集失败</div>';
-        else h+='<div style="color:'+T.muted+'">无采集记录</div>';
+        let any=false;
+        for(const p of ps){
+          if(p.seriesType!=='line') continue;
+          const src=plotted.find(x=>x.label===p.seriesName);
+          const v=src?src.s.values[i]:null;
+          const cur=src?curFor(selApp,src.key):'';
+          if(v!==null&&v!==undefined){
+            any=true;
+            h+='<div style="margin-top:2px"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:'+(src?src.color:T.series)+';margin-right:6px"></span>'
+              +esc(p.seriesName)+' <b>'+fmtPrice(v,cur)+'</b></div>';
+          }
+        }
+        if(!any){
+          if(gaps[i]===2) h+='<div style="font-size:13px;color:'+T.muted+'">未列出</div>';
+          else if(gaps[i]===3) h+='<div style="font-size:13px;color:'+T.critical+'">采集失败</div>';
+          else h+='<div style="color:'+T.muted+'">无采集记录</div>';
+        }
         return h;
       }},
     xAxis:{type:'category',data:labels,boundaryGap:false,
@@ -627,26 +724,22 @@ function renderChart(){
     yAxis:{type:'value',scale:true,min:yLo,max:yHi,
       axisLine:{show:false},axisTick:{show:false},axisLabel:{color:T.muted,fontSize:11},
       splitLine:{lineStyle:{color:T.grid,width:1,type:'solid'}}},
-    series:[
-      {name:name,type:'line',z:3,data:data,connectNulls:false,showSymbol:vals.length<=90,
-        symbol:'circle',symbolSize:5,lineStyle:{width:2,color:T.series},
-        itemStyle:{color:T.series,borderWidth:2,borderColor:T.surface},emphasis:{scale:1.3}},
+    series: lineSeries.concat([
       {name:'未列出',type:'scatter',z:5,symbol:'diamond',symbolSize:10,
         itemStyle:{color:T.serious,borderWidth:1.5,borderColor:T.surface},
-        data:gapPts[2],
-        tooltip:{formatter:(p)=>{const i=p.dataIndex;return fmtFull(labels[i])+' 北京时间<br/><b>未列出</b>';}}},
+        data:gapPts[2]},
       {name:'采集失败',type:'scatter',z:5,symbol:'cross',symbolSize:11,
         itemStyle:{color:T.critical,borderWidth:1.5,borderColor:T.surface},
-        data:gapPts[3],
-        tooltip:{formatter:(p)=>{const i=p.dataIndex;return fmtFull(labels[i])+' 北京时间<br/><b>采集失败</b>';}}},
-    ],
+        data:gapPts[3]},
+    ]),
   };
   chart.setOption(opt,true);
-  renderLeg(T,gapPts,range);
+  renderLeg(T,gapPts,plotted);
 }
 
-function renderLeg(T,gapPts,range){
-  const items=['<div class="leg-item"><span class="leg-line" style="background:'+T.series+'"></span>价格走势</div>'];
+function renderLeg(T,gapPts,plotted){
+  const items=(plotted||[]).map(p=>'<div class="leg-item"><span class="leg-line" style="background:'+p.color+'"></span>'+esc(p.label)+'</div>');
+  if(!items.length) items.push('<div class="leg-item"><span class="leg-line" style="background:'+T.series+'"></span>价格走势</div>');
   if(gapPts[2].length) items.push('<div class="leg-item" style="color:var(--muted)"><span class="leg-mark" style="background:'+T.serious+';transform:rotate(45deg)"></span>未列出</div>');
   if(gapPts[3].length) items.push('<div class="leg-item" style="color:var(--muted)"><span class="leg-mark" style="background:'+T.critical+';border-radius:50%"></span>采集失败</div>');
   const leg=$('leg'); if(leg) leg.innerHTML=items.join('');

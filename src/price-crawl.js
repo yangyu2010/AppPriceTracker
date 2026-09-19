@@ -2,6 +2,7 @@
  * 定价采集（方案第 4 / 6 节）。
  *
  * 全程串行，每两次请求之间至少间隔 REQUEST_INTERVAL_MS（方案 4.2）。
+ * 每轮：lookup 判定付费/免费 → 再拉产品页解析内购（付费 App 同时记下载价 + 内购）。
  * 实测：密集并发（3~5 并发、无间隔）会触发 Apple HTTP 429；30s 间隔零 429。
  *
  * 用法：
@@ -116,9 +117,10 @@ function validateConfig(config) {
       errors.push(`(id=${app.id}, country=${country}): platforms 必须非空且只允许 ${PLATFORMS.join("/")}`);
       continue;
     }
-    if (app.pricing !== undefined && !["paid", "free"].includes(app.pricing)) {
-      errors.push(`(id=${app.id}, country=${country}): pricing 只允许 paid/free/省略，实际 "${app.pricing}"`);
-      continue;
+    if (app.pricing !== undefined) {
+      console.warn(
+        `[config] (id=${app.id}, country=${country}): pricing 已废弃，忽略 "${app.pricing}"，由 lookup 判定付费/免费`
+      );
     }
     app._platforms = platforms;
   }
@@ -332,8 +334,8 @@ function buildItemKeys(items) {
 }
 
 /**
- * 拉取并解析一个免费 App 的产品页。
- * 返回 { status, crawlExtra, localeFallback, iapCount, items: [{item_key,name,price,currency,formatted_price}] }
+ * 拉取并解析产品页内购列表（付费 / 免费都走这一步）。
+ * 返回 { status, localeFallback, iapCount, items: [{item_key,name,price,currency,formatted_price}] }
  */
 async function fetchStorePage(app, lookupInfo, ts) {
   const { id, country } = app;
@@ -456,140 +458,131 @@ async function runOnce({ alignOverride } = {}) {
   }
   await savePricingMeta(metaMap, new Date().toISOString());
 
-  // 5. 逐 App 形态判定 + 采集
+  // 5. 逐 App：lookup 判定付费/免费，再一律尝试解析内购
   for (const app of validApps) {
     const id = String(app.id);
     const key = metaKey(id, app.country);
     const lookupInfo = lookupInfoByKey.get(key);
 
     if (!lookupInfo) {
-      // lookup 失败或该店无此 App
+      // lookup 失败或该店无此 App：不拉产品页
       const crawls = allCrawls.filter((c) => c.app_id === id && c.country === app.country);
       const crawl = crawls[crawls.length - 1];
       const status = crawl?.status || "error";
-      appResults.set(key, { status, pricing: app.pricing, name: metaMap.get(key)?.name || id, items: [] });
+      appResults.set(key, {
+        status,
+        pricing: null,
+        name: metaMap.get(key)?.name || id,
+        items: [],
+        has_iap: false,
+      });
       continue;
     }
 
     const cls = classifyPricing(lookupInfo.price, lookupInfo.formatted_price);
-    const configured = app.pricing;
-
-    // suspect：不改判形态，按配置原形态走，打 warn，看板标"待核对"
+    // suspect：formattedPrice 含货币 → 按付费记下载价，并继续解析内购
     let effective = cls.verdict;
+    let appPrice = lookupInfo.price;
     if (cls.verdict === "suspect") {
-      console.warn(`  [suspect] (${app.country}/${id}) price=0 但 formattedPrice="${lookupInfo.formatted_price}"，按配置形态 "${configured || "free"}" 继续`);
-      effective = configured || "free";
-    } else if (configured === "paid" && cls.verdict === "free") {
-      console.warn(`  [conflict] (${app.country}/${id}) 配置 paid 但实际免费 → 当 free 解析产品页`);
-      effective = "free";
-    } else if (configured === "free" && cls.verdict === "paid") {
-      console.warn(`  [conflict] (${app.country}/${id}) 配置 free 但实际付费 ¥${lookupInfo.price} → 当 paid 只记下载价`);
+      const parsed = parsePriceFromFormatted(lookupInfo.formatted_price);
+      if (parsed != null) appPrice = parsed;
+      console.warn(
+        `  [suspect] (${app.country}/${id}) price=${lookupInfo.price} 但 formattedPrice="${lookupInfo.formatted_price}"，按付费记下载价并解析内购`
+      );
       effective = "paid";
     }
 
     const name = lookupInfo.name || metaMap.get(key)?.name || id;
     const platform = app._platforms[0];
+    const items = [];
 
     if (effective === "paid") {
-      // 只记下载价（方案 2.1：付费 App 即使有内购也不解析）
-      const rule = cls.rule || "lookup price>0";
+      const appItem = {
+        item_key: "__app__",
+        item_kind: "app_price",
+        name,
+        price: appPrice,
+        currency: lookupInfo.currency,
+        formatted_price: lookupInfo.formatted_price,
+      };
       allPoints.push({
         ts,
         country: app.country,
         app_id: id,
         platform,
-        item_kind: "app_price",
-        item_key: "__app__",
-        name,
-        price: lookupInfo.price,
-        currency: lookupInfo.currency,
-        formatted_price: lookupInfo.formatted_price,
-        _rule: rule,
+        ...appItem,
+        _rule: cls.rule || "lookup price>0",
       });
-      appResults.set(key, {
-        status: "ok",
-        pricing: "paid",
-        name,
-        platform,
-        suspect: cls.verdict === "suspect",
-        lookupRule: cls.rule,
-        items: [
-          {
-            item_key: "__app__",
-            item_kind: "app_price",
-            name,
-            price: lookupInfo.price,
-            currency: lookupInfo.currency,
-            formatted_price: lookupInfo.formatted_price,
-          },
-        ],
-      });
-    } else {
-      // free → 产品页解析内购
-      const page = await fetchStorePage(app, lookupInfo, ts);
-      allCrawls.push({
-        ts,
-        country: app.country,
-        app_id: id,
-        source: "store_page",
-        lang_requested: "en_us",
-        locale_fallback: page.localeFallback || false,
-        status: page.status,
-        http_status: page.http_status,
-        iap_count: page.iapCount ?? 0,
-        ...(page.status === "error" ? { error: page.error } : {}),
-      });
+      items.push(appItem);
+    }
 
-      if (page.status === "error") {
-        appResults.set(key, {
-          status: "error",
-          pricing: app.pricing,
-          name,
+    const page = await fetchStorePage(app, lookupInfo, ts);
+    allCrawls.push({
+      ts,
+      country: app.country,
+      app_id: id,
+      source: "store_page",
+      lang_requested: "en_us",
+      locale_fallback: page.localeFallback || false,
+      status: page.status,
+      http_status: page.http_status,
+      iap_count: page.iapCount ?? 0,
+      ...(page.status === "error" ? { error: page.error } : {}),
+    });
+
+    let iapStatus = "ok";
+    if (page.status === "error") {
+      iapStatus = "error";
+      if (effective === "paid") {
+        console.warn(`  [iap] (${app.country}/${id}) 产品页失败，仍保留下载价: ${page.error}`);
+      }
+    } else if (!page.items || page.items.length === 0) {
+      iapStatus = "no_iap";
+    } else {
+      for (const it of page.items) {
+        const iapItem = {
+          item_key: it.item_key,
+          item_kind: "iap",
+          name: it.name,
+          price: it.price,
+          currency: it.currency,
+          formatted_price: it.formatted_price,
+        };
+        allPoints.push({
+          ts,
+          country: app.country,
+          app_id: id,
           platform,
-          error: page.error,
-          items: [],
+          ...iapItem,
         });
-      } else if (page.items.length === 0) {
-        appResults.set(key, {
-          status: "no_iap",
-          pricing: "free",
-          name,
-          platform,
-          localeFallback: !!page.localeFallback,
-          items: [],
-        });
-      } else {
-        for (const it of page.items) {
-          allPoints.push({
-            ts,
-            country: app.country,
-            app_id: id,
-            platform,
-            item_kind: "iap",
-            item_key: it.item_key,
-            name: it.name,
-            price: it.price,
-            currency: it.currency,
-            formatted_price: it.formatted_price,
-          });
-        }
-        appResults.set(key, {
-          status: "ok",
-          pricing: "free",
-          name,
-          platform,
-          localeFallback: !!page.localeFallback,
-          items: page.items.map((it) => ({
-            item_key: it.item_key,
-            item_kind: "iap",
-            name: it.name,
-            price: it.price,
-            currency: it.currency,
-            formatted_price: it.formatted_price,
-          })),
-        });
+        items.push(iapItem);
       }
     }
+
+    const hasIap = iapStatus === "ok" && (page.items?.length || 0) > 0;
+    let status = "ok";
+    if (effective === "free" && iapStatus === "error") status = "error";
+    else if (effective === "free" && iapStatus === "no_iap") status = "no_iap";
+
+    console.log(
+      `  [${effective}] (${app.country}/${id}) ${
+        effective === "paid" ? lookupInfo.formatted_price : "free"
+      } iap=${hasIap ? page.iapCount : iapStatus}`
+    );
+
+    appResults.set(key, {
+      status,
+      pricing: effective,
+      name,
+      platform,
+      suspect: cls.verdict === "suspect",
+      lookupRule: cls.rule,
+      localeFallback: !!page.localeFallback,
+      has_iap: hasIap,
+      iap_status: iapStatus,
+      items,
+      ...(status === "error" ? { error: page.error } : {}),
+    });
   }
 
   // 6. 写入 crawls + points（unavailable / error 不写点）
@@ -664,8 +657,10 @@ async function buildCurrent(ts, config, appResults, metaMap) {
       platform: res.platform,
       country: app.country,
       status: res.status,
+      has_iap: !!res.has_iap,
       items,
     };
+    if (res.iap_status) entry.iap_status = res.iap_status;
     if (res.localeFallback !== undefined) entry.locale_fallback = res.localeFallback;
     if (res.suspect) entry.suspect = true;
     if (res.error) entry.error = res.error;

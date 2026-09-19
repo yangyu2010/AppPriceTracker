@@ -3,19 +3,19 @@
   "display_timezone": "Asia/Shanghai",
   "lang": "en_us",
   "apps": [
-    { "id": "932747118",  "platforms": ["macos"], "pricing": "paid", "country": "us" },
-    { "id": "1438243180", "platforms": ["macos"], "pricing": "paid", "country": "us" },
-    { "id": "1443988620", "platforms": ["macos"], "pricing": "paid", "country": "us" },
-    { "id": "545519333",  "platforms": ["macos"], "pricing": "free", "country": "us" },
-    { "id": "1438243180", "platforms": ["macos"], "pricing": "paid", "country": "cn" },
-    { "id": "1091189122", "platforms": ["macos"], "pricing": "free", "country": "cn" },
-    { "id": "6473753684", "platforms": ["ios"],   "pricing": "free", "country": "us" },
-    { "id": "6448311069", "platforms": ["ios"],   "pricing": "free", "country": "us" },
-    { "id": "1017492454", "platforms": ["ios"],   "pricing": "free", "country": "us" },
-    { "id": "388624839",  "platforms": ["ios"],   "pricing": "free", "country": "cn" },
-    { "id": "590338362",  "platforms": ["ios"],   "pricing": "free", "country": "cn" },
-    { "id": "1605585211", "platforms": ["ios"],   "pricing": "free", "country": "cn" },
-    { "id": "414603431",  "platforms": ["ios"],   "pricing": "free", "country": "cn" },
-    { "id": "1544884479", "platforms": ["ios"],   "pricing": "free", "country": "cn" }
+    { "id": "932747118",  "platforms": ["macos"], "country": "us" },
+    { "id": "1438243180", "platforms": ["macos"], "country": "us" },
+    { "id": "1443988620", "platforms": ["macos"], "country": "us" },
+    { "id": "545519333",  "platforms": ["macos"], "country": "us" },
+    { "id": "1438243180", "platforms": ["macos"], "country": "cn" },
+    { "id": "1091189122", "platforms": ["macos"], "country": "cn" },
+    { "id": "6473753684", "platforms": ["ios"],   "country": "us" },
+    { "id": "6448311069", "platforms": ["ios"],   "country": "us" },
+    { "id": "1017492454", "platforms": ["ios"],   "country": "us" },
+    { "id": "388624839",  "platforms": ["ios"],   "country": "cn" },
+    { "id": "590338362",  "platforms": ["ios"],   "country": "cn" },
+    { "id": "1605585211", "platforms": ["ios"],   "country": "cn" },
+    { "id": "414603431",  "platforms": ["ios"],   "country": "cn" },
+    { "id": "1544884479", "platforms": ["ios"],   "country": "cn" }
   ]
 }
