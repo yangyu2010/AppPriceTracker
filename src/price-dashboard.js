@@ -564,8 +564,10 @@ function openDetail(app){
     if(cb) cb.innerHTML='<div class="empty on"><div>图表库（ECharts）加载失败——请检查网络后刷新，或确认可访问 cdn.jsdelivr.net。</div></div>';
     return;
   }
-  if(!chart) chart=echarts.init($('cb'),null,{renderer:'canvas'});
-  window.addEventListener('resize',()=>chart.resize());
+  // 每次 openDetail 都会通过 innerHTML 重建 #cb 容器，旧 chart 实例绑定的 canvas
+  // 已被销毁：必须 dispose 后重新 init，否则 setOption 画在孤儿 DOM 上 → 折线空白。
+  if(chart){ try{ chart.dispose(); }catch(e){} chart=null; }
+  chart=echarts.init($('cb'),null,{renderer:'canvas'});
   renderChart();
 }
 
