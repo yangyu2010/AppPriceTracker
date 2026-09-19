@@ -1,4 +1,22 @@
-# App Store 定价与内购监控方案
+# AppPriceTracker
+
+监控 App Store **公开的**下载价和内购展示价。按 `config/pricing.json` 定期 lookup、解析产品页，生成静态看板 `public/pricing.html`。
+
+**许可证：[MIT](LICENSE)**
+
+## 快速开始
+
+需要 [Node.js](https://nodejs.org/) 20 或 22。
+
+```bash
+# 编辑 config/pricing.json（每个 App 填写 id / platforms / country）
+node src/price-crawl.js --once
+node src/price-dashboard.js    # 生成 public/pricing.html
+```
+
+本地循环：`node src/price-crawl.js --loop --interval 14400`（每 4 小时）。GitHub Actions 用 `pricing.yml`，不要 `--loop`。
+
+---
 
 本仓库按 `config/pricing.json` 盯一批 App：
 
@@ -10,8 +28,6 @@
 - **看板可切换内购 SKU**：一个 App 有多条内购时，下拉选择要看的那条；付费+内购时折线同时画下载价 + 当前选中的内购。
 
 采集周期 **每 4 小时一次**。先本地跑通，再走 GitHub Actions + cron-job.org。
-
-本文是实现说明书。
 
 ---
 
@@ -753,3 +769,9 @@ us 区免费 App（Amazon Prime Video / Claude / ChatGPT / YouTube Music）的�
 - **付费 App 一定成功**：`itunes.apple.com/lookup?country=us` 的价格由请求参数决定，与本机/CI 出口 IP 无关，本机已验证 us 付费价、货币、英文名全部正确 → CI 上无差别。
 - **us 产品页预期成功、需实测确认**：本机兜底仅因出口 IP 位于中国；GitHub Actions 的 ubuntu runner 出口在北美，预期 `apps.apple.com/us/app/…` 正常返回产品页。落地验证方式：`pricing.yml` 首个 run 用 `workflow_dispatch` 手动触发，检查 Job Summary 中每个免费 App 的 `is_product_page` / `locale_fallback` / 内购条数（脚本已带 canonical 判定），`is_product_page=false` 即按 error 报出。
 - **残留风险与兜底**：数据中心 IP 仍可能触发 Apple 频控或验证页；已有串行 30s 间隔 + 429/5xx 重试 1 次兜底。若 CI 上 us 页仍被拦，备选方案是降低频率（如轮内间隔调到 60s）或对 us 目标改用 `itunes.apple.com` 侧可用信息。
+
+---
+
+## License
+
+[MIT](LICENSE)

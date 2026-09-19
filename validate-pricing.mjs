@@ -1,4 +1,4 @@
-// 临时验证脚本：按 App-Store-定价与内购监控方案 第 4 节流程
+// 临时验证脚本：按 README 第 4 节流程
 // 1) lookup(country + lang=en_us) 判定 paid/free，取英文名/价格/货币
 // 2) 免费 App 抓产品页 ?l=en + Accept-Language，解析 In-App Purchases
 // 3) 检测 locale_fallback（html lang / 栏目标题语言）
