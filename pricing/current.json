@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-20T00:30:46.805Z",
-  "data_ts": "2026-09-20T00:00:00Z",
+  "generated_at": "2026-09-20T02:30:45.772Z",
+  "data_ts": "2026-09-20T02:00:00Z",
   "display_timezone": "Asia/Shanghai",
   "apps": [
     {
@@ -360,21 +360,21 @@
           "delta": 0
         },
         {
-          "item_key": "YouTube Premium#3",
-          "item_kind": "iap",
-          "name": "YouTube Premium",
-          "price": 20.99,
-          "currency": "USD",
-          "formatted_price": "$20.99",
-          "delta": 0
-        },
-        {
           "item_key": "YouTube Music Family",
           "item_kind": "iap",
           "name": "YouTube Music Family",
           "price": 24.99,
           "currency": "USD",
           "formatted_price": "$24.99",
+          "delta": 0
+        },
+        {
+          "item_key": "YouTube Premium#3",
+          "item_kind": "iap",
+          "name": "YouTube Premium",
+          "price": 20.99,
+          "currency": "USD",
+          "formatted_price": "$20.99",
           "delta": 0
         },
         {
@@ -530,76 +530,22 @@
       "has_iap": true,
       "items": [
         {
-          "item_key": "黑胶SVIP连续包年",
+          "item_key": "连续包月黑胶VIP",
           "item_kind": "iap",
-          "name": "黑胶SVIP连续包年",
-          "price": 248,
+          "name": "连续包月黑胶VIP",
+          "price": 15,
           "currency": "CNY",
-          "formatted_price": "¥248.00",
-          "delta": null
+          "formatted_price": "¥15.00",
+          "delta": 0
         },
         {
-          "item_key": "黑胶SVIP连续包年#2",
+          "item_key": "连续包月黑胶VIP#2",
           "item_kind": "iap",
-          "name": "黑胶SVIP连续包年",
-          "price": 248,
+          "name": "连续包月黑胶VIP",
+          "price": 15,
           "currency": "CNY",
-          "formatted_price": "¥248.00",
-          "delta": null
-        },
-        {
-          "item_key": "黑胶SVIP连续包年#3",
-          "item_kind": "iap",
-          "name": "黑胶SVIP连续包年",
-          "price": 248,
-          "currency": "CNY",
-          "formatted_price": "¥248.00",
-          "delta": null
-        },
-        {
-          "item_key": "黑胶SVIP连续包年#4",
-          "item_kind": "iap",
-          "name": "黑胶SVIP连续包年",
-          "price": 248,
-          "currency": "CNY",
-          "formatted_price": "¥248.00",
-          "delta": null
-        },
-        {
-          "item_key": "黑胶SVIP年卡",
-          "item_kind": "iap",
-          "name": "黑胶SVIP年卡",
-          "price": 88,
-          "currency": "CNY",
-          "formatted_price": "¥88.00",
-          "delta": null
-        },
-        {
-          "item_key": "黑胶SVIP年卡#2",
-          "item_kind": "iap",
-          "name": "黑胶SVIP年卡",
-          "price": 80,
-          "currency": "CNY",
-          "formatted_price": "¥80.00",
-          "delta": null
-        },
-        {
-          "item_key": "1年黑胶SVIP",
-          "item_kind": "iap",
-          "name": "1年黑胶SVIP",
-          "price": 368,
-          "currency": "CNY",
-          "formatted_price": "¥368.00",
-          "delta": null
-        },
-        {
-          "item_key": "7天黑胶SVIP",
-          "item_kind": "iap",
-          "name": "7天黑胶SVIP",
-          "price": 8,
-          "currency": "CNY",
-          "formatted_price": "¥8.00",
-          "delta": null
+          "formatted_price": "¥15.00",
+          "delta": 0
         },
         {
           "item_key": "黑胶VIP连续包月",
@@ -611,7 +557,61 @@
           "delta": 0
         },
         {
+          "item_key": "黑胶VIP连续包月(新客专享)",
+          "item_kind": "iap",
+          "name": "黑胶VIP连续包月(新客专享)",
+          "price": 15,
+          "currency": "CNY",
+          "formatted_price": "¥15.00",
+          "delta": 0
+        },
+        {
+          "item_key": "连续包月音乐包",
+          "item_kind": "iap",
+          "name": "连续包月音乐包",
+          "price": 8,
+          "currency": "CNY",
+          "formatted_price": "¥8.00",
+          "delta": 0
+        },
+        {
+          "item_key": "连续包月黑胶VIP促销",
+          "item_kind": "iap",
+          "name": "连续包月黑胶VIP促销",
+          "price": 15,
+          "currency": "CNY",
+          "formatted_price": "¥15.00",
+          "delta": 0
+        },
+        {
           "item_key": "黑胶VIP连续包月#2",
+          "item_kind": "iap",
+          "name": "黑胶VIP连续包月",
+          "price": 15,
+          "currency": "CNY",
+          "formatted_price": "¥15.00",
+          "delta": 0
+        },
+        {
+          "item_key": "黑胶VIP首月5元",
+          "item_kind": "iap",
+          "name": "黑胶VIP首月5元",
+          "price": 12,
+          "currency": "CNY",
+          "formatted_price": "¥12.00",
+          "delta": 0
+        },
+        {
+          "item_key": "黑胶VIP连续包月#3",
+          "item_kind": "iap",
+          "name": "黑胶VIP连续包月",
+          "price": 15,
+          "currency": "CNY",
+          "formatted_price": "¥15.00",
+          "delta": 0
+        },
+        {
+          "item_key": "黑胶VIP连续包月#4",
           "item_kind": "iap",
           "name": "黑胶VIP连续包月",
           "price": 15,
