@@ -30,3 +30,6 @@
 {"event":"disappeared","ts":"2026-09-20T02:00:00Z","country":"cn","app_id":"590338362","item_key":"黑胶SVIP年卡#2","kind":"iap","old_price":80,"new_price":null}
 {"event":"disappeared","ts":"2026-09-20T02:00:00Z","country":"cn","app_id":"590338362","item_key":"1年黑胶SVIP","kind":"iap","old_price":368,"new_price":null}
 {"event":"disappeared","ts":"2026-09-20T02:00:00Z","country":"cn","app_id":"590338362","item_key":"7天黑胶SVIP","kind":"iap","old_price":8,"new_price":null}
+{"event":"price_change","ts":"2026-09-21T20:00:00Z","country":"us","app_id":"6473753684","item_key":"Usage Credits (20)","kind":"iap","old_price":28,"new_price":20}
+{"event":"price_change","ts":"2026-09-21T20:00:00Z","country":"us","app_id":"6473753684","item_key":"Usage Credits (250)","kind":"iap","old_price":279,"new_price":200}
+{"event":"price_change","ts":"2026-09-21T20:00:00Z","country":"us","app_id":"6473753684","item_key":"Usage Credits (50)","kind":"iap","old_price":63,"new_price":45}
