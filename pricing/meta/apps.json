@@ -26,7 +26,7 @@
     },
     "1091189122|cn": {
       "name": "Bear: Markdown Notes",
-      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/97/f1/7c/97f17c52-ee2a-c6cb-6f7d-1d51a86bda58/AppIcon-26-0-0-85-220-0-0-6-0-2x-0-0-0.png/512x512bb.png",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/07/92/7e/07927e31-74f2-ae28-a621-104d378503cb/AppIcon-26-0-0-85-220-0-0-6-0-2x-0-0-0.png/512x512bb.png",
       "currency": "CNY",
       "kind": "mac-software"
     },
@@ -74,7 +74,7 @@
     },
     "1017492454|us": {
       "name": "YouTube Music",
-      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5b/70/d8/5b70d81c-f623-dc78-67b2-13463c291396/logo_youtube_music_2024_q4_color-0-0-1x_U007emarketing-0-0-0-7-0-0-0-85-220.png/512x512bb.jpg",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/89/0c/f2/890cf296-4e48-13b5-697c-c82489505841/logo_youtube_music_2024_q4_color-0-0-1x_U007emarketing-0-0-0-7-0-0-0-85-220.png/512x512bb.jpg",
       "currency": "USD",
       "kind": "software"
     },
@@ -85,5 +85,5 @@
       "kind": "software"
     }
   },
-  "fetched_at": "2026-09-22T12:23:43.356Z"
+  "fetched_at": "2026-09-22T14:23:46.796Z"
 }
