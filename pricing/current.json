@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-21T22:30:44.829Z",
-  "data_ts": "2026-09-21T22:00:00Z",
+  "generated_at": "2026-09-22T00:30:46.594Z",
+  "data_ts": "2026-09-22T00:00:00Z",
   "display_timezone": "Asia/Shanghai",
   "apps": [
     {
@@ -633,94 +633,94 @@
       "has_iap": true,
       "items": [
         {
-          "item_key": "汽水会员连续包月",
+          "item_key": "汽水音乐1999充值卡",
           "item_kind": "iap",
-          "name": "汽水会员连续包月",
-          "price": 8,
+          "name": "汽水音乐1999充值卡",
+          "price": 1999,
           "currency": "CNY",
-          "formatted_price": "¥8.00",
-          "delta": 0
+          "formatted_price": "¥1,999.00",
+          "delta": null
         },
         {
-          "item_key": "汽水VIP-连续包月优惠",
+          "item_key": "汽水音乐3048充值卡",
           "item_kind": "iap",
-          "name": "汽水VIP-连续包月优惠",
-          "price": 8,
+          "name": "汽水音乐3048充值卡",
+          "price": 3048,
           "currency": "CNY",
-          "formatted_price": "¥8.00",
-          "delta": 0
+          "formatted_price": "¥3,048.00",
+          "delta": null
         },
         {
-          "item_key": "汽水SVIP连续包月",
+          "item_key": "汽水音乐2548充值卡",
           "item_kind": "iap",
-          "name": "汽水SVIP连续包月",
-          "price": 15,
+          "name": "汽水音乐2548充值卡",
+          "price": 2548,
           "currency": "CNY",
-          "formatted_price": "¥15.00",
-          "delta": 0
+          "formatted_price": "¥2,548.00",
+          "delta": null
         },
         {
-          "item_key": "汽水VIP连续包月",
+          "item_key": "汽水音乐4088充值卡",
           "item_kind": "iap",
-          "name": "汽水VIP连续包月",
-          "price": 8,
+          "name": "汽水音乐4088充值卡",
+          "price": 4088,
           "currency": "CNY",
-          "formatted_price": "¥8.00",
-          "delta": 0
+          "formatted_price": "¥4,088.00",
+          "delta": null
         },
         {
-          "item_key": "汽水VIP-连续包月试用",
+          "item_key": "汽水音乐3448充值卡",
           "item_kind": "iap",
-          "name": "汽水VIP-连续包月试用",
-          "price": 8,
+          "name": "汽水音乐3448充值卡",
+          "price": 3448,
           "currency": "CNY",
-          "formatted_price": "¥8.00",
-          "delta": 0
+          "formatted_price": "¥3,448.00",
+          "delta": null
         },
         {
-          "item_key": "汽水SVIP连续包月#2",
+          "item_key": "汽水音乐1448充值卡",
           "item_kind": "iap",
-          "name": "汽水SVIP连续包月",
-          "price": 15,
+          "name": "汽水音乐1448充值卡",
+          "price": 1448,
           "currency": "CNY",
-          "formatted_price": "¥15.00",
-          "delta": 0
+          "formatted_price": "¥1,448.00",
+          "delta": null
         },
         {
-          "item_key": "汽水VIP-连续包月优惠#2",
+          "item_key": "汽水音乐758充值卡",
           "item_kind": "iap",
-          "name": "汽水VIP-连续包月优惠",
-          "price": 8,
+          "name": "汽水音乐758充值卡",
+          "price": 758,
           "currency": "CNY",
-          "formatted_price": "¥8.00",
-          "delta": 0
+          "formatted_price": "¥758.00",
+          "delta": null
         },
         {
-          "item_key": "汽水SVIP连续包月#3",
+          "item_key": "汽水音乐908充值卡",
           "item_kind": "iap",
-          "name": "汽水SVIP连续包月",
-          "price": 15,
+          "name": "汽水音乐908充值卡",
+          "price": 908,
           "currency": "CNY",
-          "formatted_price": "¥15.00",
-          "delta": 0
+          "formatted_price": "¥908.00",
+          "delta": null
         },
         {
-          "item_key": "汽水SVIP连续包月#4",
+          "item_key": "汽水音乐1000充值卡",
           "item_kind": "iap",
-          "name": "汽水SVIP连续包月",
-          "price": 15,
+          "name": "汽水音乐1000充值卡",
+          "price": 1000,
           "currency": "CNY",
-          "formatted_price": "¥15.00",
-          "delta": 0
+          "formatted_price": "¥1,000.00",
+          "delta": null
         },
         {
-          "item_key": "汽水VIP-连续包月优惠#3",
+          "item_key": "汽水音乐708充值卡",
           "item_kind": "iap",
-          "name": "汽水VIP-连续包月优惠",
-          "price": 8,
+          "name": "汽水音乐708充值卡",
+          "price": 708,
           "currency": "CNY",
-          "formatted_price": "¥8.00",
-          "delta": 0
+          "formatted_price": "¥708.00",
+          "delta": null
         }
       ],
       "iap_status": "ok",

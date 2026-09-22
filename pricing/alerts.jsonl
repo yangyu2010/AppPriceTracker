@@ -33,3 +33,23 @@
 {"event":"price_change","ts":"2026-09-21T20:00:00Z","country":"us","app_id":"6473753684","item_key":"Usage Credits (20)","kind":"iap","old_price":28,"new_price":20}
 {"event":"price_change","ts":"2026-09-21T20:00:00Z","country":"us","app_id":"6473753684","item_key":"Usage Credits (250)","kind":"iap","old_price":279,"new_price":200}
 {"event":"price_change","ts":"2026-09-21T20:00:00Z","country":"us","app_id":"6473753684","item_key":"Usage Credits (50)","kind":"iap","old_price":63,"new_price":45}
+{"event":"appeared","ts":"2026-09-22T00:00:00Z","country":"cn","app_id":"1605585211","item_key":"汽水音乐1999充值卡","kind":"iap","old_price":null,"new_price":1999}
+{"event":"appeared","ts":"2026-09-22T00:00:00Z","country":"cn","app_id":"1605585211","item_key":"汽水音乐3048充值卡","kind":"iap","old_price":null,"new_price":3048}
+{"event":"appeared","ts":"2026-09-22T00:00:00Z","country":"cn","app_id":"1605585211","item_key":"汽水音乐2548充值卡","kind":"iap","old_price":null,"new_price":2548}
+{"event":"appeared","ts":"2026-09-22T00:00:00Z","country":"cn","app_id":"1605585211","item_key":"汽水音乐4088充值卡","kind":"iap","old_price":null,"new_price":4088}
+{"event":"appeared","ts":"2026-09-22T00:00:00Z","country":"cn","app_id":"1605585211","item_key":"汽水音乐3448充值卡","kind":"iap","old_price":null,"new_price":3448}
+{"event":"appeared","ts":"2026-09-22T00:00:00Z","country":"cn","app_id":"1605585211","item_key":"汽水音乐1448充值卡","kind":"iap","old_price":null,"new_price":1448}
+{"event":"appeared","ts":"2026-09-22T00:00:00Z","country":"cn","app_id":"1605585211","item_key":"汽水音乐758充值卡","kind":"iap","old_price":null,"new_price":758}
+{"event":"appeared","ts":"2026-09-22T00:00:00Z","country":"cn","app_id":"1605585211","item_key":"汽水音乐908充值卡","kind":"iap","old_price":null,"new_price":908}
+{"event":"appeared","ts":"2026-09-22T00:00:00Z","country":"cn","app_id":"1605585211","item_key":"汽水音乐1000充值卡","kind":"iap","old_price":null,"new_price":1000}
+{"event":"appeared","ts":"2026-09-22T00:00:00Z","country":"cn","app_id":"1605585211","item_key":"汽水音乐708充值卡","kind":"iap","old_price":null,"new_price":708}
+{"event":"disappeared","ts":"2026-09-22T00:00:00Z","country":"cn","app_id":"1605585211","item_key":"汽水会员连续包月","kind":"iap","old_price":8,"new_price":null}
+{"event":"disappeared","ts":"2026-09-22T00:00:00Z","country":"cn","app_id":"1605585211","item_key":"汽水VIP-连续包月优惠","kind":"iap","old_price":8,"new_price":null}
+{"event":"disappeared","ts":"2026-09-22T00:00:00Z","country":"cn","app_id":"1605585211","item_key":"汽水SVIP连续包月","kind":"iap","old_price":15,"new_price":null}
+{"event":"disappeared","ts":"2026-09-22T00:00:00Z","country":"cn","app_id":"1605585211","item_key":"汽水VIP连续包月","kind":"iap","old_price":8,"new_price":null}
+{"event":"disappeared","ts":"2026-09-22T00:00:00Z","country":"cn","app_id":"1605585211","item_key":"汽水VIP-连续包月试用","kind":"iap","old_price":8,"new_price":null}
+{"event":"disappeared","ts":"2026-09-22T00:00:00Z","country":"cn","app_id":"1605585211","item_key":"汽水SVIP连续包月#2","kind":"iap","old_price":15,"new_price":null}
+{"event":"disappeared","ts":"2026-09-22T00:00:00Z","country":"cn","app_id":"1605585211","item_key":"汽水VIP-连续包月优惠#2","kind":"iap","old_price":8,"new_price":null}
+{"event":"disappeared","ts":"2026-09-22T00:00:00Z","country":"cn","app_id":"1605585211","item_key":"汽水SVIP连续包月#3","kind":"iap","old_price":15,"new_price":null}
+{"event":"disappeared","ts":"2026-09-22T00:00:00Z","country":"cn","app_id":"1605585211","item_key":"汽水SVIP连续包月#4","kind":"iap","old_price":15,"new_price":null}
+{"event":"disappeared","ts":"2026-09-22T00:00:00Z","country":"cn","app_id":"1605585211","item_key":"汽水VIP-连续包月优惠#3","kind":"iap","old_price":8,"new_price":null}
