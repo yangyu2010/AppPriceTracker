@@ -32,7 +32,7 @@
     },
     "590338362|cn": {
       "name": "网易云音乐-数亿音乐畅听",
-      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d6/36/30/d6363098-e6a7-a69e-8635-93a39b599a26/appIconNew-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7a/e4/d8/7ae4d896-aadf-033a-cee9-087094e38f39/appIconNew-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
       "currency": "CNY",
       "kind": "software"
     },
@@ -44,7 +44,7 @@
     },
     "414603431|cn": {
       "name": "QQ音乐 - 听我想听",
-      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b5/d0/26/b5d0262d-f36a-cd5c-035f-4420491df4ed/AppIcon-0-0-1x_U007ephone-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/69/25/be/6925beb0-dc55-b399-27a0-e73c388194a1/AppIcon-0-0-1x_U007ephone-0-0-0-1-0-0-sRGB-85-220.png/512x512bb.jpg",
       "currency": "CNY",
       "kind": "software"
     },
@@ -85,5 +85,5 @@
       "kind": "software"
     }
   },
-  "fetched_at": "2026-09-23T10:23:44.257Z"
+  "fetched_at": "2026-09-23T12:23:47.538Z"
 }
