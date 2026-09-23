@@ -26,7 +26,7 @@
     },
     "1091189122|cn": {
       "name": "Bear: Markdown Notes",
-      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/97/f1/7c/97f17c52-ee2a-c6cb-6f7d-1d51a86bda58/AppIcon-26-0-0-85-220-0-0-6-0-2x-0-0-0.png/512x512bb.png",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/07/92/7e/07927e31-74f2-ae28-a621-104d378503cb/AppIcon-26-0-0-85-220-0-0-6-0-2x-0-0-0.png/512x512bb.png",
       "currency": "CNY",
       "kind": "mac-software"
     },
@@ -85,5 +85,5 @@
       "kind": "software"
     }
   },
-  "fetched_at": "2026-09-23T02:23:43.537Z"
+  "fetched_at": "2026-09-23T04:23:45.246Z"
 }
