@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-24T00:30:48.289Z",
-  "data_ts": "2026-09-24T00:00:00Z",
+  "generated_at": "2026-09-24T02:30:50.168Z",
+  "data_ts": "2026-09-24T02:00:00Z",
   "display_timezone": "Asia/Shanghai",
   "apps": [
     {
@@ -315,94 +315,94 @@
       "has_iap": true,
       "items": [
         {
-          "item_key": "YouTube Premium",
-          "item_kind": "iap",
-          "name": "YouTube Premium",
-          "price": 9.99,
-          "currency": "USD",
-          "formatted_price": "$9.99",
-          "delta": -10.999999999999998
-        },
-        {
           "item_key": "YouTube Music",
           "item_kind": "iap",
           "name": "YouTube Music",
-          "price": 8.49,
+          "price": 15.99,
           "currency": "USD",
-          "formatted_price": "$8.49",
-          "delta": -7.5
+          "formatted_price": "$15.99",
+          "delta": 7.5
         },
         {
           "item_key": "YouTube Music#2",
           "item_kind": "iap",
           "name": "YouTube Music",
-          "price": 8.49,
+          "price": 15.99,
           "currency": "USD",
-          "formatted_price": "$8.49",
-          "delta": -7.5
+          "formatted_price": "$15.99",
+          "delta": 7.5
         },
         {
-          "item_key": "YouTube Red Family",
+          "item_key": "YouTube Premium",
           "item_kind": "iap",
-          "name": "YouTube Red Family",
-          "price": 18.99,
+          "name": "YouTube Premium",
+          "price": 20.99,
           "currency": "USD",
-          "formatted_price": "$18.99",
-          "delta": null
+          "formatted_price": "$20.99",
+          "delta": 10.999999999999998
         },
         {
-          "item_key": "YouTube Red Family#2",
+          "item_key": "YouTube Premium#2",
           "item_kind": "iap",
-          "name": "YouTube Red Family",
-          "price": 20.49,
+          "name": "YouTube Premium",
+          "price": 20.99,
           "currency": "USD",
-          "formatted_price": "$20.49",
-          "delta": null
+          "formatted_price": "$20.99",
+          "delta": 0
         },
         {
-          "item_key": "YouTube Red Family#3",
+          "item_key": "YouTube Music#3",
           "item_kind": "iap",
-          "name": "YouTube Red Family",
+          "name": "YouTube Music",
+          "price": 15.99,
+          "currency": "USD",
+          "formatted_price": "$15.99",
+          "delta": 0
+        },
+        {
+          "item_key": "YouTube Music Family",
+          "item_kind": "iap",
+          "name": "YouTube Music Family",
+          "price": 24.99,
+          "currency": "USD",
+          "formatted_price": "$24.99",
+          "delta": 0
+        },
+        {
+          "item_key": "YouTube Premium#3",
+          "item_kind": "iap",
+          "name": "YouTube Premium",
+          "price": 20.99,
+          "currency": "USD",
+          "formatted_price": "$20.99",
+          "delta": 0
+        },
+        {
+          "item_key": "YouTube Music Family#2",
+          "item_kind": "iap",
+          "name": "YouTube Music Family",
+          "price": 24.99,
+          "currency": "USD",
+          "formatted_price": "$24.99",
+          "delta": 0
+        },
+        {
+          "item_key": "YouTube Premium Family",
+          "item_kind": "iap",
+          "name": "YouTube Premium Family",
           "price": 34.99,
           "currency": "USD",
           "formatted_price": "$34.99",
-          "delta": null
+          "delta": 0
         },
         {
-          "item_key": "YouTube Red Family#4",
+          "item_key": "YouTube Red",
           "item_kind": "iap",
-          "name": "YouTube Red Family",
-          "price": 18.99,
+          "name": "YouTube Red",
+          "price": 20.99,
           "currency": "USD",
-          "formatted_price": "$18.99",
-          "delta": null
-        },
-        {
-          "item_key": "YouTube Red Family#5",
-          "item_kind": "iap",
-          "name": "YouTube Red Family",
-          "price": 20.49,
-          "currency": "USD",
-          "formatted_price": "$20.49",
-          "delta": null
-        },
-        {
-          "item_key": "YouTube Red Family#6",
-          "item_kind": "iap",
-          "name": "YouTube Red Family",
-          "price": 34.99,
-          "currency": "USD",
-          "formatted_price": "$34.99",
-          "delta": null
-        },
-        {
-          "item_key": "YouTube Red Family#7",
-          "item_kind": "iap",
-          "name": "YouTube Red Family",
-          "price": 34.99,
-          "currency": "USD",
-          "formatted_price": "$34.99",
-          "delta": null
+          "formatted_price": "$20.99",
+          "delta": 0
         }
       ],
       "iap_status": "ok",
