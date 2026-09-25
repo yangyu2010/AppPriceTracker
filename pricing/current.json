@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-25T08:30:47.365Z",
-  "data_ts": "2026-09-25T08:00:00Z",
+  "generated_at": "2026-09-25T10:30:46.741Z",
+  "data_ts": "2026-09-25T10:00:00Z",
   "display_timezone": "Asia/Shanghai",
   "apps": [
     {
@@ -472,21 +472,21 @@
           "delta": 0
         },
         {
-          "item_key": "Ten-page Fax",
-          "item_kind": "iap",
-          "name": "Ten-page Fax",
-          "price": 58,
-          "currency": "CNY",
-          "formatted_price": "¥58.00",
-          "delta": 0
-        },
-        {
           "item_key": "CamScanner Premium#3",
           "item_kind": "iap",
           "name": "CamScanner Premium",
           "price": 343,
           "currency": "CNY",
           "formatted_price": "¥343.00",
+          "delta": 0
+        },
+        {
+          "item_key": "Ten-page Fax",
+          "item_kind": "iap",
+          "name": "Ten-page Fax",
+          "price": 58,
+          "currency": "CNY",
+          "formatted_price": "¥58.00",
           "delta": 0
         },
         {
