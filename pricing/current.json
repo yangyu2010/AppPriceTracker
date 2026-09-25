@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-25T14:31:16.785Z",
-  "data_ts": "2026-09-25T14:00:00Z",
+  "generated_at": "2026-09-25T16:31:17.356Z",
+  "data_ts": "2026-09-25T16:00:00Z",
   "display_timezone": "Asia/Shanghai",
   "apps": [
     {
@@ -199,21 +199,21 @@
           "delta": 0
         },
         {
-          "item_key": "Usage Credits (250)",
-          "item_kind": "iap",
-          "name": "Usage Credits (250)",
-          "price": 200,
-          "currency": "USD",
-          "formatted_price": "$200.00",
-          "delta": 0
-        },
-        {
           "item_key": "Usage Credits (20)",
           "item_kind": "iap",
           "name": "Usage Credits (20)",
           "price": 20,
           "currency": "USD",
           "formatted_price": "$20.00",
+          "delta": 0
+        },
+        {
+          "item_key": "Usage Credits (250)",
+          "item_kind": "iap",
+          "name": "Usage Credits (250)",
+          "price": 200,
+          "currency": "USD",
+          "formatted_price": "$200.00",
           "delta": 0
         }
       ],
@@ -884,21 +884,21 @@
           "delta": 0
         },
         {
-          "item_key": "每日一元礼包",
-          "item_kind": "iap",
-          "name": "每日一元礼包",
-          "price": 1,
-          "currency": "CNY",
-          "formatted_price": "¥1.00",
-          "delta": 0
-        },
-        {
           "item_key": "680蛋币",
           "item_kind": "iap",
           "name": "680蛋币",
           "price": 68,
           "currency": "CNY",
           "formatted_price": "¥68.00",
+          "delta": 0
+        },
+        {
+          "item_key": "每日一元礼包",
+          "item_kind": "iap",
+          "name": "每日一元礼包",
+          "price": 1,
+          "currency": "CNY",
+          "formatted_price": "¥1.00",
           "delta": 0
         },
         {
