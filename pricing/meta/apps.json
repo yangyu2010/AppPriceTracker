@@ -74,7 +74,7 @@
     },
     "1017492454|us": {
       "name": "YouTube Music",
-      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/89/0c/f2/890cf296-4e48-13b5-697c-c82489505841/logo_youtube_music_2024_q4_color-0-0-1x_U007emarketing-0-0-0-7-0-0-0-85-220.png/512x512bb.jpg",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/75/fa/01/75fa0196-aa1b-fe52-96b5-9c68129aa78a/logo_youtube_music_2024_q4_color-0-0-1x_U007emarketing-0-0-0-7-0-0-0-85-220.png/512x512bb.jpg",
       "currency": "USD",
       "kind": "software"
     },
@@ -85,5 +85,5 @@
       "kind": "software"
     }
   },
-  "fetched_at": "2026-09-26T18:23:44.927Z"
+  "fetched_at": "2026-09-26T20:23:46.327Z"
 }
