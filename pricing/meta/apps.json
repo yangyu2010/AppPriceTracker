@@ -56,13 +56,13 @@
     },
     "545519333|us": {
       "name": "Amazon Prime Video",
-      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d8/b8/7b/d8b87b64-ab21-e7f3-504b-95058905d555/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f1/f9/9b/f1f99b52-e554-1e65-ff91-bae3d07de8c5/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg",
       "currency": "USD",
       "kind": "software"
     },
     "6473753684|us": {
       "name": "Claude by Anthropic",
-      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f9/3b/42/f93b4263-8c78-7bd1-44fd-f137e3fe5f54/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/24/ff/cb/24ffcb56-9d47-60cc-266c-fcb43e31a190/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
       "currency": "USD",
       "kind": "software"
     },
@@ -85,5 +85,5 @@
       "kind": "software"
     }
   },
-  "fetched_at": "2026-09-26T08:24:22.453Z"
+  "fetched_at": "2026-09-26T10:23:47.014Z"
 }
