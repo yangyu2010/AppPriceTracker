@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-27T08:30:44.952Z",
-  "data_ts": "2026-09-27T08:00:00Z",
+  "generated_at": "2026-09-27T10:30:49.240Z",
+  "data_ts": "2026-09-27T10:00:00Z",
   "display_timezone": "Asia/Shanghai",
   "apps": [
     {
@@ -508,13 +508,13 @@
           "delta": 0
         },
         {
-          "item_key": "CamScanner Premium#4",
+          "item_key": "扫描全能王高级帐户（一年）",
           "item_kind": "iap",
-          "name": "CamScanner Premium",
-          "price": 343,
+          "name": "扫描全能王高级帐户（一年）",
+          "price": 298,
           "currency": "CNY",
-          "formatted_price": "¥343.00",
-          "delta": 0
+          "formatted_price": "¥298.00",
+          "delta": null
         }
       ],
       "iap_status": "ok",
