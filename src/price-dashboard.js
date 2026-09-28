@@ -474,18 +474,22 @@ function pricingBadgeHtml(app){
   const cls=(label.indexOf('付费')>=0 && label.indexOf('内购')>=0)?'mixed':(label.indexOf('付费')>=0?'paid':'free');
   return '<span class="badge '+cls+'">'+label+'</span>';
 }
-function weekDelta(app,itemKey){
-  const wk=D.series[app.k+'|'+itemKey+'@1w'];
-  if(!wk) return '—';
-  const vals=wk.values;
+function rangeChange(app,itemKey,rangeKey){
+  const s=D.series[app.k+'|'+itemKey+'@'+rangeKey];
+  if(!s) return null;
+  const vals=s.values;
   let first=null, last=null;
   for(let i=0;i<vals.length;i++){
     if(vals[i]===null||vals[i]===undefined) continue;
     if(first===null) first=vals[i];
     last=vals[i];
   }
-  if(first===null||last===null) return '—';
-  const chg=last-first;
+  if(first===null||last===null) return null;
+  return last-first;
+}
+function weekDelta(app,itemKey){
+  const chg=rangeChange(app,itemKey,'1w');
+  if(chg===null) return '—';
   if(chg===0) return '持平';
   return (chg>0?'+':'')+chg.toLocaleString('en-US',{maximumFractionDigits:2});
 }
@@ -507,9 +511,9 @@ function priceSummary(app){
     const max=prices.length?Math.max(...prices):null;
     const cur=iaps[0]?curFor(app,iaps[0].item_key):(paid?paid.currency:'');
     const rangeStr=(min!==null&&max!==null)?(min===max?fmtPrice(min,cur):fmtPrice(min,cur)+' ~ '+fmtPrice(max,cur)):'—';
-    const changed=iaps.some(i=>i.delta!==null&&i.delta!==0);
+    const changed=iaps.some(i=>{const c=rangeChange(app,i.item_key,'1w');return c!==null&&c!==0;});
     html+=(paid?' <span class="muted">·</span> ':'')+'<span class="cur">'+iaps.length+'</span> 项内购 · '+rangeStr
-      +(changed?' <span class="delta-dn">有变动</span>':' <span class="delta-flat">无变动</span>');
+      +(changed?' <span class="delta-dn">7 天内有变动</span>':' <span class="delta-flat">7 天内无变动</span>');
   } else if(paid && app.iap_status==='error'){
     html+=' <span class="muted">· 内购采集失败</span>';
   } else if(paid && app.iap_status==='no_iap'){
