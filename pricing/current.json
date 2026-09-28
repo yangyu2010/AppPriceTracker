@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-28T16:31:19.500Z",
-  "data_ts": "2026-09-28T16:00:00Z",
+  "generated_at": "2026-09-28T18:31:16.928Z",
+  "data_ts": "2026-09-28T18:00:00Z",
   "display_timezone": "Asia/Shanghai",
   "apps": [
     {
@@ -732,12 +732,102 @@
       "pricing": "free",
       "platform": "ios",
       "country": "cn",
-      "status": "error",
-      "has_iap": false,
-      "items": [],
-      "iap_status": "error",
-      "locale_fallback": false,
-      "error": "HTTP 429"
+      "status": "ok",
+      "has_iap": true,
+      "items": [
+        {
+          "item_key": "绿钻豪华版-自动订阅",
+          "item_kind": "iap",
+          "name": "绿钻豪华版-自动订阅",
+          "price": 15,
+          "currency": "CNY",
+          "formatted_price": "¥15.00",
+          "delta": 0
+        },
+        {
+          "item_key": "豪华绿钻连续包月",
+          "item_kind": "iap",
+          "name": "豪华绿钻连续包月",
+          "price": 15,
+          "currency": "CNY",
+          "formatted_price": "¥15.00",
+          "delta": 0
+        },
+        {
+          "item_key": "连续包月付费音乐包",
+          "item_kind": "iap",
+          "name": "连续包月付费音乐包",
+          "price": 8,
+          "currency": "CNY",
+          "formatted_price": "¥8.00",
+          "delta": 0
+        },
+        {
+          "item_key": "超级会员连续包月",
+          "item_kind": "iap",
+          "name": "超级会员连续包月",
+          "price": 19,
+          "currency": "CNY",
+          "formatted_price": "¥19.00",
+          "delta": 0
+        },
+        {
+          "item_key": "30个乐币",
+          "item_kind": "iap",
+          "name": "30个乐币",
+          "price": 3,
+          "currency": "CNY",
+          "formatted_price": "¥3.00",
+          "delta": 0
+        },
+        {
+          "item_key": "1个月付费音乐包",
+          "item_kind": "iap",
+          "name": "1个月付费音乐包",
+          "price": 8,
+          "currency": "CNY",
+          "formatted_price": "¥8.00",
+          "delta": 0
+        },
+        {
+          "item_key": "豪华绿钻连续包月#2",
+          "item_kind": "iap",
+          "name": "豪华绿钻连续包月",
+          "price": 15,
+          "currency": "CNY",
+          "formatted_price": "¥15.00",
+          "delta": 0
+        },
+        {
+          "item_key": "超级会员连续包月#2",
+          "item_kind": "iap",
+          "name": "超级会员连续包月",
+          "price": 19,
+          "currency": "CNY",
+          "formatted_price": "¥19.00",
+          "delta": 0
+        },
+        {
+          "item_key": "10个乐币",
+          "item_kind": "iap",
+          "name": "10个乐币",
+          "price": 1,
+          "currency": "CNY",
+          "formatted_price": "¥1.00",
+          "delta": 0
+        },
+        {
+          "item_key": "超级会员连续包月#3",
+          "item_kind": "iap",
+          "name": "超级会员连续包月",
+          "price": 30,
+          "currency": "CNY",
+          "formatted_price": "¥30.00",
+          "delta": 0
+        }
+      ],
+      "iap_status": "ok",
+      "locale_fallback": false
     },
     {
       "app_id": "1544884479",

@@ -140,3 +140,13 @@
 {"event":"disappeared","ts":"2026-09-28T16:00:00Z","country":"cn","app_id":"414603431","item_key":"12个月超级会员#2","kind":"iap","old_price":420,"new_price":null}
 {"event":"disappeared","ts":"2026-09-28T16:00:00Z","country":"cn","app_id":"414603431","item_key":"3个月豪华绿钻#2","kind":"iap","old_price":89,"new_price":null}
 {"event":"status_change","ts":"2026-09-28T16:00:00Z","country":"cn","app_id":"414603431","item_key":"__app__","kind":"status","old_price":"ok","new_price":"error"}
+{"event":"appeared","ts":"2026-09-28T18:00:00Z","country":"cn","app_id":"414603431","item_key":"绿钻豪华版-自动订阅","kind":"iap","old_price":null,"new_price":15}
+{"event":"appeared","ts":"2026-09-28T18:00:00Z","country":"cn","app_id":"414603431","item_key":"豪华绿钻连续包月","kind":"iap","old_price":null,"new_price":15}
+{"event":"appeared","ts":"2026-09-28T18:00:00Z","country":"cn","app_id":"414603431","item_key":"连续包月付费音乐包","kind":"iap","old_price":null,"new_price":8}
+{"event":"appeared","ts":"2026-09-28T18:00:00Z","country":"cn","app_id":"414603431","item_key":"超级会员连续包月","kind":"iap","old_price":null,"new_price":19}
+{"event":"appeared","ts":"2026-09-28T18:00:00Z","country":"cn","app_id":"414603431","item_key":"30个乐币","kind":"iap","old_price":null,"new_price":3}
+{"event":"appeared","ts":"2026-09-28T18:00:00Z","country":"cn","app_id":"414603431","item_key":"1个月付费音乐包","kind":"iap","old_price":null,"new_price":8}
+{"event":"appeared","ts":"2026-09-28T18:00:00Z","country":"cn","app_id":"414603431","item_key":"豪华绿钻连续包月#2","kind":"iap","old_price":null,"new_price":15}
+{"event":"appeared","ts":"2026-09-28T18:00:00Z","country":"cn","app_id":"414603431","item_key":"超级会员连续包月#2","kind":"iap","old_price":null,"new_price":19}
+{"event":"appeared","ts":"2026-09-28T18:00:00Z","country":"cn","app_id":"414603431","item_key":"10个乐币","kind":"iap","old_price":null,"new_price":1}
+{"event":"appeared","ts":"2026-09-28T18:00:00Z","country":"cn","app_id":"414603431","item_key":"超级会员连续包月#3","kind":"iap","old_price":null,"new_price":30}
