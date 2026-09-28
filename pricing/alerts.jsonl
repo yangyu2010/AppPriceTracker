@@ -109,3 +109,23 @@
 {"event":"disappeared","ts":"2026-09-24T02:00:00Z","country":"us","app_id":"1017492454","item_key":"YouTube Red Family#7","kind":"iap","old_price":34.99,"new_price":null}
 {"event":"appeared","ts":"2026-09-27T10:00:00Z","country":"cn","app_id":"388624839","item_key":"扫描全能王高级帐户（一年）","kind":"iap","old_price":null,"new_price":298}
 {"event":"disappeared","ts":"2026-09-27T10:00:00Z","country":"cn","app_id":"388624839","item_key":"CamScanner Premium#4","kind":"iap","old_price":343,"new_price":null}
+{"event":"appeared","ts":"2026-09-28T14:00:00Z","country":"cn","app_id":"414603431","item_key":"会员自动续费","kind":"iap","old_price":null,"new_price":5}
+{"event":"appeared","ts":"2026-09-28T14:00:00Z","country":"cn","app_id":"414603431","item_key":"12个月豪华绿钻","kind":"iap","old_price":null,"new_price":318}
+{"event":"appeared","ts":"2026-09-28T14:00:00Z","country":"cn","app_id":"414603431","item_key":"1个月豪华绿钻","kind":"iap","old_price":null,"new_price":35}
+{"event":"appeared","ts":"2026-09-28T14:00:00Z","country":"cn","app_id":"414603431","item_key":"3个月豪华绿钻","kind":"iap","old_price":null,"new_price":99}
+{"event":"appeared","ts":"2026-09-28T14:00:00Z","country":"cn","app_id":"414603431","item_key":"12个月超级会员","kind":"iap","old_price":null,"new_price":418}
+{"event":"appeared","ts":"2026-09-28T14:00:00Z","country":"cn","app_id":"414603431","item_key":"3个月超级会员","kind":"iap","old_price":null,"new_price":126}
+{"event":"appeared","ts":"2026-09-28T14:00:00Z","country":"cn","app_id":"414603431","item_key":"1个月超级会员","kind":"iap","old_price":null,"new_price":44}
+{"event":"appeared","ts":"2026-09-28T14:00:00Z","country":"cn","app_id":"414603431","item_key":"12个月豪华绿钻#2","kind":"iap","old_price":null,"new_price":318}
+{"event":"appeared","ts":"2026-09-28T14:00:00Z","country":"cn","app_id":"414603431","item_key":"12个月超级会员#2","kind":"iap","old_price":null,"new_price":420}
+{"event":"appeared","ts":"2026-09-28T14:00:00Z","country":"cn","app_id":"414603431","item_key":"3个月豪华绿钻#2","kind":"iap","old_price":null,"new_price":89}
+{"event":"disappeared","ts":"2026-09-28T14:00:00Z","country":"cn","app_id":"414603431","item_key":"绿钻豪华版-自动订阅","kind":"iap","old_price":15,"new_price":null}
+{"event":"disappeared","ts":"2026-09-28T14:00:00Z","country":"cn","app_id":"414603431","item_key":"豪华绿钻连续包月","kind":"iap","old_price":15,"new_price":null}
+{"event":"disappeared","ts":"2026-09-28T14:00:00Z","country":"cn","app_id":"414603431","item_key":"连续包月付费音乐包","kind":"iap","old_price":8,"new_price":null}
+{"event":"disappeared","ts":"2026-09-28T14:00:00Z","country":"cn","app_id":"414603431","item_key":"超级会员连续包月","kind":"iap","old_price":19,"new_price":null}
+{"event":"disappeared","ts":"2026-09-28T14:00:00Z","country":"cn","app_id":"414603431","item_key":"30个乐币","kind":"iap","old_price":3,"new_price":null}
+{"event":"disappeared","ts":"2026-09-28T14:00:00Z","country":"cn","app_id":"414603431","item_key":"1个月付费音乐包","kind":"iap","old_price":8,"new_price":null}
+{"event":"disappeared","ts":"2026-09-28T14:00:00Z","country":"cn","app_id":"414603431","item_key":"豪华绿钻连续包月#2","kind":"iap","old_price":15,"new_price":null}
+{"event":"disappeared","ts":"2026-09-28T14:00:00Z","country":"cn","app_id":"414603431","item_key":"超级会员连续包月#2","kind":"iap","old_price":19,"new_price":null}
+{"event":"disappeared","ts":"2026-09-28T14:00:00Z","country":"cn","app_id":"414603431","item_key":"10个乐币","kind":"iap","old_price":1,"new_price":null}
+{"event":"disappeared","ts":"2026-09-28T14:00:00Z","country":"cn","app_id":"414603431","item_key":"超级会员连续包月#3","kind":"iap","old_price":30,"new_price":null}
