@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-28T14:30:51.267Z",
-  "data_ts": "2026-09-28T14:00:00Z",
+  "generated_at": "2026-09-28T16:31:19.500Z",
+  "data_ts": "2026-09-28T16:00:00Z",
   "display_timezone": "Asia/Shanghai",
   "apps": [
     {
@@ -732,106 +732,16 @@
       "pricing": "free",
       "platform": "ios",
       "country": "cn",
-      "status": "ok",
-      "has_iap": true,
-      "items": [
-        {
-          "item_key": "会员自动续费",
-          "item_kind": "iap",
-          "name": "会员自动续费",
-          "price": 5,
-          "currency": "CNY",
-          "formatted_price": "¥5.00",
-          "delta": null
-        },
-        {
-          "item_key": "12个月豪华绿钻",
-          "item_kind": "iap",
-          "name": "12个月豪华绿钻",
-          "price": 318,
-          "currency": "CNY",
-          "formatted_price": "¥318.00",
-          "delta": null
-        },
-        {
-          "item_key": "1个月豪华绿钻",
-          "item_kind": "iap",
-          "name": "1个月豪华绿钻",
-          "price": 35,
-          "currency": "CNY",
-          "formatted_price": "¥35.00",
-          "delta": null
-        },
-        {
-          "item_key": "3个月豪华绿钻",
-          "item_kind": "iap",
-          "name": "3个月豪华绿钻",
-          "price": 99,
-          "currency": "CNY",
-          "formatted_price": "¥99.00",
-          "delta": null
-        },
-        {
-          "item_key": "12个月超级会员",
-          "item_kind": "iap",
-          "name": "12个月超级会员",
-          "price": 418,
-          "currency": "CNY",
-          "formatted_price": "¥418.00",
-          "delta": null
-        },
-        {
-          "item_key": "3个月超级会员",
-          "item_kind": "iap",
-          "name": "3个月超级会员",
-          "price": 126,
-          "currency": "CNY",
-          "formatted_price": "¥126.00",
-          "delta": null
-        },
-        {
-          "item_key": "1个月超级会员",
-          "item_kind": "iap",
-          "name": "1个月超级会员",
-          "price": 44,
-          "currency": "CNY",
-          "formatted_price": "¥44.00",
-          "delta": null
-        },
-        {
-          "item_key": "12个月豪华绿钻#2",
-          "item_kind": "iap",
-          "name": "12个月豪华绿钻",
-          "price": 318,
-          "currency": "CNY",
-          "formatted_price": "¥318.00",
-          "delta": null
-        },
-        {
-          "item_key": "12个月超级会员#2",
-          "item_kind": "iap",
-          "name": "12个月超级会员",
-          "price": 420,
-          "currency": "CNY",
-          "formatted_price": "¥420.00",
-          "delta": null
-        },
-        {
-          "item_key": "3个月豪华绿钻#2",
-          "item_kind": "iap",
-          "name": "3个月豪华绿钻",
-          "price": 89,
-          "currency": "CNY",
-          "formatted_price": "¥89.00",
-          "delta": null
-        }
-      ],
-      "iap_status": "ok",
-      "locale_fallback": false
+      "status": "error",
+      "has_iap": false,
+      "items": [],
+      "iap_status": "error",
+      "locale_fallback": false,
+      "error": "HTTP 429"
     },
     {
       "app_id": "1544884479",
-      "name": "蛋仔派对-小猪佩奇联动",
+      "name": "蛋仔派对",
       "pricing": "free",
       "platform": "ios",
       "country": "cn",

@@ -129,3 +129,14 @@
 {"event":"disappeared","ts":"2026-09-28T14:00:00Z","country":"cn","app_id":"414603431","item_key":"超级会员连续包月#2","kind":"iap","old_price":19,"new_price":null}
 {"event":"disappeared","ts":"2026-09-28T14:00:00Z","country":"cn","app_id":"414603431","item_key":"10个乐币","kind":"iap","old_price":1,"new_price":null}
 {"event":"disappeared","ts":"2026-09-28T14:00:00Z","country":"cn","app_id":"414603431","item_key":"超级会员连续包月#3","kind":"iap","old_price":30,"new_price":null}
+{"event":"disappeared","ts":"2026-09-28T16:00:00Z","country":"cn","app_id":"414603431","item_key":"会员自动续费","kind":"iap","old_price":5,"new_price":null}
+{"event":"disappeared","ts":"2026-09-28T16:00:00Z","country":"cn","app_id":"414603431","item_key":"12个月豪华绿钻","kind":"iap","old_price":318,"new_price":null}
+{"event":"disappeared","ts":"2026-09-28T16:00:00Z","country":"cn","app_id":"414603431","item_key":"1个月豪华绿钻","kind":"iap","old_price":35,"new_price":null}
+{"event":"disappeared","ts":"2026-09-28T16:00:00Z","country":"cn","app_id":"414603431","item_key":"3个月豪华绿钻","kind":"iap","old_price":99,"new_price":null}
+{"event":"disappeared","ts":"2026-09-28T16:00:00Z","country":"cn","app_id":"414603431","item_key":"12个月超级会员","kind":"iap","old_price":418,"new_price":null}
+{"event":"disappeared","ts":"2026-09-28T16:00:00Z","country":"cn","app_id":"414603431","item_key":"3个月超级会员","kind":"iap","old_price":126,"new_price":null}
+{"event":"disappeared","ts":"2026-09-28T16:00:00Z","country":"cn","app_id":"414603431","item_key":"1个月超级会员","kind":"iap","old_price":44,"new_price":null}
+{"event":"disappeared","ts":"2026-09-28T16:00:00Z","country":"cn","app_id":"414603431","item_key":"12个月豪华绿钻#2","kind":"iap","old_price":318,"new_price":null}
+{"event":"disappeared","ts":"2026-09-28T16:00:00Z","country":"cn","app_id":"414603431","item_key":"12个月超级会员#2","kind":"iap","old_price":420,"new_price":null}
+{"event":"disappeared","ts":"2026-09-28T16:00:00Z","country":"cn","app_id":"414603431","item_key":"3个月豪华绿钻#2","kind":"iap","old_price":89,"new_price":null}
+{"event":"status_change","ts":"2026-09-28T16:00:00Z","country":"cn","app_id":"414603431","item_key":"__app__","kind":"status","old_price":"ok","new_price":"error"}
