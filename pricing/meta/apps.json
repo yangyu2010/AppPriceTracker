@@ -62,13 +62,13 @@
     },
     "6473753684|us": {
       "name": "Claude by Anthropic",
-      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/24/ff/cb/24ffcb56-9d47-60cc-266c-fcb43e31a190/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1c/89/a5/1c89a53e-032b-cb5a-b1e5-e3227c749811/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
       "currency": "USD",
       "kind": "software"
     },
     "6448311069|us": {
       "name": "ChatGPT",
-      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e6/9a/0e/e69a0e54-a15f-4b2a-cb42-84788edb896e/AppIcon-0-0-1x_U007epad-0-0-0-1-0-P3-85-220.png/512x512bb.jpg",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ca/97/93/ca9793c1-b8fe-eb04-9933-c8796a9f1578/AppIcon-0-0-1x_U007epad-0-0-0-1-0-85-220.png/512x512bb.jpg",
       "currency": "USD",
       "kind": "software"
     },
@@ -85,5 +85,5 @@
       "kind": "software"
     }
   },
-  "fetched_at": "2026-09-29T04:23:46.533Z"
+  "fetched_at": "2026-09-29T06:23:46.264Z"
 }
