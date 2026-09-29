@@ -153,3 +153,5 @@
 {"event":"appeared","ts":"2026-09-29T08:00:00Z","country":"us","app_id":"6448311069","item_key":"ChatGPT Pro 200","kind":"iap","old_price":null,"new_price":200}
 {"event":"disappeared","ts":"2026-09-29T08:00:00Z","country":"us","app_id":"6448311069","item_key":"ChatGPT Pro 20x","kind":"iap","old_price":200,"new_price":null}
 {"event":"appeared","ts":"2026-09-29T18:00:00Z","country":"us","app_id":"6448311069","item_key":"ChatGPT Pro - Max Usage","kind":"iap","old_price":null,"new_price":500}
+{"event":"appeared","ts":"2026-09-29T20:00:00Z","country":"cn","app_id":"414603431","item_key":"一次性支付商品","kind":"iap","old_price":null,"new_price":2}
+{"event":"disappeared","ts":"2026-09-29T20:00:00Z","country":"cn","app_id":"414603431","item_key":"超级会员连续包月#3","kind":"iap","old_price":30,"new_price":null}
