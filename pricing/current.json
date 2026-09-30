@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-30T06:30:47.229Z",
-  "data_ts": "2026-09-30T06:00:00Z",
+  "generated_at": "2026-09-30T08:30:50.802Z",
+  "data_ts": "2026-09-30T08:00:00Z",
   "display_timezone": "Asia/Shanghai",
   "apps": [
     {
@@ -190,21 +190,21 @@
           "delta": 0
         },
         {
-          "item_key": "Usage Credits (20)",
-          "item_kind": "iap",
-          "name": "Usage Credits (20)",
-          "price": 20,
-          "currency": "USD",
-          "formatted_price": "$20.00",
-          "delta": 0
-        },
-        {
           "item_key": "Usage Credits (50)",
           "item_kind": "iap",
           "name": "Usage Credits (50)",
           "price": 45,
           "currency": "USD",
           "formatted_price": "$45.00",
+          "delta": 0
+        },
+        {
+          "item_key": "Usage Credits (20)",
+          "item_kind": "iap",
+          "name": "Usage Credits (20)",
+          "price": 20,
+          "currency": "USD",
+          "formatted_price": "$20.00",
           "delta": 0
         },
         {
@@ -263,7 +263,7 @@
           "price": 100,
           "currency": "USD",
           "formatted_price": "$100.00",
-          "delta": null
+          "delta": 0
         },
         {
           "item_key": "ChatGPT Pro 200",
@@ -290,7 +290,7 @@
           "price": 500,
           "currency": "USD",
           "formatted_price": "$500.00",
-          "delta": null
+          "delta": 0
         },
         {
           "item_key": "500 Credits",
