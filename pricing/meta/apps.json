@@ -50,7 +50,7 @@
     },
     "1544884479|cn": {
       "name": "蛋仔派对-小猪佩奇联动",
-      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/62/f1/dc/62f1dc5a-f247-648b-90f8-d885a9ed4167/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/13/81/17/1381172b-32d2-290d-74f7-a77a5395f7c0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
       "currency": "CNY",
       "kind": "software"
     },
@@ -68,7 +68,7 @@
     },
     "6448311069|us": {
       "name": "ChatGPT",
-      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ca/97/93/ca9793c1-b8fe-eb04-9933-c8796a9f1578/AppIcon-0-0-1x_U007epad-0-0-0-1-0-85-220.png/512x512bb.jpg",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/eb/c5/b3/ebc5b3a0-618f-6c84-492f-05d113191648/AppIcon-0-0-1x_U007epad-0-0-0-1-0-85-220.png/512x512bb.jpg",
       "currency": "USD",
       "kind": "software"
     },
@@ -85,5 +85,5 @@
       "kind": "software"
     }
   },
-  "fetched_at": "2026-09-30T12:23:47.692Z"
+  "fetched_at": "2026-09-30T14:23:48.067Z"
 }
