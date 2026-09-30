@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-30T04:30:52.625Z",
-  "data_ts": "2026-09-30T04:00:00Z",
+  "generated_at": "2026-09-30T06:30:47.229Z",
+  "data_ts": "2026-09-30T06:00:00Z",
   "display_timezone": "Asia/Shanghai",
   "apps": [
     {
@@ -257,13 +257,13 @@
           "delta": 0
         },
         {
-          "item_key": "ChatGPT Pro 5x",
+          "item_key": "ChatGPT Pro 100",
           "item_kind": "iap",
-          "name": "ChatGPT Pro 5x",
+          "name": "ChatGPT Pro 100",
           "price": 100,
           "currency": "USD",
           "formatted_price": "$100.00",
-          "delta": 0
+          "delta": null
         },
         {
           "item_key": "ChatGPT Pro 200",
@@ -284,21 +284,21 @@
           "delta": 0
         },
         {
+          "item_key": "ChatGPT Pro 500",
+          "item_kind": "iap",
+          "name": "ChatGPT Pro 500",
+          "price": 500,
+          "currency": "USD",
+          "formatted_price": "$500.00",
+          "delta": null
+        },
+        {
           "item_key": "500 Credits",
           "item_kind": "iap",
           "name": "500 Credits",
           "price": 20,
           "currency": "USD",
           "formatted_price": "$20.00",
-          "delta": 0
-        },
-        {
-          "item_key": "ChatGPT Pro - Max Usage",
-          "item_kind": "iap",
-          "name": "ChatGPT Pro - Max Usage",
-          "price": 500,
-          "currency": "USD",
-          "formatted_price": "$500.00",
           "delta": 0
         },
         {
@@ -523,7 +523,7 @@
           "price": 343,
           "currency": "CNY",
           "formatted_price": "¥343.00",
-          "delta": null
+          "delta": 0
         }
       ],
       "iap_status": "ok",
@@ -893,21 +893,21 @@
           "delta": 0
         },
         {
-          "item_key": "680蛋币",
-          "item_kind": "iap",
-          "name": "680蛋币",
-          "price": 68,
-          "currency": "CNY",
-          "formatted_price": "¥68.00",
-          "delta": 0
-        },
-        {
           "item_key": "每日一元礼包",
           "item_kind": "iap",
           "name": "每日一元礼包",
           "price": 1,
           "currency": "CNY",
           "formatted_price": "¥1.00",
+          "delta": 0
+        },
+        {
+          "item_key": "680蛋币",
+          "item_kind": "iap",
+          "name": "680蛋币",
+          "price": 68,
+          "currency": "CNY",
+          "formatted_price": "¥68.00",
           "delta": 0
         },
         {
