@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-01T12:30:47.475Z",
-  "data_ts": "2026-10-01T12:00:00Z",
+  "generated_at": "2026-10-01T14:30:51.804Z",
+  "data_ts": "2026-10-01T14:00:00Z",
   "display_timezone": "Asia/Shanghai",
   "apps": [
     {
@@ -817,21 +817,21 @@
           "delta": 0
         },
         {
-          "item_key": "10个乐币",
-          "item_kind": "iap",
-          "name": "10个乐币",
-          "price": 1,
-          "currency": "CNY",
-          "formatted_price": "¥1.00",
-          "delta": 0
-        },
-        {
           "item_key": "超级会员连续包月#3",
           "item_kind": "iap",
           "name": "超级会员连续包月",
           "price": 30,
           "currency": "CNY",
           "formatted_price": "¥30.00",
+          "delta": 0
+        },
+        {
+          "item_key": "10个乐币",
+          "item_kind": "iap",
+          "name": "10个乐币",
+          "price": 1,
+          "currency": "CNY",
+          "formatted_price": "¥1.00",
           "delta": 0
         }
       ],
