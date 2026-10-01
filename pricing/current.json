@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-01T06:30:44.647Z",
-  "data_ts": "2026-10-01T06:00:00Z",
+  "generated_at": "2026-10-01T08:30:45.306Z",
+  "data_ts": "2026-10-01T08:00:00Z",
   "display_timezone": "Asia/Shanghai",
   "apps": [
     {
@@ -190,21 +190,21 @@
           "delta": 0
         },
         {
-          "item_key": "Usage Credits (50)",
-          "item_kind": "iap",
-          "name": "Usage Credits (50)",
-          "price": 45,
-          "currency": "USD",
-          "formatted_price": "$45.00",
-          "delta": 0
-        },
-        {
           "item_key": "Usage Credits (20)",
           "item_kind": "iap",
           "name": "Usage Credits (20)",
           "price": 20,
           "currency": "USD",
           "formatted_price": "$20.00",
+          "delta": 0
+        },
+        {
+          "item_key": "Usage Credits (50)",
+          "item_kind": "iap",
+          "name": "Usage Credits (50)",
+          "price": 45,
+          "currency": "USD",
+          "formatted_price": "$45.00",
           "delta": 0
         },
         {
@@ -817,12 +817,12 @@
           "delta": 0
         },
         {
-          "item_key": "一次性支付商品",
+          "item_key": "10个乐币",
           "item_kind": "iap",
-          "name": "一次性支付商品",
-          "price": 2,
+          "name": "10个乐币",
+          "price": 1,
           "currency": "CNY",
-          "formatted_price": "¥2.00",
+          "formatted_price": "¥1.00",
           "delta": 0
         },
         {
