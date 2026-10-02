@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-02T16:30:49.541Z",
-  "data_ts": "2026-10-02T16:00:00Z",
+  "generated_at": "2026-10-02T18:30:49.484Z",
+  "data_ts": "2026-10-02T18:00:00Z",
   "display_timezone": "Asia/Shanghai",
   "apps": [
     {
@@ -436,13 +436,40 @@
           "delta": 0
         },
         {
-          "item_key": "扫描全能王高级帐户（一年）",
+          "item_key": "CamScanner Premium",
           "item_kind": "iap",
-          "name": "扫描全能王高级帐户（一年）",
-          "price": 298,
+          "name": "CamScanner Premium",
+          "price": 30,
           "currency": "CNY",
-          "formatted_price": "¥298.00",
-          "delta": null
+          "formatted_price": "¥30.00",
+          "delta": -313
+        },
+        {
+          "item_key": "CamScanner Premium#2",
+          "item_kind": "iap",
+          "name": "CamScanner Premium",
+          "price": 328,
+          "currency": "CNY",
+          "formatted_price": "¥328.00",
+          "delta": -15
+        },
+        {
+          "item_key": "One-page Fax",
+          "item_kind": "iap",
+          "name": "One-page Fax",
+          "price": 8,
+          "currency": "CNY",
+          "formatted_price": "¥8.00",
+          "delta": 0
+        },
+        {
+          "item_key": "3000 C-Points",
+          "item_kind": "iap",
+          "name": "3000 C-Points",
+          "price": 38,
+          "currency": "CNY",
+          "formatted_price": "¥38.00",
+          "delta": 0
         },
         {
           "item_key": "扫描全能王高级帐户（一个月）",
@@ -454,22 +481,13 @@
           "delta": 0
         },
         {
-          "item_key": "CamScanner Premium",
+          "item_key": "Ten-page Fax",
           "item_kind": "iap",
-          "name": "CamScanner Premium",
-          "price": 343,
+          "name": "Ten-page Fax",
+          "price": 58,
           "currency": "CNY",
-          "formatted_price": "¥343.00",
-          "delta": 313
-        },
-        {
-          "item_key": "CamScanner Premium#2",
-          "item_kind": "iap",
-          "name": "CamScanner Premium",
-          "price": 343,
-          "currency": "CNY",
-          "formatted_price": "¥343.00",
-          "delta": 15
+          "formatted_price": "¥58.00",
+          "delta": 0
         },
         {
           "item_key": "CamScanner Premium#3",
@@ -499,30 +517,12 @@
           "delta": 0
         },
         {
-          "item_key": "3000 C-Points",
+          "item_key": "CamScanner Premium#4",
           "item_kind": "iap",
-          "name": "3000 C-Points",
-          "price": 38,
+          "name": "CamScanner Premium",
+          "price": 343,
           "currency": "CNY",
-          "formatted_price": "¥38.00",
-          "delta": 0
-        },
-        {
-          "item_key": "Ten-page Fax",
-          "item_kind": "iap",
-          "name": "Ten-page Fax",
-          "price": 58,
-          "currency": "CNY",
-          "formatted_price": "¥58.00",
-          "delta": 0
-        },
-        {
-          "item_key": "One-page Fax",
-          "item_kind": "iap",
-          "name": "One-page Fax",
-          "price": 8,
-          "currency": "CNY",
-          "formatted_price": "¥8.00",
+          "formatted_price": "¥343.00",
           "delta": 0
         }
       ],
