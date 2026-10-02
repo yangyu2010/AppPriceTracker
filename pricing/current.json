@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-02T02:30:46.860Z",
-  "data_ts": "2026-10-02T02:00:00Z",
+  "generated_at": "2026-10-02T04:31:46.780Z",
+  "data_ts": "2026-10-02T04:00:00Z",
   "display_timezone": "Asia/Shanghai",
   "apps": [
     {
@@ -832,7 +832,7 @@
           "price": 5,
           "currency": "CNY",
           "formatted_price": "¥5.00",
-          "delta": null
+          "delta": 0
         }
       ],
       "iap_status": "ok",
