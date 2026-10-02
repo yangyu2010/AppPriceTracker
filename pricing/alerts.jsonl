@@ -207,3 +207,7 @@
 {"event":"disappeared","ts":"2026-10-02T10:00:00Z","country":"cn","app_id":"414603431","item_key":"12个月绿钻豪华版","kind":"iap","old_price":168,"new_price":null}
 {"event":"disappeared","ts":"2026-10-02T10:00:00Z","country":"cn","app_id":"414603431","item_key":"6个月付费音乐包","kind":"iap","old_price":45,"new_price":null}
 {"event":"disappeared","ts":"2026-10-02T10:00:00Z","country":"cn","app_id":"414603431","item_key":"12个月付费音乐包","kind":"iap","old_price":88,"new_price":null}
+{"event":"price_change","ts":"2026-10-02T16:00:00Z","country":"cn","app_id":"388624839","item_key":"CamScanner Premium","kind":"iap","old_price":30,"new_price":343}
+{"event":"price_change","ts":"2026-10-02T16:00:00Z","country":"cn","app_id":"388624839","item_key":"CamScanner Premium#2","kind":"iap","old_price":328,"new_price":343}
+{"event":"appeared","ts":"2026-10-02T16:00:00Z","country":"cn","app_id":"388624839","item_key":"扫描全能王高级帐户（一年）","kind":"iap","old_price":null,"new_price":298}
+{"event":"disappeared","ts":"2026-10-02T16:00:00Z","country":"cn","app_id":"388624839","item_key":"CamScanner Premium#4","kind":"iap","old_price":343,"new_price":null}
