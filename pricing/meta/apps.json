@@ -62,7 +62,7 @@
     },
     "6473753684|us": {
       "name": "Claude by Anthropic",
-      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/22/9b/76/229b767c-ec0c-d973-d5ee-20e2e35a5a2e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2d/a8/d0/2da8d08e-a2b8-4e33-1a37-23beee74e211/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
       "currency": "USD",
       "kind": "software"
     },
@@ -85,5 +85,5 @@
       "kind": "software"
     }
   },
-  "fetched_at": "2026-10-04T04:23:47.503Z"
+  "fetched_at": "2026-10-04T06:23:48.525Z"
 }
