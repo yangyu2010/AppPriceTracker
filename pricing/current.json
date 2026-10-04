@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-04T02:30:47.403Z",
-  "data_ts": "2026-10-04T02:00:00Z",
+  "generated_at": "2026-10-04T04:30:49.184Z",
+  "data_ts": "2026-10-04T04:00:00Z",
   "display_timezone": "Asia/Shanghai",
   "apps": [
     {
@@ -248,21 +248,21 @@
           "delta": 0
         },
         {
-          "item_key": "100 Credits",
-          "item_kind": "iap",
-          "name": "100 Credits",
-          "price": 4,
-          "currency": "USD",
-          "formatted_price": "$4.00",
-          "delta": 0
-        },
-        {
           "item_key": "ChatGPT Pro 100",
           "item_kind": "iap",
           "name": "ChatGPT Pro 100",
           "price": 100,
           "currency": "USD",
           "formatted_price": "$100.00",
+          "delta": 0
+        },
+        {
+          "item_key": "100 Credits",
+          "item_kind": "iap",
+          "name": "100 Credits",
+          "price": 4,
+          "currency": "USD",
+          "formatted_price": "$4.00",
           "delta": 0
         },
         {
@@ -817,6 +817,15 @@
           "delta": 0
         },
         {
+          "item_key": "10个乐币",
+          "item_kind": "iap",
+          "name": "10个乐币",
+          "price": 1,
+          "currency": "CNY",
+          "formatted_price": "¥1.00",
+          "delta": 0
+        },
+        {
           "item_key": "超级会员连续包月#3",
           "item_kind": "iap",
           "name": "超级会员连续包月",
@@ -824,15 +833,6 @@
           "currency": "CNY",
           "formatted_price": "¥30.00",
           "delta": 0
-        },
-        {
-          "item_key": "连续包月",
-          "item_kind": "iap",
-          "name": "连续包月",
-          "price": 5,
-          "currency": "CNY",
-          "formatted_price": "¥5.00",
-          "delta": null
         }
       ],
       "iap_status": "ok",
