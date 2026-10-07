@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-07T14:30:46.416Z",
-  "data_ts": "2026-10-07T14:00:00Z",
+  "generated_at": "2026-10-07T16:30:46.781Z",
+  "data_ts": "2026-10-07T16:00:00Z",
   "display_timezone": "Asia/Shanghai",
   "apps": [
     {
@@ -848,18 +848,18 @@
       "has_iap": true,
       "items": [
         {
-          "item_key": "60蛋币",
+          "item_key": "6元礼包",
           "item_kind": "iap",
-          "name": "60蛋币",
+          "name": "6元礼包",
           "price": 6,
           "currency": "CNY",
           "formatted_price": "¥6.00",
           "delta": 0
         },
         {
-          "item_key": "6元礼包",
+          "item_key": "60蛋币",
           "item_kind": "iap",
-          "name": "6元礼包",
+          "name": "60蛋币",
           "price": 6,
           "currency": "CNY",
           "formatted_price": "¥6.00",
