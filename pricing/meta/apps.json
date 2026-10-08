@@ -32,13 +32,13 @@
     },
     "590338362|cn": {
       "name": "网易云音乐-数亿音乐畅听",
-      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/31/fc/91/31fc91b8-c30b-e00f-2add-0aa3f12322b3/appIconNew-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5f/c4/38/5fc438b1-f066-095c-8d59-539badd9481c/appIconNew-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
       "currency": "CNY",
       "kind": "software"
     },
     "1605585211|cn": {
       "name": "汽水音乐 - 随时听好歌",
-      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/26/9b/72/269b7210-34f5-a248-9d85-f9e8f002c234/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/61/d9/42/61d942c8-fe77-eb16-ee9e-8ccd0101d3e8/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
       "currency": "CNY",
       "kind": "software"
     },
@@ -85,5 +85,5 @@
       "kind": "software"
     }
   },
-  "fetched_at": "2026-10-08T08:23:46.615Z"
+  "fetched_at": "2026-10-08T10:23:47.745Z"
 }
