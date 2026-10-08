@@ -14,7 +14,7 @@
     },
     "1443988620|us": {
       "name": "Quantumult X",
-      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/12/42/f2/1242f2b1-d7a6-8b20-8947-7e081f78d7ae/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/84/ae/50/84ae5055-dc8c-2f6e-cea6-8b543f72ae98/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
       "currency": "USD",
       "kind": "software"
     },
@@ -85,5 +85,5 @@
       "kind": "software"
     }
   },
-  "fetched_at": "2026-10-07T22:23:47.364Z"
+  "fetched_at": "2026-10-08T00:23:45.187Z"
 }
