@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-08T02:30:50.250Z",
-  "data_ts": "2026-10-08T02:00:00Z",
+  "generated_at": "2026-10-08T04:30:48.418Z",
+  "data_ts": "2026-10-08T04:00:00Z",
   "display_timezone": "Asia/Shanghai",
   "apps": [
     {
@@ -369,21 +369,21 @@
           "delta": 0
         },
         {
-          "item_key": "YouTube Music Family",
-          "item_kind": "iap",
-          "name": "YouTube Music Family",
-          "price": 24.99,
-          "currency": "USD",
-          "formatted_price": "$24.99",
-          "delta": 0
-        },
-        {
           "item_key": "YouTube Premium#3",
           "item_kind": "iap",
           "name": "YouTube Premium",
           "price": 20.99,
           "currency": "USD",
           "formatted_price": "$20.99",
+          "delta": 0
+        },
+        {
+          "item_key": "YouTube Music Family",
+          "item_kind": "iap",
+          "name": "YouTube Music Family",
+          "price": 24.99,
+          "currency": "USD",
+          "formatted_price": "$24.99",
           "delta": 0
         },
         {
@@ -714,21 +714,21 @@
           "delta": 0
         },
         {
-          "item_key": "汽水SVIP连续包月#4",
-          "item_kind": "iap",
-          "name": "汽水SVIP连续包月",
-          "price": 15,
-          "currency": "CNY",
-          "formatted_price": "¥15.00",
-          "delta": 0
-        },
-        {
           "item_key": "汽水VIP-连续包月优惠#3",
           "item_kind": "iap",
           "name": "汽水VIP-连续包月优惠",
           "price": 8,
           "currency": "CNY",
           "formatted_price": "¥8.00",
+          "delta": 0
+        },
+        {
+          "item_key": "汽水SVIP连续包月#4",
+          "item_kind": "iap",
+          "name": "汽水SVIP连续包月",
+          "price": 15,
+          "currency": "CNY",
+          "formatted_price": "¥15.00",
           "delta": 0
         }
       ],
@@ -848,18 +848,18 @@
       "has_iap": true,
       "items": [
         {
-          "item_key": "6元礼包",
+          "item_key": "60蛋币",
           "item_kind": "iap",
-          "name": "6元礼包",
+          "name": "60蛋币",
           "price": 6,
           "currency": "CNY",
           "formatted_price": "¥6.00",
           "delta": 0
         },
         {
-          "item_key": "60蛋币",
+          "item_key": "6元礼包",
           "item_kind": "iap",
-          "name": "60蛋币",
+          "name": "6元礼包",
           "price": 6,
           "currency": "CNY",
           "formatted_price": "¥6.00",
