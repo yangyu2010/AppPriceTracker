@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-09T00:30:53.491Z",
-  "data_ts": "2026-10-09T00:00:00Z",
+  "generated_at": "2026-10-09T02:31:22.492Z",
+  "data_ts": "2026-10-09T02:00:00Z",
   "display_timezone": "Asia/Shanghai",
   "apps": [
     {
@@ -642,94 +642,94 @@
       "has_iap": true,
       "items": [
         {
-          "item_key": "汽水4488元充值卡",
+          "item_key": "汽水会员连续包月",
           "item_kind": "iap",
-          "name": "汽水4488元充值卡",
-          "price": 4488,
+          "name": "汽水会员连续包月",
+          "price": 8,
           "currency": "CNY",
-          "formatted_price": "¥4,488.00",
-          "delta": null
+          "formatted_price": "¥8.00",
+          "delta": 0
         },
         {
-          "item_key": "汽水440元充值卡",
+          "item_key": "汽水VIP-连续包月优惠",
           "item_kind": "iap",
-          "name": "汽水440元充值卡",
-          "price": 440,
+          "name": "汽水VIP-连续包月优惠",
+          "price": 8,
           "currency": "CNY",
-          "formatted_price": "¥440.00",
-          "delta": null
+          "formatted_price": "¥8.00",
+          "delta": 0
         },
         {
-          "item_key": "汽水220元充值卡",
+          "item_key": "汽水SVIP连续包月",
           "item_kind": "iap",
-          "name": "汽水220元充值卡",
-          "price": 220,
+          "name": "汽水SVIP连续包月",
+          "price": 15,
           "currency": "CNY",
-          "formatted_price": "¥220.00",
-          "delta": null
+          "formatted_price": "¥15.00",
+          "delta": 0
         },
         {
-          "item_key": "汽水110元充值卡",
+          "item_key": "汽水VIP连续包月",
           "item_kind": "iap",
-          "name": "汽水110元充值卡",
-          "price": 110,
+          "name": "汽水VIP连续包月",
+          "price": 8,
           "currency": "CNY",
-          "formatted_price": "¥110.00",
-          "delta": null
+          "formatted_price": "¥8.00",
+          "delta": 0
         },
         {
-          "item_key": "1281钻石",
+          "item_key": "汽水VIP-连续包月试用",
           "item_kind": "iap",
-          "name": "1281钻石",
-          "price": 183,
+          "name": "汽水VIP-连续包月试用",
+          "price": 8,
           "currency": "CNY",
-          "formatted_price": "¥183.00",
-          "delta": null
+          "formatted_price": "¥8.00",
+          "delta": 0
         },
         {
-          "item_key": "15386钻石",
+          "item_key": "汽水SVIP连续包月#2",
           "item_kind": "iap",
-          "name": "15386钻石",
-          "price": 2198,
+          "name": "汽水SVIP连续包月",
+          "price": 15,
           "currency": "CNY",
-          "formatted_price": "¥2,198.00",
-          "delta": null
+          "formatted_price": "¥15.00",
+          "delta": 0
         },
         {
-          "item_key": "455钻石",
+          "item_key": "汽水VIP-连续包月优惠#2",
           "item_kind": "iap",
-          "name": "455钻石",
-          "price": 65,
+          "name": "汽水VIP-连续包月优惠",
+          "price": 8,
           "currency": "CNY",
-          "formatted_price": "¥65.00",
-          "delta": null
+          "formatted_price": "¥8.00",
+          "delta": 0
         },
         {
-          "item_key": "42钻石（钻石）",
+          "item_key": "汽水SVIP连续包月#3",
           "item_kind": "iap",
-          "name": "42钻石（钻石）",
-          "price": 6,
+          "name": "汽水SVIP连续包月",
+          "price": 15,
           "currency": "CNY",
-          "formatted_price": "¥6.00",
-          "delta": null
+          "formatted_price": "¥15.00",
+          "delta": 0
         },
         {
-          "item_key": "7钻石（钻石）",
+          "item_key": "汽水SVIP连续包月#4",
           "item_kind": "iap",
-          "name": "7钻石（钻石）",
-          "price": 1,
+          "name": "汽水SVIP连续包月",
+          "price": 15,
           "currency": "CNY",
-          "formatted_price": "¥1.00",
-          "delta": null
+          "formatted_price": "¥15.00",
+          "delta": 0
         },
         {
-          "item_key": "3626钻石（钻石）",
+          "item_key": "汽水VIP-连续包月优惠#3",
           "item_kind": "iap",
-          "name": "3626钻石（钻石）",
-          "price": 518,
+          "name": "汽水VIP-连续包月优惠",
+          "price": 8,
           "currency": "CNY",
-          "formatted_price": "¥518.00",
-          "delta": null
+          "formatted_price": "¥8.00",
+          "delta": 0
         }
       ],
       "iap_status": "ok",
