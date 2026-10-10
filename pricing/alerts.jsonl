@@ -303,3 +303,5 @@
 {"event":"disappeared","ts":"2026-10-09T02:00:00Z","country":"cn","app_id":"1605585211","item_key":"42钻石（钻石）","kind":"iap","old_price":6,"new_price":null}
 {"event":"disappeared","ts":"2026-10-09T02:00:00Z","country":"cn","app_id":"1605585211","item_key":"7钻石（钻石）","kind":"iap","old_price":1,"new_price":null}
 {"event":"disappeared","ts":"2026-10-09T02:00:00Z","country":"cn","app_id":"1605585211","item_key":"3626钻石（钻石）","kind":"iap","old_price":518,"new_price":null}
+{"event":"appeared","ts":"2026-10-10T22:00:00Z","country":"cn","app_id":"388624839","item_key":"扫描全能王高级帐户（一年）","kind":"iap","old_price":null,"new_price":298}
+{"event":"disappeared","ts":"2026-10-10T22:00:00Z","country":"cn","app_id":"388624839","item_key":"CamScanner Premium#4","kind":"iap","old_price":343,"new_price":null}
