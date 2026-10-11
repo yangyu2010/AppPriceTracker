@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-11T02:30:46.124Z",
-  "data_ts": "2026-10-11T02:00:00Z",
+  "generated_at": "2026-10-11T04:30:46.319Z",
+  "data_ts": "2026-10-11T04:00:00Z",
   "display_timezone": "Asia/Shanghai",
   "apps": [
     {
@@ -442,7 +442,7 @@
           "price": 30,
           "currency": "CNY",
           "formatted_price": "¥30.00",
-          "delta": -313
+          "delta": 0
         },
         {
           "item_key": "CamScanner Premium#2",
@@ -451,7 +451,7 @@
           "price": 328,
           "currency": "CNY",
           "formatted_price": "¥328.00",
-          "delta": -15
+          "delta": 0
         },
         {
           "item_key": "One-page Fax",
@@ -817,21 +817,21 @@
           "delta": 0
         },
         {
-          "item_key": "超级会员连续包月#3",
-          "item_kind": "iap",
-          "name": "超级会员连续包月",
-          "price": 30,
-          "currency": "CNY",
-          "formatted_price": "¥30.00",
-          "delta": 0
-        },
-        {
           "item_key": "10个乐币",
           "item_kind": "iap",
           "name": "10个乐币",
           "price": 1,
           "currency": "CNY",
           "formatted_price": "¥1.00",
+          "delta": 0
+        },
+        {
+          "item_key": "超级会员连续包月#3",
+          "item_kind": "iap",
+          "name": "超级会员连续包月",
+          "price": 30,
+          "currency": "CNY",
+          "formatted_price": "¥30.00",
           "delta": 0
         }
       ],
@@ -848,18 +848,18 @@
       "has_iap": true,
       "items": [
         {
-          "item_key": "6元礼包",
+          "item_key": "60蛋币",
           "item_kind": "iap",
-          "name": "6元礼包",
+          "name": "60蛋币",
           "price": 6,
           "currency": "CNY",
           "formatted_price": "¥6.00",
           "delta": 0
         },
         {
-          "item_key": "60蛋币",
+          "item_key": "6元礼包",
           "item_kind": "iap",
-          "name": "60蛋币",
+          "name": "6元礼包",
           "price": 6,
           "currency": "CNY",
           "formatted_price": "¥6.00",
