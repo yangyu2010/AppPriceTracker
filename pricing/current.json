@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-11T10:30:47.857Z",
-  "data_ts": "2026-10-11T10:00:00Z",
+  "generated_at": "2026-10-11T12:30:49.627Z",
+  "data_ts": "2026-10-11T12:00:00Z",
   "display_timezone": "Asia/Shanghai",
   "apps": [
     {
@@ -330,7 +330,7 @@
           "price": 15.99,
           "currency": "USD",
           "formatted_price": "$15.99",
-          "delta": 7.5
+          "delta": 0
         },
         {
           "item_key": "YouTube Music#2",
@@ -339,7 +339,7 @@
           "price": 15.99,
           "currency": "USD",
           "formatted_price": "$15.99",
-          "delta": 7.5
+          "delta": 0
         },
         {
           "item_key": "YouTube Premium",
@@ -348,7 +348,7 @@
           "price": 20.99,
           "currency": "USD",
           "formatted_price": "$20.99",
-          "delta": 10.999999999999998
+          "delta": 0
         },
         {
           "item_key": "YouTube Premium#2",
