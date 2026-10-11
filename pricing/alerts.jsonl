@@ -307,3 +307,5 @@
 {"event":"disappeared","ts":"2026-10-10T22:00:00Z","country":"cn","app_id":"388624839","item_key":"CamScanner Premium#4","kind":"iap","old_price":343,"new_price":null}
 {"event":"price_change","ts":"2026-10-11T00:00:00Z","country":"cn","app_id":"388624839","item_key":"CamScanner Premium","kind":"iap","old_price":30,"new_price":343}
 {"event":"price_change","ts":"2026-10-11T00:00:00Z","country":"cn","app_id":"388624839","item_key":"CamScanner Premium#2","kind":"iap","old_price":328,"new_price":343}
+{"event":"price_change","ts":"2026-10-11T02:00:00Z","country":"cn","app_id":"388624839","item_key":"CamScanner Premium","kind":"iap","old_price":343,"new_price":30}
+{"event":"price_change","ts":"2026-10-11T02:00:00Z","country":"cn","app_id":"388624839","item_key":"CamScanner Premium#2","kind":"iap","old_price":343,"new_price":328}
