@@ -32,7 +32,7 @@
     },
     "590338362|cn": {
       "name": "网易云音乐-数亿音乐畅听",
-      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5c/e4/7b/5ce47b2a-300d-10c1-a309-28bd6721597a/appIconNew-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5f/c4/38/5fc438b1-f066-095c-8d59-539badd9481c/appIconNew-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
       "currency": "CNY",
       "kind": "software"
     },
@@ -50,7 +50,7 @@
     },
     "1544884479|cn": {
       "name": "蛋仔派对-小猪佩奇联动",
-      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a9/36/99/a93699e0-d129-37c8-436d-1c9f8138ffd2/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/13/81/17/1381172b-32d2-290d-74f7-a77a5395f7c0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
       "currency": "CNY",
       "kind": "software"
     },
@@ -85,5 +85,5 @@
       "kind": "software"
     }
   },
-  "fetched_at": "2026-10-13T08:23:46.190Z"
+  "fetched_at": "2026-10-13T10:23:50.208Z"
 }
