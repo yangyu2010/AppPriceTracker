@@ -44,7 +44,7 @@
     },
     "414603431|cn": {
       "name": "QQ音乐 - 听我想听",
-      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ed/c3/8f/edc38f10-2f7c-779e-c407-7b228e600312/AppIcon-0-0-1x_U007ephone-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b5/d0/26/b5d0262d-f36a-cd5c-035f-4420491df4ed/AppIcon-0-0-1x_U007ephone-0-1-0-sRGB-85-220.png/512x512bb.jpg",
       "currency": "CNY",
       "kind": "software"
     },
@@ -85,5 +85,5 @@
       "kind": "software"
     }
   },
-  "fetched_at": "2026-10-14T14:23:46.051Z"
+  "fetched_at": "2026-10-14T16:23:48.482Z"
 }
