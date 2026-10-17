@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-17T14:30:47.796Z",
-  "data_ts": "2026-10-17T14:00:00Z",
+  "generated_at": "2026-10-17T16:30:47.720Z",
+  "data_ts": "2026-10-17T16:00:00Z",
   "display_timezone": "Asia/Shanghai",
   "apps": [
     {
@@ -523,7 +523,7 @@
           "price": 298,
           "currency": "CNY",
           "formatted_price": "¥298.00",
-          "delta": null
+          "delta": 0
         }
       ],
       "iap_status": "ok",
@@ -893,21 +893,21 @@
           "delta": 0
         },
         {
-          "item_key": "每日一元礼包",
-          "item_kind": "iap",
-          "name": "每日一元礼包",
-          "price": 1,
-          "currency": "CNY",
-          "formatted_price": "¥1.00",
-          "delta": 0
-        },
-        {
           "item_key": "680蛋币",
           "item_kind": "iap",
           "name": "680蛋币",
           "price": 68,
           "currency": "CNY",
           "formatted_price": "¥68.00",
+          "delta": 0
+        },
+        {
+          "item_key": "每日一元礼包",
+          "item_kind": "iap",
+          "name": "每日一元礼包",
+          "price": 1,
+          "currency": "CNY",
+          "formatted_price": "¥1.00",
           "delta": 0
         },
         {
