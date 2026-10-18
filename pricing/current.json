@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-18T02:30:48.482Z",
-  "data_ts": "2026-10-18T02:00:00Z",
+  "generated_at": "2026-10-18T04:30:46.243Z",
+  "data_ts": "2026-10-18T04:00:00Z",
   "display_timezone": "Asia/Shanghai",
   "apps": [
     {
@@ -369,21 +369,21 @@
           "delta": 0
         },
         {
-          "item_key": "YouTube Music Family",
-          "item_kind": "iap",
-          "name": "YouTube Music Family",
-          "price": 24.99,
-          "currency": "USD",
-          "formatted_price": "$24.99",
-          "delta": 0
-        },
-        {
           "item_key": "YouTube Premium#3",
           "item_kind": "iap",
           "name": "YouTube Premium",
           "price": 20.99,
           "currency": "USD",
           "formatted_price": "$20.99",
+          "delta": 0
+        },
+        {
+          "item_key": "YouTube Music Family",
+          "item_kind": "iap",
+          "name": "YouTube Music Family",
+          "price": 24.99,
+          "currency": "USD",
+          "formatted_price": "$24.99",
           "delta": 0
         },
         {
@@ -893,21 +893,21 @@
           "delta": 0
         },
         {
-          "item_key": "680蛋币",
-          "item_kind": "iap",
-          "name": "680蛋币",
-          "price": 68,
-          "currency": "CNY",
-          "formatted_price": "¥68.00",
-          "delta": 0
-        },
-        {
           "item_key": "每日一元礼包",
           "item_kind": "iap",
           "name": "每日一元礼包",
           "price": 1,
           "currency": "CNY",
           "formatted_price": "¥1.00",
+          "delta": 0
+        },
+        {
+          "item_key": "680蛋币",
+          "item_kind": "iap",
+          "name": "680蛋币",
+          "price": 68,
+          "currency": "CNY",
+          "formatted_price": "¥68.00",
           "delta": 0
         },
         {
