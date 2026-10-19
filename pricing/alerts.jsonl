@@ -417,3 +417,23 @@
 {"event":"disappeared","ts":"2026-10-17T08:00:00Z","country":"cn","app_id":"414603431","item_key":"12个月付费音乐包","kind":"iap","old_price":88,"new_price":null}
 {"event":"appeared","ts":"2026-10-17T14:00:00Z","country":"cn","app_id":"388624839","item_key":"扫描全能王高级帐户（一年）","kind":"iap","old_price":null,"new_price":298}
 {"event":"disappeared","ts":"2026-10-17T14:00:00Z","country":"cn","app_id":"388624839","item_key":"CamScanner Premium#4","kind":"iap","old_price":343,"new_price":null}
+{"event":"appeared","ts":"2026-10-19T14:00:00Z","country":"cn","app_id":"1605585211","item_key":"汽水4488元充值卡","kind":"iap","old_price":null,"new_price":4488}
+{"event":"appeared","ts":"2026-10-19T14:00:00Z","country":"cn","app_id":"1605585211","item_key":"汽水440元充值卡","kind":"iap","old_price":null,"new_price":440}
+{"event":"appeared","ts":"2026-10-19T14:00:00Z","country":"cn","app_id":"1605585211","item_key":"汽水220元充值卡","kind":"iap","old_price":null,"new_price":220}
+{"event":"appeared","ts":"2026-10-19T14:00:00Z","country":"cn","app_id":"1605585211","item_key":"汽水110元充值卡","kind":"iap","old_price":null,"new_price":110}
+{"event":"appeared","ts":"2026-10-19T14:00:00Z","country":"cn","app_id":"1605585211","item_key":"1281钻石","kind":"iap","old_price":null,"new_price":183}
+{"event":"appeared","ts":"2026-10-19T14:00:00Z","country":"cn","app_id":"1605585211","item_key":"15386钻石","kind":"iap","old_price":null,"new_price":2198}
+{"event":"appeared","ts":"2026-10-19T14:00:00Z","country":"cn","app_id":"1605585211","item_key":"455钻石","kind":"iap","old_price":null,"new_price":65}
+{"event":"appeared","ts":"2026-10-19T14:00:00Z","country":"cn","app_id":"1605585211","item_key":"42钻石（钻石）","kind":"iap","old_price":null,"new_price":6}
+{"event":"appeared","ts":"2026-10-19T14:00:00Z","country":"cn","app_id":"1605585211","item_key":"7钻石（钻石）","kind":"iap","old_price":null,"new_price":1}
+{"event":"appeared","ts":"2026-10-19T14:00:00Z","country":"cn","app_id":"1605585211","item_key":"3626钻石（钻石）","kind":"iap","old_price":null,"new_price":518}
+{"event":"disappeared","ts":"2026-10-19T14:00:00Z","country":"cn","app_id":"1605585211","item_key":"汽水会员连续包月","kind":"iap","old_price":8,"new_price":null}
+{"event":"disappeared","ts":"2026-10-19T14:00:00Z","country":"cn","app_id":"1605585211","item_key":"汽水VIP-连续包月优惠","kind":"iap","old_price":8,"new_price":null}
+{"event":"disappeared","ts":"2026-10-19T14:00:00Z","country":"cn","app_id":"1605585211","item_key":"汽水SVIP连续包月","kind":"iap","old_price":15,"new_price":null}
+{"event":"disappeared","ts":"2026-10-19T14:00:00Z","country":"cn","app_id":"1605585211","item_key":"汽水VIP连续包月","kind":"iap","old_price":8,"new_price":null}
+{"event":"disappeared","ts":"2026-10-19T14:00:00Z","country":"cn","app_id":"1605585211","item_key":"汽水VIP-连续包月试用","kind":"iap","old_price":8,"new_price":null}
+{"event":"disappeared","ts":"2026-10-19T14:00:00Z","country":"cn","app_id":"1605585211","item_key":"汽水SVIP连续包月#2","kind":"iap","old_price":15,"new_price":null}
+{"event":"disappeared","ts":"2026-10-19T14:00:00Z","country":"cn","app_id":"1605585211","item_key":"汽水VIP-连续包月优惠#2","kind":"iap","old_price":8,"new_price":null}
+{"event":"disappeared","ts":"2026-10-19T14:00:00Z","country":"cn","app_id":"1605585211","item_key":"汽水SVIP连续包月#3","kind":"iap","old_price":15,"new_price":null}
+{"event":"disappeared","ts":"2026-10-19T14:00:00Z","country":"cn","app_id":"1605585211","item_key":"汽水SVIP连续包月#4","kind":"iap","old_price":15,"new_price":null}
+{"event":"disappeared","ts":"2026-10-19T14:00:00Z","country":"cn","app_id":"1605585211","item_key":"汽水VIP-连续包月优惠#3","kind":"iap","old_price":8,"new_price":null}
