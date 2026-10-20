@@ -32,7 +32,7 @@
     },
     "590338362|cn": {
       "name": "网易云音乐-数亿音乐畅听",
-      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5c/e4/7b/5ce47b2a-300d-10c1-a309-28bd6721597a/appIconNew-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2d/84/5f/2d845fe3-b1fc-b57b-d6d7-fe5ae6a468f5/appIconNew-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
       "currency": "CNY",
       "kind": "software"
     },
@@ -85,5 +85,5 @@
       "kind": "software"
     }
   },
-  "fetched_at": "2026-10-20T08:23:46.772Z"
+  "fetched_at": "2026-10-20T10:23:46.800Z"
 }
