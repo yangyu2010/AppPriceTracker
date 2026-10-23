@@ -32,13 +32,13 @@
     },
     "590338362|cn": {
       "name": "网易云音乐-数亿音乐畅听",
-      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2d/84/5f/2d845fe3-b1fc-b57b-d6d7-fe5ae6a468f5/appIconNew-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/91/d9/4d/91d94d01-4a00-478f-fd8f-42934881fea7/appIconNew-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
       "currency": "CNY",
       "kind": "software"
     },
     "1605585211|cn": {
       "name": "汽水音乐 - 随时听好歌",
-      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a2/84/63/a2846363-ddca-6173-a90d-0b95bb422f63/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/85/80/34/858034f1-4ebb-6c1a-d4ca-176289e12cf0/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
       "currency": "CNY",
       "kind": "software"
     },
@@ -50,7 +50,7 @@
     },
     "1544884479|cn": {
       "name": "蛋仔派对-小猪佩奇联动",
-      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/26/f1/4c/26f14cac-e9ac-bbc8-7dae-43692ede519a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3b/17/13/3b17133f-f24a-6a4b-f040-054fc18deaa2/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
       "currency": "CNY",
       "kind": "software"
     },
@@ -85,5 +85,5 @@
       "kind": "software"
     }
   },
-  "fetched_at": "2026-10-23T06:23:46.176Z"
+  "fetched_at": "2026-10-23T08:23:47.032Z"
 }

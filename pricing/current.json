@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-23T06:30:47.630Z",
-  "data_ts": "2026-10-23T06:00:00Z",
+  "generated_at": "2026-10-23T08:30:48.795Z",
+  "data_ts": "2026-10-23T08:00:00Z",
   "display_timezone": "Asia/Shanghai",
   "apps": [
     {
@@ -369,21 +369,21 @@
           "delta": 0
         },
         {
-          "item_key": "YouTube Premium#3",
-          "item_kind": "iap",
-          "name": "YouTube Premium",
-          "price": 20.99,
-          "currency": "USD",
-          "formatted_price": "$20.99",
-          "delta": 0
-        },
-        {
           "item_key": "YouTube Music Family",
           "item_kind": "iap",
           "name": "YouTube Music Family",
           "price": 24.99,
           "currency": "USD",
           "formatted_price": "$24.99",
+          "delta": 0
+        },
+        {
+          "item_key": "YouTube Premium#3",
+          "item_kind": "iap",
+          "name": "YouTube Premium",
+          "price": 20.99,
+          "currency": "USD",
+          "formatted_price": "$20.99",
           "delta": 0
         },
         {
@@ -517,12 +517,12 @@
           "delta": 0
         },
         {
-          "item_key": "CamScanner Premium#4",
+          "item_key": "扫描全能王高级帐户（一年）",
           "item_kind": "iap",
-          "name": "CamScanner Premium",
-          "price": 343,
+          "name": "扫描全能王高级帐户（一年）",
+          "price": 298,
           "currency": "CNY",
-          "formatted_price": "¥343.00",
+          "formatted_price": "¥298.00",
           "delta": 0
         }
       ],
