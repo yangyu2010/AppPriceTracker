@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-24T12:30:48.638Z",
-  "data_ts": "2026-10-24T12:00:00Z",
+  "generated_at": "2026-10-24T14:30:45.690Z",
+  "data_ts": "2026-10-24T14:00:00Z",
   "display_timezone": "Asia/Shanghai",
   "apps": [
     {
@@ -469,7 +469,7 @@
           "price": 30,
           "currency": "CNY",
           "formatted_price": "¥30.00",
-          "delta": -313
+          "delta": 0
         },
         {
           "item_key": "CamScanner Premium#2",
@@ -478,7 +478,7 @@
           "price": 328,
           "currency": "CNY",
           "formatted_price": "¥328.00",
-          "delta": -15
+          "delta": 0
         },
         {
           "item_key": "One-page Fax",
