@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-24T08:30:47.658Z",
-  "data_ts": "2026-10-24T08:00:00Z",
+  "generated_at": "2026-10-24T10:30:47.702Z",
+  "data_ts": "2026-10-24T10:00:00Z",
   "display_timezone": "Asia/Shanghai",
   "apps": [
     {
@@ -223,7 +223,7 @@
           "price": 350,
           "currency": "USD",
           "formatted_price": "$350.00",
-          "delta": null
+          "delta": 0
         },
         {
           "item_key": "Usage Credits (100)",
@@ -232,7 +232,7 @@
           "price": 90,
           "currency": "USD",
           "formatted_price": "$90.00",
-          "delta": null
+          "delta": 0
         },
         {
           "item_key": "Usage Credits (1000)",
@@ -241,7 +241,7 @@
           "price": 700,
           "currency": "USD",
           "formatted_price": "$700.00",
-          "delta": null
+          "delta": 0
         }
       ],
       "iap_status": "ok",
@@ -463,39 +463,12 @@
           "delta": 0
         },
         {
-          "item_key": "CamScanner Premium",
+          "item_key": "扫描全能王高级帐户（一年）",
           "item_kind": "iap",
-          "name": "CamScanner Premium",
-          "price": 30,
+          "name": "扫描全能王高级帐户（一年）",
+          "price": 298,
           "currency": "CNY",
-          "formatted_price": "¥30.00",
-          "delta": 0
-        },
-        {
-          "item_key": "CamScanner Premium#2",
-          "item_kind": "iap",
-          "name": "CamScanner Premium",
-          "price": 328,
-          "currency": "CNY",
-          "formatted_price": "¥328.00",
-          "delta": 0
-        },
-        {
-          "item_key": "One-page Fax",
-          "item_kind": "iap",
-          "name": "One-page Fax",
-          "price": 8,
-          "currency": "CNY",
-          "formatted_price": "¥8.00",
-          "delta": 0
-        },
-        {
-          "item_key": "3000 C-Points",
-          "item_kind": "iap",
-          "name": "3000 C-Points",
-          "price": 38,
-          "currency": "CNY",
-          "formatted_price": "¥38.00",
+          "formatted_price": "¥298.00",
           "delta": 0
         },
         {
@@ -508,13 +481,22 @@
           "delta": 0
         },
         {
-          "item_key": "Ten-page Fax",
+          "item_key": "CamScanner Premium",
           "item_kind": "iap",
-          "name": "Ten-page Fax",
-          "price": 58,
+          "name": "CamScanner Premium",
+          "price": 343,
           "currency": "CNY",
-          "formatted_price": "¥58.00",
-          "delta": 0
+          "formatted_price": "¥343.00",
+          "delta": 313
+        },
+        {
+          "item_key": "CamScanner Premium#2",
+          "item_kind": "iap",
+          "name": "CamScanner Premium",
+          "price": 343,
+          "currency": "CNY",
+          "formatted_price": "¥343.00",
+          "delta": 15
         },
         {
           "item_key": "CamScanner Premium#3",
@@ -544,12 +526,30 @@
           "delta": 0
         },
         {
-          "item_key": "扫描全能王高级帐户（一年）",
+          "item_key": "3000 C-Points",
           "item_kind": "iap",
-          "name": "扫描全能王高级帐户（一年）",
-          "price": 298,
+          "name": "3000 C-Points",
+          "price": 38,
           "currency": "CNY",
-          "formatted_price": "¥298.00",
+          "formatted_price": "¥38.00",
+          "delta": 0
+        },
+        {
+          "item_key": "Ten-page Fax",
+          "item_kind": "iap",
+          "name": "Ten-page Fax",
+          "price": 58,
+          "currency": "CNY",
+          "formatted_price": "¥58.00",
+          "delta": 0
+        },
+        {
+          "item_key": "One-page Fax",
+          "item_kind": "iap",
+          "name": "One-page Fax",
+          "price": 8,
+          "currency": "CNY",
+          "formatted_price": "¥8.00",
           "delta": 0
         }
       ],
@@ -902,21 +902,21 @@
           "delta": 0
         },
         {
-          "item_key": "300蛋币",
-          "item_kind": "iap",
-          "name": "300蛋币",
-          "price": 30,
-          "currency": "CNY",
-          "formatted_price": "¥30.00",
-          "delta": 0
-        },
-        {
           "item_key": "一元礼包",
           "item_kind": "iap",
           "name": "一元礼包",
           "price": 1,
           "currency": "CNY",
           "formatted_price": "¥1.00",
+          "delta": 0
+        },
+        {
+          "item_key": "300蛋币",
+          "item_kind": "iap",
+          "name": "300蛋币",
+          "price": 30,
+          "currency": "CNY",
+          "formatted_price": "¥30.00",
           "delta": 0
         },
         {
