@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-24T06:30:46.202Z",
-  "data_ts": "2026-10-24T06:00:00Z",
+  "generated_at": "2026-10-24T08:30:47.658Z",
+  "data_ts": "2026-10-24T08:00:00Z",
   "display_timezone": "Asia/Shanghai",
   "apps": [
     {
@@ -215,6 +215,33 @@
           "currency": "USD",
           "formatted_price": "$200.00",
           "delta": 0
+        },
+        {
+          "item_key": "Usage Credits (500)",
+          "item_kind": "iap",
+          "name": "Usage Credits (500)",
+          "price": 350,
+          "currency": "USD",
+          "formatted_price": "$350.00",
+          "delta": null
+        },
+        {
+          "item_key": "Usage Credits (100)",
+          "item_kind": "iap",
+          "name": "Usage Credits (100)",
+          "price": 90,
+          "currency": "USD",
+          "formatted_price": "$90.00",
+          "delta": null
+        },
+        {
+          "item_key": "Usage Credits (1000)",
+          "item_kind": "iap",
+          "name": "Usage Credits (1000)",
+          "price": 700,
+          "currency": "USD",
+          "formatted_price": "$700.00",
+          "delta": null
         }
       ],
       "iap_status": "ok",

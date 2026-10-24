@@ -461,3 +461,6 @@
 {"event":"disappeared","ts":"2026-10-22T04:00:00Z","country":"cn","app_id":"388624839","item_key":"扫描全能王高级帐户（一年）","kind":"iap","old_price":298,"new_price":null}
 {"event":"appeared","ts":"2026-10-23T08:00:00Z","country":"cn","app_id":"388624839","item_key":"扫描全能王高级帐户（一年）","kind":"iap","old_price":null,"new_price":298}
 {"event":"disappeared","ts":"2026-10-23T08:00:00Z","country":"cn","app_id":"388624839","item_key":"CamScanner Premium#4","kind":"iap","old_price":343,"new_price":null}
+{"event":"appeared","ts":"2026-10-24T08:00:00Z","country":"us","app_id":"6473753684","item_key":"Usage Credits (500)","kind":"iap","old_price":null,"new_price":350}
+{"event":"appeared","ts":"2026-10-24T08:00:00Z","country":"us","app_id":"6473753684","item_key":"Usage Credits (100)","kind":"iap","old_price":null,"new_price":90}
+{"event":"appeared","ts":"2026-10-24T08:00:00Z","country":"us","app_id":"6473753684","item_key":"Usage Credits (1000)","kind":"iap","old_price":null,"new_price":700}
