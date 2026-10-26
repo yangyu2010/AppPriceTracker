@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-25T22:31:17.445Z",
-  "data_ts": "2026-10-25T22:00:00Z",
+  "generated_at": "2026-10-26T00:30:46.943Z",
+  "data_ts": "2026-10-26T00:00:00Z",
   "display_timezone": "Asia/Shanghai",
   "apps": [
     {
@@ -665,12 +665,102 @@
       "pricing": "free",
       "platform": "ios",
       "country": "cn",
-      "status": "error",
-      "has_iap": false,
-      "items": [],
-      "iap_status": "error",
-      "locale_fallback": false,
-      "error": "fetch failed"
+      "status": "ok",
+      "has_iap": true,
+      "items": [
+        {
+          "item_key": "汽水会员连续包月",
+          "item_kind": "iap",
+          "name": "汽水会员连续包月",
+          "price": 8,
+          "currency": "CNY",
+          "formatted_price": "¥8.00",
+          "delta": 0
+        },
+        {
+          "item_key": "汽水VIP-连续包月优惠",
+          "item_kind": "iap",
+          "name": "汽水VIP-连续包月优惠",
+          "price": 8,
+          "currency": "CNY",
+          "formatted_price": "¥8.00",
+          "delta": 0
+        },
+        {
+          "item_key": "汽水SVIP连续包月",
+          "item_kind": "iap",
+          "name": "汽水SVIP连续包月",
+          "price": 15,
+          "currency": "CNY",
+          "formatted_price": "¥15.00",
+          "delta": 0
+        },
+        {
+          "item_key": "汽水VIP连续包月",
+          "item_kind": "iap",
+          "name": "汽水VIP连续包月",
+          "price": 8,
+          "currency": "CNY",
+          "formatted_price": "¥8.00",
+          "delta": 0
+        },
+        {
+          "item_key": "汽水VIP-连续包月试用",
+          "item_kind": "iap",
+          "name": "汽水VIP-连续包月试用",
+          "price": 8,
+          "currency": "CNY",
+          "formatted_price": "¥8.00",
+          "delta": 0
+        },
+        {
+          "item_key": "汽水SVIP连续包月#2",
+          "item_kind": "iap",
+          "name": "汽水SVIP连续包月",
+          "price": 15,
+          "currency": "CNY",
+          "formatted_price": "¥15.00",
+          "delta": 0
+        },
+        {
+          "item_key": "汽水VIP-连续包月优惠#2",
+          "item_kind": "iap",
+          "name": "汽水VIP-连续包月优惠",
+          "price": 8,
+          "currency": "CNY",
+          "formatted_price": "¥8.00",
+          "delta": 0
+        },
+        {
+          "item_key": "汽水SVIP连续包月#3",
+          "item_kind": "iap",
+          "name": "汽水SVIP连续包月",
+          "price": 15,
+          "currency": "CNY",
+          "formatted_price": "¥15.00",
+          "delta": 0
+        },
+        {
+          "item_key": "汽水SVIP连续包月#4",
+          "item_kind": "iap",
+          "name": "汽水SVIP连续包月",
+          "price": 15,
+          "currency": "CNY",
+          "formatted_price": "¥15.00",
+          "delta": 0
+        },
+        {
+          "item_key": "汽水VIP-连续包月优惠#3",
+          "item_kind": "iap",
+          "name": "汽水VIP-连续包月优惠",
+          "price": 8,
+          "currency": "CNY",
+          "formatted_price": "¥8.00",
+          "delta": 0
+        }
+      ],
+      "iap_status": "ok",
+      "locale_fallback": false
     },
     {
       "app_id": "414603431",
