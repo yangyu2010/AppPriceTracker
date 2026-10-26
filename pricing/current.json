@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-26T08:30:46.690Z",
-  "data_ts": "2026-10-26T08:00:00Z",
+  "generated_at": "2026-10-26T10:30:47.891Z",
+  "data_ts": "2026-10-26T10:00:00Z",
   "display_timezone": "Asia/Shanghai",
   "apps": [
     {
@@ -115,7 +115,7 @@
     },
     {
       "app_id": "1091189122",
-      "name": "Bear: Markdown Notes",
+      "name": "Bear: Markdown Notes & Journal",
       "pricing": "free",
       "platform": "macos",
       "country": "cn",
@@ -463,22 +463,40 @@
           "delta": 0
         },
         {
-          "item_key": "CamScanner Premium",
+          "item_key": "CamScanner Premium Account 1-month subscription",
           "item_kind": "iap",
-          "name": "CamScanner Premium",
-          "price": 30,
+          "name": "CamScanner Premium Account 1-month subscription",
+          "price": 38,
           "currency": "CNY",
-          "formatted_price": "¥30.00",
-          "delta": 0
+          "formatted_price": "¥38.00",
+          "delta": null
         },
         {
-          "item_key": "CamScanner Premium#2",
+          "item_key": "CamScanner Premium Account 1-year subscription",
+          "item_kind": "iap",
+          "name": "CamScanner Premium Account 1-year subscription",
+          "price": 328,
+          "currency": "CNY",
+          "formatted_price": "¥328.00",
+          "delta": null
+        },
+        {
+          "item_key": "CamScanner Premium",
           "item_kind": "iap",
           "name": "CamScanner Premium",
           "price": 328,
           "currency": "CNY",
           "formatted_price": "¥328.00",
-          "delta": 0
+          "delta": 298
+        },
+        {
+          "item_key": "CamScanner Premium#2",
+          "item_kind": "iap",
+          "name": "CamScanner Premium",
+          "price": 30,
+          "currency": "CNY",
+          "formatted_price": "¥30.00",
+          "delta": -298
         },
         {
           "item_key": "One-page Fax",
@@ -487,24 +505,6 @@
           "price": 8,
           "currency": "CNY",
           "formatted_price": "¥8.00",
-          "delta": 0
-        },
-        {
-          "item_key": "3000 C-Points",
-          "item_kind": "iap",
-          "name": "3000 C-Points",
-          "price": 38,
-          "currency": "CNY",
-          "formatted_price": "¥38.00",
-          "delta": 0
-        },
-        {
-          "item_key": "扫描全能王高级帐户（一个月）",
-          "item_kind": "iap",
-          "name": "扫描全能王高级帐户（一个月）",
-          "price": 48,
-          "currency": "CNY",
-          "formatted_price": "¥48.00",
           "delta": 0
         },
         {
@@ -517,18 +517,9 @@
           "delta": 0
         },
         {
-          "item_key": "CamScanner Premium#3",
+          "item_key": "3000 C-Points",
           "item_kind": "iap",
-          "name": "CamScanner Premium",
-          "price": 343,
-          "currency": "CNY",
-          "formatted_price": "¥343.00",
-          "delta": 0
-        },
-        {
-          "item_key": "3000 cp + Six chance to Draw",
-          "item_kind": "iap",
-          "name": "3000 cp + Six chance to Draw",
+          "name": "3000 C-Points",
           "price": 38,
           "currency": "CNY",
           "formatted_price": "¥38.00",
@@ -544,12 +535,21 @@
           "delta": 0
         },
         {
-          "item_key": "扫描全能王高级帐户（一年）",
+          "item_key": "3000 cp + Six chance to Draw",
           "item_kind": "iap",
-          "name": "扫描全能王高级帐户（一年）",
-          "price": 298,
+          "name": "3000 cp + Six chance to Draw",
+          "price": 38,
           "currency": "CNY",
-          "formatted_price": "¥298.00",
+          "formatted_price": "¥38.00",
+          "delta": 0
+        },
+        {
+          "item_key": "CamScanner Premium#3",
+          "item_kind": "iap",
+          "name": "CamScanner Premium",
+          "price": 343,
+          "currency": "CNY",
+          "formatted_price": "¥343.00",
           "delta": 0
         }
       ],

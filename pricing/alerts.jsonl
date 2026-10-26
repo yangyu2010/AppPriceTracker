@@ -565,3 +565,9 @@
 {"event":"disappeared","ts":"2026-10-26T06:00:00Z","country":"cn","app_id":"1605585211","item_key":"汽水8元充值卡","kind":"iap","old_price":8,"new_price":null}
 {"event":"disappeared","ts":"2026-10-26T06:00:00Z","country":"cn","app_id":"1605585211","item_key":"汽水6元充值卡","kind":"iap","old_price":6,"new_price":null}
 {"event":"disappeared","ts":"2026-10-26T06:00:00Z","country":"cn","app_id":"1605585211","item_key":"汽水18元充值卡","kind":"iap","old_price":18,"new_price":null}
+{"event":"price_change","ts":"2026-10-26T10:00:00Z","country":"cn","app_id":"388624839","item_key":"CamScanner Premium","kind":"iap","old_price":30,"new_price":328}
+{"event":"price_change","ts":"2026-10-26T10:00:00Z","country":"cn","app_id":"388624839","item_key":"CamScanner Premium#2","kind":"iap","old_price":328,"new_price":30}
+{"event":"appeared","ts":"2026-10-26T10:00:00Z","country":"cn","app_id":"388624839","item_key":"CamScanner Premium Account 1-month subscription","kind":"iap","old_price":null,"new_price":38}
+{"event":"appeared","ts":"2026-10-26T10:00:00Z","country":"cn","app_id":"388624839","item_key":"CamScanner Premium Account 1-year subscription","kind":"iap","old_price":null,"new_price":328}
+{"event":"disappeared","ts":"2026-10-26T10:00:00Z","country":"cn","app_id":"388624839","item_key":"扫描全能王高级帐户（一个月）","kind":"iap","old_price":48,"new_price":null}
+{"event":"disappeared","ts":"2026-10-26T10:00:00Z","country":"cn","app_id":"388624839","item_key":"扫描全能王高级帐户（一年）","kind":"iap","old_price":298,"new_price":null}

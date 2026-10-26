@@ -25,20 +25,20 @@
       "kind": "software"
     },
     "1091189122|cn": {
-      "name": "Bear: Markdown Notes",
-      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9a/5c/59/9a5c599e-d35a-8d37-2abf-a4539efa6852/AppIcon-26-0-0-85-220-0-0-6-0-2x-0-0-0.png/512x512bb.png",
+      "name": "Bear: Markdown Notes & Journal",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c1/a3/5a/c1a35ad6-0edb-f08c-f8f7-a57975750744/AppIcon-26-0-0-85-220-0-0-6-0-2x-0-0-0.png/512x512bb.png",
       "currency": "CNY",
       "kind": "mac-software"
     },
     "590338362|cn": {
       "name": "网易云音乐-数亿音乐畅听",
-      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/91/d9/4d/91d94d01-4a00-478f-fd8f-42934881fea7/appIconNew-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ca/0c/34/ca0c34c6-8adc-3a30-de73-518b9abe26ac/appIconNew-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
       "currency": "CNY",
       "kind": "software"
     },
     "1605585211|cn": {
       "name": "汽水音乐 - 随时听好歌",
-      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/85/80/34/858034f1-4ebb-6c1a-d4ca-176289e12cf0/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/49/8e/73/498e73f6-fde3-a555-1e39-b0dad4b96f90/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
       "currency": "CNY",
       "kind": "software"
     },
@@ -74,7 +74,7 @@
     },
     "1017492454|us": {
       "name": "YouTube Music",
-      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/70/a5/45/70a54567-d6d2-8f53-67bd-fcb175327044/logo_youtube_music_2024_q4_color-0-0-1x_U007emarketing-0-0-0-7-0-0-0-85-220.png/512x512bb.jpg",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7c/5c/ee/7c5ceecc-b56d-fe68-91ca-eece67e4e2ef/logo_youtube_music_2024_q4_color-0-0-1x_U007emarketing-0-0-0-7-0-0-0-85-220.png/512x512bb.jpg",
       "currency": "USD",
       "kind": "software"
     },
@@ -85,5 +85,5 @@
       "kind": "software"
     }
   },
-  "fetched_at": "2026-10-26T08:23:45.398Z"
+  "fetched_at": "2026-10-26T10:23:47.141Z"
 }
