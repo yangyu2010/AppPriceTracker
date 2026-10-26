@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-26T16:30:52.209Z",
-  "data_ts": "2026-10-26T16:00:00Z",
+  "generated_at": "2026-10-26T18:31:05.324Z",
+  "data_ts": "2026-10-26T18:00:00Z",
   "display_timezone": "Asia/Shanghai",
   "apps": [
     {
@@ -115,7 +115,7 @@
     },
     {
       "app_id": "1091189122",
-      "name": "Bear: Markdown Notes & Journal",
+      "name": "Bear: Markdown Notes",
       "pricing": "free",
       "platform": "macos",
       "country": "cn",
