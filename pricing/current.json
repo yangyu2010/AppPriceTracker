@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-27T22:30:50.308Z",
-  "data_ts": "2026-10-27T22:00:00Z",
+  "generated_at": "2026-10-28T00:30:46.956Z",
+  "data_ts": "2026-10-28T00:00:00Z",
   "display_timezone": "Asia/Shanghai",
   "apps": [
     {
@@ -154,69 +154,6 @@
       "has_iap": true,
       "items": [
         {
-          "item_key": "Claude Pro - Monthly",
-          "item_kind": "iap",
-          "name": "Claude Pro - Monthly",
-          "price": 20,
-          "currency": "USD",
-          "formatted_price": "$20.00",
-          "delta": 0
-        },
-        {
-          "item_key": "Claude Max 5x - Monthly",
-          "item_kind": "iap",
-          "name": "Claude Max 5x - Monthly",
-          "price": 124.99,
-          "currency": "USD",
-          "formatted_price": "$124.99",
-          "delta": 0
-        },
-        {
-          "item_key": "Claude Max 20x - Monthly",
-          "item_kind": "iap",
-          "name": "Claude Max 20x - Monthly",
-          "price": 249.99,
-          "currency": "USD",
-          "formatted_price": "$249.99",
-          "delta": 0
-        },
-        {
-          "item_key": "Usage Credits (20)",
-          "item_kind": "iap",
-          "name": "Usage Credits (20)",
-          "price": 20,
-          "currency": "USD",
-          "formatted_price": "$20.00",
-          "delta": 0
-        },
-        {
-          "item_key": "Claude Pro - Annual",
-          "item_kind": "iap",
-          "name": "Claude Pro - Annual",
-          "price": 214.99,
-          "currency": "USD",
-          "formatted_price": "$214.99",
-          "delta": 0
-        },
-        {
-          "item_key": "Usage Credits (50)",
-          "item_kind": "iap",
-          "name": "Usage Credits (50)",
-          "price": 45,
-          "currency": "USD",
-          "formatted_price": "$45.00",
-          "delta": 0
-        },
-        {
-          "item_key": "Usage Credits (250)",
-          "item_kind": "iap",
-          "name": "Usage Credits (250)",
-          "price": 200,
-          "currency": "USD",
-          "formatted_price": "$200.00",
-          "delta": 0
-        },
-        {
           "item_key": "Usage Credits (500)",
           "item_kind": "iap",
           "name": "Usage Credits (500)",
@@ -241,6 +178,69 @@
           "price": 700,
           "currency": "USD",
           "formatted_price": "$700.00",
+          "delta": 0
+        },
+        {
+          "item_key": "Usage Credits (250)",
+          "item_kind": "iap",
+          "name": "Usage Credits (250)",
+          "price": 200,
+          "currency": "USD",
+          "formatted_price": "$200.00",
+          "delta": 0
+        },
+        {
+          "item_key": "Usage Credits (50)",
+          "item_kind": "iap",
+          "name": "Usage Credits (50)",
+          "price": 45,
+          "currency": "USD",
+          "formatted_price": "$45.00",
+          "delta": 0
+        },
+        {
+          "item_key": "Usage Credits (20)",
+          "item_kind": "iap",
+          "name": "Usage Credits (20)",
+          "price": 20,
+          "currency": "USD",
+          "formatted_price": "$20.00",
+          "delta": 0
+        },
+        {
+          "item_key": "Claude Max 20x - Monthly",
+          "item_kind": "iap",
+          "name": "Claude Max 20x - Monthly",
+          "price": 249.99,
+          "currency": "USD",
+          "formatted_price": "$249.99",
+          "delta": 0
+        },
+        {
+          "item_key": "Claude Max 5x - Monthly",
+          "item_kind": "iap",
+          "name": "Claude Max 5x - Monthly",
+          "price": 124.99,
+          "currency": "USD",
+          "formatted_price": "$124.99",
+          "delta": 0
+        },
+        {
+          "item_key": "Claude Pro - Annual",
+          "item_kind": "iap",
+          "name": "Claude Pro - Annual",
+          "price": 214.99,
+          "currency": "USD",
+          "formatted_price": "$214.99",
+          "delta": 0
+        },
+        {
+          "item_key": "Claude Pro - Monthly",
+          "item_kind": "iap",
+          "name": "Claude Pro - Monthly",
+          "price": 20,
+          "currency": "USD",
+          "formatted_price": "$20.00",
           "delta": 0
         }
       ],
