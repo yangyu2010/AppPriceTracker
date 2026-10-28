@@ -577,3 +577,5 @@
 {"event":"appeared","ts":"2026-10-26T12:00:00Z","country":"cn","app_id":"388624839","item_key":"扫描全能王高级帐户（一年）","kind":"iap","old_price":null,"new_price":298}
 {"event":"disappeared","ts":"2026-10-26T12:00:00Z","country":"cn","app_id":"388624839","item_key":"CamScanner Premium Account 1-month subscription","kind":"iap","old_price":38,"new_price":null}
 {"event":"disappeared","ts":"2026-10-26T12:00:00Z","country":"cn","app_id":"388624839","item_key":"CamScanner Premium Account 1-year subscription","kind":"iap","old_price":328,"new_price":null}
+{"event":"appeared","ts":"2026-10-28T04:00:00Z","country":"cn","app_id":"388624839","item_key":"CamScanner Premium#4","kind":"iap","old_price":null,"new_price":343}
+{"event":"disappeared","ts":"2026-10-28T04:00:00Z","country":"cn","app_id":"388624839","item_key":"扫描全能王高级帐户（一年）","kind":"iap","old_price":298,"new_price":null}
