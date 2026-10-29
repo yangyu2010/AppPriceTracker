@@ -581,3 +581,5 @@
 {"event":"disappeared","ts":"2026-10-28T04:00:00Z","country":"cn","app_id":"388624839","item_key":"扫描全能王高级帐户（一年）","kind":"iap","old_price":298,"new_price":null}
 {"event":"appeared","ts":"2026-10-29T02:00:00Z","country":"us","app_id":"1017492454","item_key":"YouTube Premium Family#2","kind":"iap","old_price":null,"new_price":34.99}
 {"event":"disappeared","ts":"2026-10-29T02:00:00Z","country":"us","app_id":"1017492454","item_key":"YouTube Red","kind":"iap","old_price":20.99,"new_price":null}
+{"event":"appeared","ts":"2026-10-29T06:00:00Z","country":"us","app_id":"1017492454","item_key":"YouTube Red","kind":"iap","old_price":null,"new_price":20.99}
+{"event":"disappeared","ts":"2026-10-29T06:00:00Z","country":"us","app_id":"1017492454","item_key":"YouTube Premium Family#2","kind":"iap","old_price":34.99,"new_price":null}
