@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-29T02:30:48.130Z",
-  "data_ts": "2026-10-29T02:00:00Z",
+  "generated_at": "2026-10-29T04:30:47.578Z",
+  "data_ts": "2026-10-29T04:00:00Z",
   "display_timezone": "Asia/Shanghai",
   "apps": [
     {
@@ -181,21 +181,21 @@
           "delta": 0
         },
         {
-          "item_key": "Usage Credits (20)",
-          "item_kind": "iap",
-          "name": "Usage Credits (20)",
-          "price": 20,
-          "currency": "USD",
-          "formatted_price": "$20.00",
-          "delta": 0
-        },
-        {
           "item_key": "Claude Pro - Annual",
           "item_kind": "iap",
           "name": "Claude Pro - Annual",
           "price": 214.99,
           "currency": "USD",
           "formatted_price": "$214.99",
+          "delta": 0
+        },
+        {
+          "item_key": "Usage Credits (20)",
+          "item_kind": "iap",
+          "name": "Usage Credits (20)",
+          "price": 20,
+          "currency": "USD",
+          "formatted_price": "$20.00",
           "delta": 0
         },
         {
@@ -226,21 +226,21 @@
           "delta": 0
         },
         {
-          "item_key": "Usage Credits (500)",
-          "item_kind": "iap",
-          "name": "Usage Credits (500)",
-          "price": 350,
-          "currency": "USD",
-          "formatted_price": "$350.00",
-          "delta": 0
-        },
-        {
           "item_key": "Usage Credits (1000)",
           "item_kind": "iap",
           "name": "Usage Credits (1000)",
           "price": 700,
           "currency": "USD",
           "formatted_price": "$700.00",
+          "delta": 0
+        },
+        {
+          "item_key": "Usage Credits (500)",
+          "item_kind": "iap",
+          "name": "Usage Credits (500)",
+          "price": 350,
+          "currency": "USD",
+          "formatted_price": "$350.00",
           "delta": 0
         }
       ],
@@ -438,7 +438,7 @@
           "price": 34.99,
           "currency": "USD",
           "formatted_price": "$34.99",
-          "delta": null
+          "delta": 0
         }
       ],
       "iap_status": "ok",
@@ -902,21 +902,21 @@
           "delta": 0
         },
         {
-          "item_key": "一元礼包",
-          "item_kind": "iap",
-          "name": "一元礼包",
-          "price": 1,
-          "currency": "CNY",
-          "formatted_price": "¥1.00",
-          "delta": 0
-        },
-        {
           "item_key": "300蛋币",
           "item_kind": "iap",
           "name": "300蛋币",
           "price": 30,
           "currency": "CNY",
           "formatted_price": "¥30.00",
+          "delta": 0
+        },
+        {
+          "item_key": "一元礼包",
+          "item_kind": "iap",
+          "name": "一元礼包",
+          "price": 1,
+          "currency": "CNY",
+          "formatted_price": "¥1.00",
           "delta": 0
         },
         {
