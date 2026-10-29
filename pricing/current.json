@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-29T18:30:47.242Z",
-  "data_ts": "2026-10-29T18:00:00Z",
+  "generated_at": "2026-10-29T20:30:47.861Z",
+  "data_ts": "2026-10-29T20:00:00Z",
   "display_timezone": "Asia/Shanghai",
   "apps": [
     {
@@ -181,21 +181,21 @@
           "delta": 0
         },
         {
-          "item_key": "Claude Pro - Annual",
-          "item_kind": "iap",
-          "name": "Claude Pro - Annual",
-          "price": 214.99,
-          "currency": "USD",
-          "formatted_price": "$214.99",
-          "delta": 0
-        },
-        {
           "item_key": "Usage Credits (20)",
           "item_kind": "iap",
           "name": "Usage Credits (20)",
           "price": 20,
           "currency": "USD",
           "formatted_price": "$20.00",
+          "delta": 0
+        },
+        {
+          "item_key": "Claude Pro - Annual",
+          "item_kind": "iap",
+          "name": "Claude Pro - Annual",
+          "price": 214.99,
+          "currency": "USD",
+          "formatted_price": "$214.99",
           "delta": 0
         },
         {
@@ -884,21 +884,21 @@
           "delta": 0
         },
         {
-          "item_key": "6元礼包",
-          "item_kind": "iap",
-          "name": "6元礼包",
-          "price": 6,
-          "currency": "CNY",
-          "formatted_price": "¥6.00",
-          "delta": 0
-        },
-        {
           "item_key": "10蛋币",
           "item_kind": "iap",
           "name": "10蛋币",
           "price": 1,
           "currency": "CNY",
           "formatted_price": "¥1.00",
+          "delta": 0
+        },
+        {
+          "item_key": "6元礼包",
+          "item_kind": "iap",
+          "name": "6元礼包",
+          "price": 6,
+          "currency": "CNY",
+          "formatted_price": "¥6.00",
           "delta": 0
         },
         {
