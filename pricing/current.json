@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-31T00:30:46.072Z",
-  "data_ts": "2026-10-31T00:00:00Z",
+  "generated_at": "2026-10-31T02:30:46.442Z",
+  "data_ts": "2026-10-31T02:00:00Z",
   "display_timezone": "Asia/Shanghai",
   "apps": [
     {
@@ -169,7 +169,7 @@
           "price": 124.99,
           "currency": "USD",
           "formatted_price": "$124.99",
-          "delta": null
+          "delta": 0
         },
         {
           "item_key": "Claude Ultra - Monthly",
@@ -178,7 +178,7 @@
           "price": 249.99,
           "currency": "USD",
           "formatted_price": "$249.99",
-          "delta": null
+          "delta": 0
         },
         {
           "item_key": "Usage Credits (20)",
@@ -263,7 +263,7 @@
           "price": 19.99,
           "currency": "USD",
           "formatted_price": "$19.99",
-          "delta": -180.01
+          "delta": 0
         },
         {
           "item_key": "ChatGPT Go",
@@ -308,7 +308,7 @@
           "price": 200,
           "currency": "USD",
           "formatted_price": "$200.00",
-          "delta": 180.01
+          "delta": 0
         },
         {
           "item_key": "ChatGPT Pro 500",
@@ -357,7 +357,7 @@
           "price": 15.99,
           "currency": "USD",
           "formatted_price": "$15.99",
-          "delta": 7.5
+          "delta": 0
         },
         {
           "item_key": "YouTube Music#2",
@@ -366,7 +366,7 @@
           "price": 15.99,
           "currency": "USD",
           "formatted_price": "$15.99",
-          "delta": 7.5
+          "delta": 0
         },
         {
           "item_key": "YouTube Premium",
@@ -375,7 +375,7 @@
           "price": 20.99,
           "currency": "USD",
           "formatted_price": "$20.99",
-          "delta": 10.999999999999998
+          "delta": 0
         },
         {
           "item_key": "YouTube Premium#2",
@@ -902,21 +902,21 @@
           "delta": 0
         },
         {
-          "item_key": "300蛋币",
-          "item_kind": "iap",
-          "name": "300蛋币",
-          "price": 30,
-          "currency": "CNY",
-          "formatted_price": "¥30.00",
-          "delta": 0
-        },
-        {
           "item_key": "一元礼包",
           "item_kind": "iap",
           "name": "一元礼包",
           "price": 1,
           "currency": "CNY",
           "formatted_price": "¥1.00",
+          "delta": 0
+        },
+        {
+          "item_key": "300蛋币",
+          "item_kind": "iap",
+          "name": "300蛋币",
+          "price": 30,
+          "currency": "CNY",
+          "formatted_price": "¥30.00",
           "delta": 0
         },
         {
