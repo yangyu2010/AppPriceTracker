@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-31T06:30:46.663Z",
-  "data_ts": "2026-10-31T06:00:00Z",
+  "generated_at": "2026-10-31T08:30:46.863Z",
+  "data_ts": "2026-10-31T08:00:00Z",
   "display_timezone": "Asia/Shanghai",
   "apps": [
     {
@@ -181,21 +181,21 @@
           "delta": 0
         },
         {
-          "item_key": "Claude Pro - Annual",
-          "item_kind": "iap",
-          "name": "Claude Pro - Annual",
-          "price": 214.99,
-          "currency": "USD",
-          "formatted_price": "$214.99",
-          "delta": 0
-        },
-        {
           "item_key": "Usage Credits (20)",
           "item_kind": "iap",
           "name": "Usage Credits (20)",
           "price": 20,
           "currency": "USD",
           "formatted_price": "$20.00",
+          "delta": 0
+        },
+        {
+          "item_key": "Claude Pro - Annual",
+          "item_kind": "iap",
+          "name": "Claude Pro - Annual",
+          "price": 214.99,
+          "currency": "USD",
+          "formatted_price": "$214.99",
           "delta": 0
         },
         {
