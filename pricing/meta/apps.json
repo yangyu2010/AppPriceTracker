@@ -49,14 +49,14 @@
       "kind": "software"
     },
     "1544884479|cn": {
-      "name": "蛋仔派对-捣蛋领福利",
-      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/45/3c/2e/453c2e99-7d46-a456-dfe3-874dae2db8fc/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "name": "蛋仔派对-小猪佩奇联动",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3b/17/13/3b17133f-f24a-6a4b-f040-054fc18deaa2/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
       "currency": "CNY",
       "kind": "software"
     },
     "545519333|us": {
       "name": "Amazon Prime Video",
-      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8d/b6/ab/8db6ab2a-de8d-c581-d1be-6f408bf4d921/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fd/b4/70/fdb470c0-2fb1-847c-ff6e-10fb92c068c7/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg",
       "currency": "USD",
       "kind": "software"
     },
@@ -85,5 +85,5 @@
       "kind": "software"
     }
   },
-  "fetched_at": "2026-11-02T12:23:58.748Z"
+  "fetched_at": "2026-11-02T14:23:47.277Z"
 }
