@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-02T16:30:52.782Z",
-  "data_ts": "2026-11-02T16:00:00Z",
+  "generated_at": "2026-11-02T18:30:51.820Z",
+  "data_ts": "2026-11-02T18:00:00Z",
   "display_timezone": "Asia/Shanghai",
   "apps": [
     {
@@ -867,7 +867,7 @@
     },
     {
       "app_id": "1544884479",
-      "name": "蛋仔派对-捣蛋领福利",
+      "name": "蛋仔派对-小猪佩奇联动",
       "pricing": "free",
       "platform": "ios",
       "country": "cn",
