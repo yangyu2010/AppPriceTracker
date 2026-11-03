@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-03T16:30:58.653Z",
-  "data_ts": "2026-11-03T16:00:00Z",
+  "generated_at": "2026-11-03T18:31:25.654Z",
+  "data_ts": "2026-11-03T18:00:00Z",
   "display_timezone": "Asia/Shanghai",
   "apps": [
     {
@@ -875,15 +875,6 @@
       "has_iap": true,
       "items": [
         {
-          "item_key": "60蛋币",
-          "item_kind": "iap",
-          "name": "60蛋币",
-          "price": 6,
-          "currency": "CNY",
-          "formatted_price": "¥6.00",
-          "delta": 0
-        },
-        {
           "item_key": "10蛋币",
           "item_kind": "iap",
           "name": "10蛋币",
@@ -893,9 +884,9 @@
           "delta": 0
         },
         {
-          "item_key": "6元礼包",
+          "item_key": "60蛋币",
           "item_kind": "iap",
-          "name": "6元礼包",
+          "name": "60蛋币",
           "price": 6,
           "currency": "CNY",
           "formatted_price": "¥6.00",
@@ -911,21 +902,12 @@
           "delta": 0
         },
         {
-          "item_key": "一元礼包",
+          "item_key": "1280蛋币",
           "item_kind": "iap",
-          "name": "一元礼包",
-          "price": 1,
+          "name": "1280蛋币",
+          "price": 128,
           "currency": "CNY",
-          "formatted_price": "¥1.00",
-          "delta": 0
-        },
-        {
-          "item_key": "每日一元礼包",
-          "item_kind": "iap",
-          "name": "每日一元礼包",
-          "price": 1,
-          "currency": "CNY",
-          "formatted_price": "¥1.00",
+          "formatted_price": "¥128.00",
           "delta": 0
         },
         {
@@ -938,30 +920,48 @@
           "delta": 0
         },
         {
-          "item_key": "12元礼包",
+          "item_key": "1980蛋币",
           "item_kind": "iap",
-          "name": "12元礼包",
-          "price": 12,
+          "name": "1980蛋币",
+          "price": 198,
           "currency": "CNY",
-          "formatted_price": "¥12.00",
+          "formatted_price": "¥198.00",
+          "delta": null
+        },
+        {
+          "item_key": "3280蛋币",
+          "item_kind": "iap",
+          "name": "3280蛋币",
+          "price": 328,
+          "currency": "CNY",
+          "formatted_price": "¥328.00",
+          "delta": null
+        },
+        {
+          "item_key": "6480蛋币",
+          "item_kind": "iap",
+          "name": "6480蛋币",
+          "price": 648,
+          "currency": "CNY",
+          "formatted_price": "¥648.00",
+          "delta": null
+        },
+        {
+          "item_key": "每日一元礼包",
+          "item_kind": "iap",
+          "name": "每日一元礼包",
+          "price": 1,
+          "currency": "CNY",
+          "formatted_price": "¥1.00",
           "delta": 0
         },
         {
-          "item_key": "订购YO！会员",
+          "item_key": "6元礼包",
           "item_kind": "iap",
-          "name": "订购YO！会员",
-          "price": 12,
+          "name": "6元礼包",
+          "price": 6,
           "currency": "CNY",
-          "formatted_price": "¥12.00",
-          "delta": 0
-        },
-        {
-          "item_key": "1280蛋币",
-          "item_kind": "iap",
-          "name": "1280蛋币",
-          "price": 128,
-          "currency": "CNY",
-          "formatted_price": "¥128.00",
+          "formatted_price": "¥6.00",
           "delta": 0
         }
       ],
