@@ -26,7 +26,7 @@
     },
     "1091189122|cn": {
       "name": "Bear: Markdown Notes & Journal",
-      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c1/a3/5a/c1a35ad6-0edb-f08c-f8f7-a57975750744/AppIcon-26-0-0-85-220-0-0-6-0-2x-0-0-0.png/512x512bb.png",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/68/b6/33/68b63360-c8e2-aac0-597c-5484d684117f/AppIcon-26-0-0-85-220-0-0-6-0-2x-sRGB-0-0-0.png/512x512bb.png",
       "currency": "CNY",
       "kind": "mac-software"
     },
@@ -56,7 +56,7 @@
     },
     "545519333|us": {
       "name": "Amazon Prime Video",
-      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8d/b6/ab/8db6ab2a-de8d-c581-d1be-6f408bf4d921/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/29/11/e1/2911e167-83f8-c09c-d032-0816b66134c8/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg",
       "currency": "USD",
       "kind": "software"
     },
@@ -68,7 +68,7 @@
     },
     "6448311069|us": {
       "name": "ChatGPT",
-      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/72/2d/27/722d272a-9d6f-d186-8a92-6a884107df8f/AppIcon-0-0-1x_U007epad-0-0-0-1-0-85-220.png/512x512bb.jpg",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5c/9c/84/5c9c8431-bd39-08fa-cba4-8bb6561f9877/AppIcon-0-0-1x_U007epad-0-0-0-1-0-85-220.png/512x512bb.jpg",
       "currency": "USD",
       "kind": "software"
     },
@@ -85,5 +85,5 @@
       "kind": "software"
     }
   },
-  "fetched_at": "2026-11-03T18:24:24.081Z"
+  "fetched_at": "2026-11-03T20:24:19.130Z"
 }

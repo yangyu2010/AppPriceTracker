@@ -681,3 +681,9 @@
 {"event":"disappeared","ts":"2026-11-03T18:00:00Z","country":"cn","app_id":"1544884479","item_key":"一元礼包","kind":"iap","old_price":1,"new_price":null}
 {"event":"disappeared","ts":"2026-11-03T18:00:00Z","country":"cn","app_id":"1544884479","item_key":"12元礼包","kind":"iap","old_price":12,"new_price":null}
 {"event":"disappeared","ts":"2026-11-03T18:00:00Z","country":"cn","app_id":"1544884479","item_key":"订购YO！会员","kind":"iap","old_price":12,"new_price":null}
+{"event":"appeared","ts":"2026-11-03T20:00:00Z","country":"cn","app_id":"1544884479","item_key":"一元礼包","kind":"iap","old_price":null,"new_price":1}
+{"event":"appeared","ts":"2026-11-03T20:00:00Z","country":"cn","app_id":"1544884479","item_key":"12元礼包","kind":"iap","old_price":null,"new_price":12}
+{"event":"appeared","ts":"2026-11-03T20:00:00Z","country":"cn","app_id":"1544884479","item_key":"订购YO！会员","kind":"iap","old_price":null,"new_price":12}
+{"event":"disappeared","ts":"2026-11-03T20:00:00Z","country":"cn","app_id":"1544884479","item_key":"1980蛋币","kind":"iap","old_price":198,"new_price":null}
+{"event":"disappeared","ts":"2026-11-03T20:00:00Z","country":"cn","app_id":"1544884479","item_key":"3280蛋币","kind":"iap","old_price":328,"new_price":null}
+{"event":"disappeared","ts":"2026-11-03T20:00:00Z","country":"cn","app_id":"1544884479","item_key":"6480蛋币","kind":"iap","old_price":648,"new_price":null}
