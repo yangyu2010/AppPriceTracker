@@ -26,7 +26,7 @@
     },
     "1091189122|cn": {
       "name": "Bear: Markdown Notes & Journal",
-      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/68/b6/33/68b63360-c8e2-aac0-597c-5484d684117f/AppIcon-26-0-0-85-220-0-0-6-0-2x-sRGB-0-0-0.png/512x512bb.png",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c1/a3/5a/c1a35ad6-0edb-f08c-f8f7-a57975750744/AppIcon-26-0-0-85-220-0-0-6-0-2x-0-0-0.png/512x512bb.png",
       "currency": "CNY",
       "kind": "mac-software"
     },
@@ -85,5 +85,5 @@
       "kind": "software"
     }
   },
-  "fetched_at": "2026-11-03T12:23:47.437Z"
+  "fetched_at": "2026-11-03T14:23:44.988Z"
 }
