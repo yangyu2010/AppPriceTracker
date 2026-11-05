@@ -687,3 +687,5 @@
 {"event":"disappeared","ts":"2026-11-03T20:00:00Z","country":"cn","app_id":"1544884479","item_key":"1980蛋币","kind":"iap","old_price":198,"new_price":null}
 {"event":"disappeared","ts":"2026-11-03T20:00:00Z","country":"cn","app_id":"1544884479","item_key":"3280蛋币","kind":"iap","old_price":328,"new_price":null}
 {"event":"disappeared","ts":"2026-11-03T20:00:00Z","country":"cn","app_id":"1544884479","item_key":"6480蛋币","kind":"iap","old_price":648,"new_price":null}
+{"event":"appeared","ts":"2026-11-05T04:00:00Z","country":"cn","app_id":"388624839","item_key":"CamScanner Premium#4","kind":"iap","old_price":null,"new_price":343}
+{"event":"disappeared","ts":"2026-11-05T04:00:00Z","country":"cn","app_id":"388624839","item_key":"扫描全能王高级帐户（一年）","kind":"iap","old_price":298,"new_price":null}
