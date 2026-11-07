@@ -56,7 +56,7 @@
     },
     "545519333|us": {
       "name": "Amazon Prime Video",
-      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/29/11/e1/2911e167-83f8-c09c-d032-0816b66134c8/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/83/fa/0c/83fa0c5e-dc04-e364-439e-8ff63fe79a68/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg",
       "currency": "USD",
       "kind": "software"
     },
@@ -85,5 +85,5 @@
       "kind": "software"
     }
   },
-  "fetched_at": "2026-11-07T14:23:47.177Z"
+  "fetched_at": "2026-11-07T16:23:45.169Z"
 }
