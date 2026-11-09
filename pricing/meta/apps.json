@@ -56,7 +56,7 @@
     },
     "545519333|us": {
       "name": "Amazon Prime Video",
-      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/69/69/c1/6969c1d7-f848-d6fb-ec0a-db3bac3f61ef/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/83/fa/0c/83fa0c5e-dc04-e364-439e-8ff63fe79a68/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg",
       "currency": "USD",
       "kind": "software"
     },
@@ -74,7 +74,7 @@
     },
     "1017492454|us": {
       "name": "YouTube Music",
-      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5d/d0/43/5dd04320-7868-efbb-ca69-aef86e28b6a2/logo_youtube_music_2024_q4_color-0-0-1x_U007emarketing-0-0-0-7-0-0-0-85-220.png/512x512bb.jpg",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5c/0d/ab/5c0dab3f-62b2-6fb1-0e49-381c24c48843/logo_youtube_music_2024_q4_color-0-0-1x_U007emarketing-0-0-0-7-0-0-0-85-220.png/512x512bb.jpg",
       "currency": "USD",
       "kind": "software"
     },
@@ -85,5 +85,5 @@
       "kind": "software"
     }
   },
-  "fetched_at": "2026-11-09T06:23:46.518Z"
+  "fetched_at": "2026-11-09T08:23:45.955Z"
 }
