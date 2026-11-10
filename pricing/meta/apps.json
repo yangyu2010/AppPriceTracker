@@ -38,7 +38,7 @@
     },
     "1605585211|cn": {
       "name": "汽水音乐 - 随时听好歌",
-      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a1/6d/b4/a16db478-33e0-fc41-bc84-d5dd33f10762/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/22/e8/b3/22e8b314-9732-b5a9-7375-171a986e20a1/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
       "currency": "CNY",
       "kind": "software"
     },
@@ -85,5 +85,5 @@
       "kind": "software"
     }
   },
-  "fetched_at": "2026-11-10T06:23:45.708Z"
+  "fetched_at": "2026-11-10T08:23:47.368Z"
 }
