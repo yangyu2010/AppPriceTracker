@@ -775,3 +775,5 @@
 {"event":"disappeared","ts":"2026-11-10T02:00:00Z","country":"cn","app_id":"414603431","item_key":"12个月豪华绿钻#2","kind":"iap","old_price":318,"new_price":null}
 {"event":"disappeared","ts":"2026-11-10T02:00:00Z","country":"cn","app_id":"414603431","item_key":"12个月超级会员#2","kind":"iap","old_price":420,"new_price":null}
 {"event":"disappeared","ts":"2026-11-10T02:00:00Z","country":"cn","app_id":"414603431","item_key":"3个月豪华绿钻#2","kind":"iap","old_price":89,"new_price":null}
+{"event":"appeared","ts":"2026-11-10T14:00:00Z","country":"us","app_id":"1017492454","item_key":"YouTube Red","kind":"iap","old_price":null,"new_price":20.99}
+{"event":"disappeared","ts":"2026-11-10T14:00:00Z","country":"us","app_id":"1017492454","item_key":"YouTube Premium Family#2","kind":"iap","old_price":34.99,"new_price":null}
