@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-11T08:30:47.543Z",
-  "data_ts": "2026-11-11T08:00:00Z",
+  "generated_at": "2026-11-11T10:30:48.431Z",
+  "data_ts": "2026-11-11T10:00:00Z",
   "display_timezone": "Asia/Shanghai",
   "apps": [
     {
@@ -432,12 +432,12 @@
           "delta": 0
         },
         {
-          "item_key": "YouTube Premium Family#2",
+          "item_key": "YouTube Red",
           "item_kind": "iap",
-          "name": "YouTube Premium Family",
-          "price": 34.99,
+          "name": "YouTube Red",
+          "price": 20.99,
           "currency": "USD",
-          "formatted_price": "$34.99",
+          "formatted_price": "$20.99",
           "delta": 0
         }
       ],
@@ -844,21 +844,21 @@
           "delta": 0
         },
         {
-          "item_key": "超级会员连续包月#3",
-          "item_kind": "iap",
-          "name": "超级会员连续包月",
-          "price": 30,
-          "currency": "CNY",
-          "formatted_price": "¥30.00",
-          "delta": 0
-        },
-        {
           "item_key": "10个乐币",
           "item_kind": "iap",
           "name": "10个乐币",
           "price": 1,
           "currency": "CNY",
           "formatted_price": "¥1.00",
+          "delta": 0
+        },
+        {
+          "item_key": "超级会员连续包月#3",
+          "item_kind": "iap",
+          "name": "超级会员连续包月",
+          "price": 30,
+          "currency": "CNY",
+          "formatted_price": "¥30.00",
           "delta": 0
         }
       ],
