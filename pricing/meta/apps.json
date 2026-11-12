@@ -38,7 +38,7 @@
     },
     "1605585211|cn": {
       "name": "汽水音乐 - 随时听好歌",
-      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/22/e8/b3/22e8b314-9732-b5a9-7375-171a986e20a1/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8a/00/10/8a00101e-bb2c-0b3f-78c9-bf779f6b5687/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
       "currency": "CNY",
       "kind": "software"
     },
@@ -62,7 +62,7 @@
     },
     "6473753684|us": {
       "name": "Claude by Anthropic",
-      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f8/a0/eb/f8a0eba3-be3c-7cbb-214b-f138d28f45d5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/cd/49/47/cd4947cd-775d-0ca2-28ad-405a7ff62e59/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
       "currency": "USD",
       "kind": "software"
     },
@@ -85,5 +85,5 @@
       "kind": "software"
     }
   },
-  "fetched_at": "2026-11-12T18:23:45.467Z"
+  "fetched_at": "2026-11-12T20:23:47.711Z"
 }
