@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-14T22:30:46.447Z",
-  "data_ts": "2026-11-14T22:00:00Z",
+  "generated_at": "2026-11-15T00:30:48.161Z",
+  "data_ts": "2026-11-15T00:00:00Z",
   "display_timezone": "Asia/Shanghai",
   "apps": [
     {
@@ -438,7 +438,7 @@
           "price": 34.99,
           "currency": "USD",
           "formatted_price": "$34.99",
-          "delta": null
+          "delta": 0
         }
       ],
       "iap_status": "ok",
