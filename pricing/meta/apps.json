@@ -8,7 +8,7 @@
     },
     "1438243180|us": {
       "name": "Dark Reader for Safari",
-      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/21/b8/21/21b82106-98ee-95eb-394c-5628df961c68/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/91/11/e8911158-a4b1-3a6f-c8b9-1193164ee5ef/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
       "currency": "USD",
       "kind": "software"
     },
@@ -20,7 +20,7 @@
     },
     "1438243180|cn": {
       "name": "Dark Reader for Safari",
-      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/21/b8/21/21b82106-98ee-95eb-394c-5628df961c68/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/91/11/e8911158-a4b1-3a6f-c8b9-1193164ee5ef/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
       "currency": "CNY",
       "kind": "software"
     },
@@ -85,5 +85,5 @@
       "kind": "software"
     }
   },
-  "fetched_at": "2026-11-17T10:23:46.067Z"
+  "fetched_at": "2026-11-17T12:23:49.298Z"
 }
