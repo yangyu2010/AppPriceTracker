@@ -62,7 +62,7 @@
     },
     "6473753684|us": {
       "name": "Claude by Anthropic",
-      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f7/78/19/f778197d-06fe-8143-0e86-49a1dccec2b4/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/54/b2/9e/54b29e8c-1a68-d582-6e0e-c83cf7d11ccc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
       "currency": "USD",
       "kind": "software"
     },
@@ -80,10 +80,10 @@
     },
     "388624839|cn": {
       "name": "CamScanner + | PDF Scanner",
-      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6e/02/2e/6e022e93-e381-05cc-e4de-84d2754307f8/AppIconPlus-0-0-1x_U007emarketing-0-6-0-0-sRGB-85-220.png/512x512bb.jpg",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e2/d1/0a/e2d10af3-400d-9de1-fdee-f8672c89014c/AppIconPlus-0-0-1x_U007emarketing-0-6-0-sRGB-85-220.png/512x512bb.jpg",
       "currency": "CNY",
       "kind": "software"
     }
   },
-  "fetched_at": "2026-11-18T08:23:50.563Z"
+  "fetched_at": "2026-11-18T10:23:46.091Z"
 }
