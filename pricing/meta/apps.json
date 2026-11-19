@@ -68,7 +68,7 @@
     },
     "6448311069|us": {
       "name": "ChatGPT",
-      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/05/19/7e/05197e14-033a-7a5c-4b7b-32cecc32952e/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-85-220.png/512x512bb.jpg",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fb/80/03/fb80039a-f8c2-f1ca-4fbd-7f9d77909b03/AppIcon-0-0-1x_U007epad-0-0-0-1-0-85-220.png/512x512bb.jpg",
       "currency": "USD",
       "kind": "software"
     },
@@ -85,5 +85,5 @@
       "kind": "software"
     }
   },
-  "fetched_at": "2026-11-19T18:23:49.475Z"
+  "fetched_at": "2026-11-19T20:23:47.891Z"
 }
