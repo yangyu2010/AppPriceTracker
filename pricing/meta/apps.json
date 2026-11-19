@@ -44,7 +44,7 @@
     },
     "414603431|cn": {
       "name": "QQ音乐 - 听我想听",
-      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d9/b5/eb/d9b5eb6d-4390-1868-bf01-d8a959668cb4/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/57/3a/60/573a605b-d554-1738-7fe0-23081e4f8c51/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
       "currency": "CNY",
       "kind": "software"
     },
@@ -56,7 +56,7 @@
     },
     "545519333|us": {
       "name": "Amazon Prime Video",
-      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/11/fc/99/11fc9920-7331-b16c-958f-84c6fb74d2c9/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c4/6f/5e/c46f5e5b-d588-6af4-9754-d16876b31fe9/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg",
       "currency": "USD",
       "kind": "software"
     },
@@ -74,7 +74,7 @@
     },
     "1017492454|us": {
       "name": "YouTube Music",
-      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/07/d7/d9/07d7d96b-66e4-3e57-5a8c-158204e8fe21/logo_youtube_music_2024_q4_color-0-0-1x_U007emarketing-0-0-0-7-0-0-0-85-220.png/512x512bb.jpg",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/da/a9/ab/daa9ab1d-bb5c-e642-a43d-157af6dd18cb/logo_youtube_music_2024_q4_color-0-0-1x_U007emarketing-0-0-0-7-0-0-0-85-220.png/512x512bb.jpg",
       "currency": "USD",
       "kind": "software"
     },
@@ -85,5 +85,5 @@
       "kind": "software"
     }
   },
-  "fetched_at": "2026-11-19T06:23:46.918Z"
+  "fetched_at": "2026-11-19T08:23:47.045Z"
 }
