@@ -875,3 +875,23 @@
 {"event":"disappeared","ts":"2026-11-20T00:00:00Z","country":"cn","app_id":"414603431","item_key":"12个月付费音乐包","kind":"iap","old_price":88,"new_price":null}
 {"event":"appeared","ts":"2026-11-20T04:00:00Z","country":"us","app_id":"1017492454","item_key":"YouTube Red","kind":"iap","old_price":null,"new_price":20.99}
 {"event":"disappeared","ts":"2026-11-20T04:00:00Z","country":"us","app_id":"1017492454","item_key":"YouTube Premium Family#2","kind":"iap","old_price":34.99,"new_price":null}
+{"event":"appeared","ts":"2026-11-20T18:00:00Z","country":"cn","app_id":"590338362","item_key":"3年黑胶SVIP","kind":"iap","old_price":null,"new_price":1588}
+{"event":"appeared","ts":"2026-11-20T18:00:00Z","country":"cn","app_id":"590338362","item_key":"1个月黑胶SVIP","kind":"iap","old_price":null,"new_price":22}
+{"event":"appeared","ts":"2026-11-20T18:00:00Z","country":"cn","app_id":"590338362","item_key":"黑胶SVIP连续包年","kind":"iap","old_price":null,"new_price":248}
+{"event":"appeared","ts":"2026-11-20T18:00:00Z","country":"cn","app_id":"590338362","item_key":"黑胶SVIP连续包月","kind":"iap","old_price":null,"new_price":28}
+{"event":"appeared","ts":"2026-11-20T18:00:00Z","country":"cn","app_id":"590338362","item_key":"1个月黑胶VIP","kind":"iap","old_price":null,"new_price":22}
+{"event":"appeared","ts":"2026-11-20T18:00:00Z","country":"cn","app_id":"590338362","item_key":"为他人购买1个月黑胶SVIP","kind":"iap","old_price":null,"new_price":40}
+{"event":"appeared","ts":"2026-11-20T18:00:00Z","country":"cn","app_id":"590338362","item_key":"为他人购买3个月黑胶SVIP","kind":"iap","old_price":null,"new_price":88}
+{"event":"appeared","ts":"2026-11-20T18:00:00Z","country":"cn","app_id":"590338362","item_key":"为他人购买1年黑胶SVIP","kind":"iap","old_price":null,"new_price":348}
+{"event":"appeared","ts":"2026-11-20T18:00:00Z","country":"cn","app_id":"590338362","item_key":"黑胶SVIP月卡","kind":"iap","old_price":null,"new_price":38}
+{"event":"appeared","ts":"2026-11-20T18:00:00Z","country":"cn","app_id":"590338362","item_key":"黑胶SVIP 25天","kind":"iap","old_price":null,"new_price":40}
+{"event":"disappeared","ts":"2026-11-20T18:00:00Z","country":"cn","app_id":"590338362","item_key":"连续包月黑胶VIP","kind":"iap","old_price":15,"new_price":null}
+{"event":"disappeared","ts":"2026-11-20T18:00:00Z","country":"cn","app_id":"590338362","item_key":"连续包月黑胶VIP#2","kind":"iap","old_price":15,"new_price":null}
+{"event":"disappeared","ts":"2026-11-20T18:00:00Z","country":"cn","app_id":"590338362","item_key":"黑胶VIP连续包月","kind":"iap","old_price":15,"new_price":null}
+{"event":"disappeared","ts":"2026-11-20T18:00:00Z","country":"cn","app_id":"590338362","item_key":"黑胶VIP连续包月(新客专享)","kind":"iap","old_price":15,"new_price":null}
+{"event":"disappeared","ts":"2026-11-20T18:00:00Z","country":"cn","app_id":"590338362","item_key":"连续包月音乐包","kind":"iap","old_price":8,"new_price":null}
+{"event":"disappeared","ts":"2026-11-20T18:00:00Z","country":"cn","app_id":"590338362","item_key":"连续包月黑胶VIP促销","kind":"iap","old_price":15,"new_price":null}
+{"event":"disappeared","ts":"2026-11-20T18:00:00Z","country":"cn","app_id":"590338362","item_key":"黑胶VIP连续包月#2","kind":"iap","old_price":15,"new_price":null}
+{"event":"disappeared","ts":"2026-11-20T18:00:00Z","country":"cn","app_id":"590338362","item_key":"黑胶VIP首月5元","kind":"iap","old_price":12,"new_price":null}
+{"event":"disappeared","ts":"2026-11-20T18:00:00Z","country":"cn","app_id":"590338362","item_key":"黑胶VIP连续包月#3","kind":"iap","old_price":15,"new_price":null}
+{"event":"disappeared","ts":"2026-11-20T18:00:00Z","country":"cn","app_id":"590338362","item_key":"黑胶VIP连续包月#4","kind":"iap","old_price":15,"new_price":null}
