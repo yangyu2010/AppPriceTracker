@@ -32,7 +32,7 @@
     },
     "590338362|cn": {
       "name": "网易云音乐-数亿音乐畅听",
-      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/28/57/ce/2857cef1-4fbe-511a-6fd7-b1836c2cc07b/appIconNew-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/17/c6/ce/17c6ce15-4a59-47ec-949f-7b1eb2380c9e/appIconNew-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
       "currency": "CNY",
       "kind": "software"
     },
@@ -50,13 +50,13 @@
     },
     "1544884479|cn": {
       "name": "蛋仔派对",
-      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6d/d3/a4/6dd3a440-333b-ebaf-0fc0-22e9873dc91c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/cb/dd/3a/cbdd3a3b-13f2-0791-6025-b8415b7aee6a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
       "currency": "CNY",
       "kind": "software"
     },
     "545519333|us": {
       "name": "Amazon Prime Video",
-      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c4/6f/5e/c46f5e5b-d588-6af4-9754-d16876b31fe9/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/10/cc/02/10cc02e2-f3cd-d0dd-c1ae-a592a23b5d22/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg",
       "currency": "USD",
       "kind": "software"
     },
@@ -85,5 +85,5 @@
       "kind": "software"
     }
   },
-  "fetched_at": "2026-11-20T18:23:48.431Z"
+  "fetched_at": "2026-11-20T20:23:45.220Z"
 }
