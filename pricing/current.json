@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-21T12:30:54.443Z",
-  "data_ts": "2026-11-21T12:00:00Z",
+  "generated_at": "2026-11-21T14:30:48.297Z",
+  "data_ts": "2026-11-21T14:00:00Z",
   "display_timezone": "Asia/Shanghai",
   "apps": [
     {
@@ -139,6 +139,24 @@
           "currency": "CNY",
           "formatted_price": "¥198.00",
           "delta": 0
+        },
+        {
+          "item_key": "Yearly Pro subscription",
+          "item_kind": "iap",
+          "name": "Yearly Pro subscription",
+          "price": 298,
+          "currency": "CNY",
+          "formatted_price": "¥298.00",
+          "delta": null
+        },
+        {
+          "item_key": "Monthly Pro subscription",
+          "item_kind": "iap",
+          "name": "Monthly Pro subscription",
+          "price": 28,
+          "currency": "CNY",
+          "formatted_price": "¥28.00",
+          "delta": null
         }
       ],
       "iap_status": "ok",
