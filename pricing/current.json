@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-21T14:30:48.297Z",
-  "data_ts": "2026-11-21T14:00:00Z",
+  "generated_at": "2026-11-21T16:30:46.153Z",
+  "data_ts": "2026-11-21T16:00:00Z",
   "display_timezone": "Asia/Shanghai",
   "apps": [
     {
@@ -147,7 +147,7 @@
           "price": 298,
           "currency": "CNY",
           "formatted_price": "¥298.00",
-          "delta": null
+          "delta": 0
         },
         {
           "item_key": "Monthly Pro subscription",
@@ -156,7 +156,7 @@
           "price": 28,
           "currency": "CNY",
           "formatted_price": "¥28.00",
-          "delta": null
+          "delta": 0
         }
       ],
       "iap_status": "ok",
