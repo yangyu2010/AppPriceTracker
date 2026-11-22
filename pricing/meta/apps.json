@@ -62,19 +62,19 @@
     },
     "6473753684|us": {
       "name": "Claude by Anthropic",
-      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/21/3c/7b/213c7baf-7731-12fc-ea82-e1628b3fa4e7/AppIcon-0-0-1x_U007epad-0-0-0-1-0-85-220.png/512x512bb.jpg",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/54/b2/9e/54b29e8c-1a68-d582-6e0e-c83cf7d11ccc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
       "currency": "USD",
       "kind": "software"
     },
     "6448311069|us": {
       "name": "ChatGPT",
-      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/84/37/2c/84372ca4-3369-acba-280b-5eeb36b14dd9/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-85-220.png/512x512bb.jpg",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/05/19/7e/05197e14-033a-7a5c-4b7b-32cecc32952e/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-85-220.png/512x512bb.jpg",
       "currency": "USD",
       "kind": "software"
     },
     "1017492454|us": {
       "name": "YouTube Music",
-      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bb/ae/84/bbae8447-05ac-1058-54d4-306f9073d8ec/logo_youtube_music_2024_q4_color-0-0-1x_U007emarketing-0-0-0-7-0-0-0-85-220.png/512x512bb.jpg",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/da/a9/ab/daa9ab1d-bb5c-e642-a43d-157af6dd18cb/logo_youtube_music_2024_q4_color-0-0-1x_U007emarketing-0-0-0-7-0-0-0-85-220.png/512x512bb.jpg",
       "currency": "USD",
       "kind": "software"
     },
@@ -85,5 +85,5 @@
       "kind": "software"
     }
   },
-  "fetched_at": "2026-11-22T02:23:45.099Z"
+  "fetched_at": "2026-11-22T04:23:45.860Z"
 }
