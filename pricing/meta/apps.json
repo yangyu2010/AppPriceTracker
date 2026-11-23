@@ -26,7 +26,7 @@
     },
     "1091189122|cn": {
       "name": "Bear: Markdown Notes & Journal",
-      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/68/b6/33/68b63360-c8e2-aac0-597c-5484d684117f/AppIcon-26-0-0-85-220-0-0-6-0-2x-sRGB-0-0-0.png/512x512bb.png",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ec/79/b3/ec79b38f-8434-7424-eab2-a0cf1cf0bebd/AppIcon-26-0-0-85-220-0-0-6-0-2x-sRGB-0-0-0.png/512x512bb.png",
       "currency": "CNY",
       "kind": "mac-software"
     },
@@ -38,7 +38,7 @@
     },
     "1605585211|cn": {
       "name": "汽水音乐 - 随时听好歌",
-      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/60/54/42/60544251-3b15-5998-f166-d73d3b77fcbd/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/43/ef/65/43ef6587-66e4-cff1-9f9e-71880d58432d/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
       "currency": "CNY",
       "kind": "software"
     },
@@ -85,5 +85,5 @@
       "kind": "software"
     }
   },
-  "fetched_at": "2026-11-23T08:23:45.787Z"
+  "fetched_at": "2026-11-23T10:23:49.897Z"
 }
