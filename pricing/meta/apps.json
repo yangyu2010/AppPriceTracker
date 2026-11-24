@@ -26,7 +26,7 @@
     },
     "1091189122|cn": {
       "name": "Bear: Markdown Notes & Journal",
-      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ec/79/b3/ec79b38f-8434-7424-eab2-a0cf1cf0bebd/AppIcon-26-0-0-85-220-0-0-6-0-2x-sRGB-0-0-0.png/512x512bb.png",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/cc/60/e4/cc60e4a6-07a1-77a3-4463-d5d12bf638f6/AppIcon-26-0-0-85-220-0-0-6-0-2x-sRGB-0-0-0.png/512x512bb.png",
       "currency": "CNY",
       "kind": "mac-software"
     },
@@ -62,7 +62,7 @@
     },
     "6473753684|us": {
       "name": "Claude by Anthropic",
-      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/21/3c/7b/213c7baf-7731-12fc-ea82-e1628b3fa4e7/AppIcon-0-0-1x_U007epad-0-0-0-1-0-85-220.png/512x512bb.jpg",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e6/e0/66/e6e06686-7ff3-cc9e-40e1-daadb918aab3/AppIcon-0-0-1x_U007epad-0-0-0-1-0-85-220.png/512x512bb.jpg",
       "currency": "USD",
       "kind": "software"
     },
@@ -85,5 +85,5 @@
       "kind": "software"
     }
   },
-  "fetched_at": "2026-11-24T08:23:46.354Z"
+  "fetched_at": "2026-11-24T10:23:45.941Z"
 }
