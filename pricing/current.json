@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-25T20:30:48.982Z",
-  "data_ts": "2026-11-25T20:00:00Z",
+  "generated_at": "2026-11-25T22:30:47.692Z",
+  "data_ts": "2026-11-25T22:00:00Z",
   "display_timezone": "Asia/Shanghai",
   "apps": [
     {
@@ -405,21 +405,21 @@
           "delta": 0
         },
         {
-          "item_key": "YouTube Music#3",
-          "item_kind": "iap",
-          "name": "YouTube Music",
-          "price": 15.99,
-          "currency": "USD",
-          "formatted_price": "$15.99",
-          "delta": 0
-        },
-        {
           "item_key": "YouTube Music Family",
           "item_kind": "iap",
           "name": "YouTube Music Family",
           "price": 24.99,
           "currency": "USD",
           "formatted_price": "$24.99",
+          "delta": 0
+        },
+        {
+          "item_key": "YouTube Music#3",
+          "item_kind": "iap",
+          "name": "YouTube Music",
+          "price": 15.99,
+          "currency": "USD",
+          "formatted_price": "$15.99",
           "delta": 0
         },
         {
