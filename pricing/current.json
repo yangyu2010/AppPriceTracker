@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-27T12:30:46.821Z",
-  "data_ts": "2026-11-27T12:00:00Z",
+  "generated_at": "2026-11-27T14:30:48.013Z",
+  "data_ts": "2026-11-27T14:00:00Z",
   "display_timezone": "Asia/Shanghai",
   "apps": [
     {
@@ -38,10 +38,10 @@
           "item_key": "__app__",
           "item_kind": "app_price",
           "name": "Dark Reader for Safari",
-          "price": 1.99,
+          "price": 4.99,
           "currency": "USD",
-          "formatted_price": "$1.99",
-          "delta": 0
+          "formatted_price": "$4.99",
+          "delta": 3
         }
       ],
       "iap_status": "no_iap",
@@ -284,33 +284,6 @@
           "delta": 0
         },
         {
-          "item_key": "ChatGPT Go",
-          "item_kind": "iap",
-          "name": "ChatGPT Go",
-          "price": 8,
-          "currency": "USD",
-          "formatted_price": "$8.00",
-          "delta": 0
-        },
-        {
-          "item_key": "ChatGPT Pro 100",
-          "item_kind": "iap",
-          "name": "ChatGPT Pro 100",
-          "price": 100,
-          "currency": "USD",
-          "formatted_price": "$100.00",
-          "delta": 0
-        },
-        {
-          "item_key": "100 Credits",
-          "item_kind": "iap",
-          "name": "100 Credits",
-          "price": 4,
-          "currency": "USD",
-          "formatted_price": "$4.00",
-          "delta": 0
-        },
-        {
           "item_key": "ChatGPT Pro 200",
           "item_kind": "iap",
           "name": "ChatGPT Pro 200",
@@ -329,12 +302,30 @@
           "delta": 0
         },
         {
-          "item_key": "ChatGPT Pro 500",
+          "item_key": "ChatGPT Go",
           "item_kind": "iap",
-          "name": "ChatGPT Pro 500",
-          "price": 500,
+          "name": "ChatGPT Go",
+          "price": 8,
           "currency": "USD",
-          "formatted_price": "$500.00",
+          "formatted_price": "$8.00",
+          "delta": 0
+        },
+        {
+          "item_key": "100 Credits",
+          "item_kind": "iap",
+          "name": "100 Credits",
+          "price": 4,
+          "currency": "USD",
+          "formatted_price": "$4.00",
+          "delta": 0
+        },
+        {
+          "item_key": "ChatGPT Pro 100",
+          "item_kind": "iap",
+          "name": "ChatGPT Pro 100",
+          "price": 100,
+          "currency": "USD",
+          "formatted_price": "$100.00",
           "delta": 0
         },
         {
@@ -353,6 +344,15 @@
           "price": 40,
           "currency": "USD",
           "formatted_price": "$40.00",
+          "delta": 0
+        },
+        {
+          "item_key": "ChatGPT Pro 500",
+          "item_kind": "iap",
+          "name": "ChatGPT Pro 500",
+          "price": 500,
+          "currency": "USD",
+          "formatted_price": "$500.00",
           "delta": 0
         }
       ],
