@@ -955,3 +955,5 @@
 {"event":"price_change","ts":"2026-11-27T10:00:00Z","country":"cn","app_id":"1438243180","item_key":"__app__","kind":"app_price","old_price":38,"new_price":15}
 {"event":"price_change","ts":"2026-11-27T14:00:00Z","country":"us","app_id":"1438243180","item_key":"__app__","kind":"app_price","old_price":1.99,"new_price":4.99}
 {"event":"price_change","ts":"2026-11-27T16:00:00Z","country":"us","app_id":"1438243180","item_key":"__app__","kind":"app_price","old_price":4.99,"new_price":1.99}
+{"event":"appeared","ts":"2026-11-27T20:00:00Z","country":"us","app_id":"1017492454","item_key":"YouTube Premium Family#2","kind":"iap","old_price":null,"new_price":34.99}
+{"event":"disappeared","ts":"2026-11-27T20:00:00Z","country":"us","app_id":"1017492454","item_key":"YouTube Red","kind":"iap","old_price":20.99,"new_price":null}
