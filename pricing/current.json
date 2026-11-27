@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-27T10:30:46.778Z",
-  "data_ts": "2026-11-27T10:00:00Z",
+  "generated_at": "2026-11-27T12:30:46.821Z",
+  "data_ts": "2026-11-27T12:00:00Z",
   "display_timezone": "Asia/Shanghai",
   "apps": [
     {
@@ -41,7 +41,7 @@
           "price": 1.99,
           "currency": "USD",
           "formatted_price": "$1.99",
-          "delta": -3
+          "delta": 0
         }
       ],
       "iap_status": "no_iap",
@@ -107,7 +107,7 @@
           "price": 15,
           "currency": "CNY",
           "formatted_price": "¥15.00",
-          "delta": -23
+          "delta": 0
         }
       ],
       "iap_status": "no_iap",
