@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-27T06:30:48.233Z",
-  "data_ts": "2026-11-27T06:00:00Z",
+  "generated_at": "2026-11-27T08:30:48.184Z",
+  "data_ts": "2026-11-27T08:00:00Z",
   "display_timezone": "Asia/Shanghai",
   "apps": [
     {
@@ -38,10 +38,10 @@
           "item_key": "__app__",
           "item_kind": "app_price",
           "name": "Dark Reader for Safari",
-          "price": 1.99,
+          "price": 4.99,
           "currency": "USD",
-          "formatted_price": "$1.99",
-          "delta": -3
+          "formatted_price": "$4.99",
+          "delta": 3
         }
       ],
       "iap_status": "no_iap",
@@ -104,10 +104,10 @@
           "item_key": "__app__",
           "item_kind": "app_price",
           "name": "Dark Reader for Safari",
-          "price": 15,
+          "price": 38,
           "currency": "CNY",
-          "formatted_price": "¥15.00",
-          "delta": -23
+          "formatted_price": "¥38.00",
+          "delta": 23
         }
       ],
       "iap_status": "no_iap",
