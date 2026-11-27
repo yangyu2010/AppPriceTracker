@@ -951,3 +951,5 @@
 {"event":"price_change","ts":"2026-11-27T06:00:00Z","country":"cn","app_id":"1438243180","item_key":"__app__","kind":"app_price","old_price":38,"new_price":15}
 {"event":"price_change","ts":"2026-11-27T08:00:00Z","country":"us","app_id":"1438243180","item_key":"__app__","kind":"app_price","old_price":1.99,"new_price":4.99}
 {"event":"price_change","ts":"2026-11-27T08:00:00Z","country":"cn","app_id":"1438243180","item_key":"__app__","kind":"app_price","old_price":15,"new_price":38}
+{"event":"price_change","ts":"2026-11-27T10:00:00Z","country":"us","app_id":"1438243180","item_key":"__app__","kind":"app_price","old_price":4.99,"new_price":1.99}
+{"event":"price_change","ts":"2026-11-27T10:00:00Z","country":"cn","app_id":"1438243180","item_key":"__app__","kind":"app_price","old_price":38,"new_price":15}
