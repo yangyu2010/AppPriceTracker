@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-27T04:30:48.707Z",
-  "data_ts": "2026-11-27T04:00:00Z",
+  "generated_at": "2026-11-27T06:30:48.233Z",
+  "data_ts": "2026-11-27T06:00:00Z",
   "display_timezone": "Asia/Shanghai",
   "apps": [
     {
@@ -38,10 +38,10 @@
           "item_key": "__app__",
           "item_kind": "app_price",
           "name": "Dark Reader for Safari",
-          "price": 4.99,
+          "price": 1.99,
           "currency": "USD",
-          "formatted_price": "$4.99",
-          "delta": 0
+          "formatted_price": "$1.99",
+          "delta": -3
         }
       ],
       "iap_status": "no_iap",
@@ -104,10 +104,10 @@
           "item_key": "__app__",
           "item_kind": "app_price",
           "name": "Dark Reader for Safari",
-          "price": 38,
+          "price": 15,
           "currency": "CNY",
-          "formatted_price": "¥38.00",
-          "delta": 0
+          "formatted_price": "¥15.00",
+          "delta": -23
         }
       ],
       "iap_status": "no_iap",
@@ -190,21 +190,21 @@
           "delta": 0
         },
         {
-          "item_key": "Claude Ultra - Monthly",
-          "item_kind": "iap",
-          "name": "Claude Ultra - Monthly",
-          "price": 249.99,
-          "currency": "USD",
-          "formatted_price": "$249.99",
-          "delta": 0
-        },
-        {
           "item_key": "Usage Credits (20)",
           "item_kind": "iap",
           "name": "Usage Credits (20)",
           "price": 20,
           "currency": "USD",
           "formatted_price": "$20.00",
+          "delta": 0
+        },
+        {
+          "item_key": "Claude Ultra - Monthly",
+          "item_kind": "iap",
+          "name": "Claude Ultra - Monthly",
+          "price": 249.99,
+          "currency": "USD",
+          "formatted_price": "$249.99",
           "delta": 0
         },
         {
@@ -620,21 +620,21 @@
           "delta": 0
         },
         {
-          "item_key": "连续包月黑胶VIP促销",
-          "item_kind": "iap",
-          "name": "连续包月黑胶VIP促销",
-          "price": 15,
-          "currency": "CNY",
-          "formatted_price": "¥15.00",
-          "delta": 0
-        },
-        {
           "item_key": "连续包月音乐包",
           "item_kind": "iap",
           "name": "连续包月音乐包",
           "price": 8,
           "currency": "CNY",
           "formatted_price": "¥8.00",
+          "delta": 0
+        },
+        {
+          "item_key": "连续包月黑胶VIP促销",
+          "item_kind": "iap",
+          "name": "连续包月黑胶VIP促销",
+          "price": 15,
+          "currency": "CNY",
+          "formatted_price": "¥15.00",
           "delta": 0
         },
         {
